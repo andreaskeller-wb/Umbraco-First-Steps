@@ -1,0 +1,33 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robustes Dateikopieren fÅr Windows                              
+-------------------------------------------------------------------------------
+
+  Gestartet: Mittwoch, 17. August 2016 15:27:11
+   Quelle : C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\Umbraco_Vol_1\bin\
+     Ziel : C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\Umbraco_Vol_1\App_Data\NuGetBackup\20160817-152711\bin\
+
+    Dateien : *.*
+	    
+  Optionen: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\Umbraco_Vol_1\bin\
+	    Neue Datei		    4096	Umbraco_Vol_1.dll  0%  100%  
+	    Neue Datei		     353	Umbraco_Vol_1.dll.config  0%  100%  
+	    Neue Datei		    7680	Umbraco_Vol_1.pdb  0%  100%  
+
+------------------------------------------------------------------------------
+
+           Insgesamt   KopiertöbersprungenKeine öbereinstimmung    FEHLER    Extras
+Verzeich.:         1         0         0         0         0         0
+  Dateien:         3         3         0         0         0         0
+    Bytes:    11.8 k    11.8 k         0         0         0         0
+   Zeiten:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+Geschwindigkeit:             3032250 Bytes/Sek.
+Geschwindigkeit:             173.506 Megabytes/Min.
+   Beendet: Mittwoch, 17. August 2016 15:27:11
+

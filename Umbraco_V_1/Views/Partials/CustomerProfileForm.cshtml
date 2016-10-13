@@ -1,0 +1,115 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco_Vol_1.Models.CustomerProfileModel>
+@using (Html.BeginUmbracoForm<Umbraco_Vol_1.Controllers.CustomerProfileSurfaceController>("HandleFormPost"))
+{
+    <div class="col-lg-12">
+        <div class="cpfSection">
+			Newsletters:
+		</div>
+
+        <div class="cpfBullets">
+            <label>●</label>
+        </div>
+        <div class="cpfLabels">
+            <label>Workbooster</label>
+        </div>
+        <div class="cpfCheckBox">
+            @Html.CheckBoxFor(cpm => cpm.WorkboosterNewsletter)
+        </div>
+
+        <div class="cpfBullets">
+            <label>●</label>
+        </div>
+        <div class="cpfLabels">
+            <label>PROFFIX </label>
+        </div>
+        <div class="cpfCheckBox">
+            @Html.CheckBoxFor(cpm => cpm.ProffixNewsletter)
+        </div>
+
+        <div class="cpfBullets">
+            <label>●</label>
+        </div>
+        <div class="cpfLabels">
+            <label>Topal</label>
+        </div>
+        <div class="cpfCheckBox">
+            @Html.CheckBoxFor(cpm => cpm.TopalNewsletter)
+        </div>
+
+        <div class="col-lg-12">&nbsp</div>
+
+        <div class="cpfTextLabels">
+            <label>E-Mail Adresse</label>
+        </div>
+        <div class="cpfTextBox">
+            @Html.TextBoxFor(cpm => cpm.MailAddress, new { @class = "formTextBox" })
+        </div>
+        <div class="cpfTextMessage" >
+            @Html.DisplayFor(cpm => cpm.MessageMailAddress)
+        </div>
+
+        <div class="cpfTextLabels">
+            <label>Telefon</label>
+        </div>
+        <div class="cpfTextBox">
+            @Html.TextBoxFor(cpm => cpm.Phone, new { @class = "formTextBox" })
+        </div>
+        <div class="cpfTextMessage">
+            @Html.DisplayFor(cpm => cpm.MessagePhone)
+        </div>
+
+        <div class="cpfTextLabels">
+            <label>Geburtsdatum</label>
+        </div>
+        <div class="cpfTextBox">
+            @Html.TextBoxFor(cpm => cpm.DateOfBirth, "{0:dd/MM/yyyy}", new { @class = "formTextBox" })
+        </div>
+        <div class="cpfTextMessage">
+            @Html.DisplayFor(cpm => cpm.MessageDateOfBirth)
+        </div>
+
+        <div class="col-lg-12">&nbsp</div>
+
+        <div class="cpfCheckBoxPw">
+            @Html.CheckBoxFor(cpm => cpm.ChangePassword)
+        </div>
+
+        <div class="cpfSection">
+			Passwort ändern:
+		</div>
+		<div style="height: 36px">
+			<div class="cpfLabelsPw">
+				<label>Aktuelles Passwort</label>
+			</div>
+			<div class="cpfPassword">
+				@Html.PasswordFor(cpm => cpm.OldPassword, new { @class = "formTextBox"})
+			</div>
+			<div class="cpfFillPw" ></div>
+		</div>
+        <div class="cpfLabelsPw">
+            <label>Neues Passwort</label>
+        </div>
+        <div class="cpfPassword">
+            @Html.PasswordFor(cpm => cpm.NewPassword1, new { @class = "formTextBox"})
+        </div>
+        <div class="cpfFillPw" ></div>
+        <div class="cpfLabelsPw">
+            <label>Bestätigen</label>
+        </div>
+        <div class="cpfPassword">
+            @Html.PasswordFor(cpm => cpm.NewPassword2, new { @class = "formTextBox"})
+        </div>
+        <div class="cpfFillPw" ></div>
+		<div class="col-lg-12">&nbsp</div>
+        <div class="col-lg-4">
+            <input type="submit" value="Aktualisieren" style="background-color:lightgray" />
+        </div>
+        <div class="col-lg-12">&nbsp</div>
+        <div class="col-lg-12">
+            <div class="signInFormError">
+                @Html.DisplayFor(cpm => cpm.Message)
+            </div>
+        </div>
+    </div>
+}
+

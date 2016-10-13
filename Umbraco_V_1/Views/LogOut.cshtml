@@ -1,0 +1,31 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "Master.cshtml";
+
+	bool beenLoggedIn = false;
+	
+	if (Session["CustomerId"] != null)
+	{
+			Session.Remove("CustomerId");
+			Session.Remove("CustomerName");
+			
+			beenLoggedIn = true;
+	}
+}
+
+    <div class="container" style="background-color:white;height:600px">
+		<div class="col-lg-12">
+			<div class="abstract">
+				<h1>@CurrentPage.pageTitle</h1>
+				@if (beenLoggedIn)
+				{
+					@CurrentPage.explanations
+				}
+				else
+				{
+					@CurrentPage.notLoggedIn
+				}
+		</div>
+	</div>
+</div>	
+		

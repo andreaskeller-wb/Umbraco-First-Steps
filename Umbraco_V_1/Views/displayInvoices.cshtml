@@ -1,0 +1,86 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Umbraco.Web.Models;	
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	if (Session["CustomerId"] == null)
+	{
+		foreach (DynamicPublishedContent item in CurrentPage.ContentSet)
+		{
+			if (item.Name == "Sign In")
+			{
+                Response.Redirect(String.Format("{0}?caller={1}", item.UrlAbsolute(), CurrentPage.Id));
+                return;
+			}
+		}
+	}
+	Layout = Layout = "Master.cshtml";
+}
+@{
+	DynamicPublishedContent invoiceCollection = null;
+	
+	foreach (DynamicPublishedContent item in CurrentPage.Site().ContentSet)
+	{
+		if (item.Name == "Invoices")
+		{
+			invoiceCollection = item;
+			break;
+		}
+	}
+	var invoiceList = 
+		invoiceCollection.Children	
+			.Where(inv => inv.Properties.FirstOrDefault(prp => prp.PropertyTypeAlias == "customerId").Value != null 
+				   && (int)inv.Properties.FirstOrDefault(prp => prp.PropertyTypeAlias == "customerId").Value == (int)Session["CustomerId"]);
+}
+
+<div class="container" style="background-color:white;height:600px">
+	<div class="col-lg-12">
+		<div class="abstract">
+			<h1>@CurrentPage.pageTitle</h1>
+			@CurrentPage.explanations
+			<br /><br />
+		</div>
+
+		<div class="col-lg-2 pull-right">
+			Cust. Id
+		</div>
+		<div class="col-lg-2">
+			Doc. Id
+		</div>
+		<div class="col-lg-5">
+			Reference Text
+		</div>
+		<div class="col-lg-2 pull-right" style="text-align:right">
+			Amount
+		</div>
+		<br />
+
+        <div class="border">
+            <div class="autoScroll" style="height: 128px;">
+                @foreach (var invoice in invoiceList)
+                {
+                    <div class="col-lg-12">
+                        <div class="col-lg-2 pull-right">
+                            @invoice.Properties.FirstOrDefault(
+                            prp => prp.PropertyTypeAlias == "customerId").Value
+                        </div>
+                        <div class="col-lg-2">
+                            @invoice.Properties.FirstOrDefault(
+                            prp => prp.PropertyTypeAlias == "documentId").Value
+                        </div>
+                        <div class="col-lg-5">
+                            @invoice.Properties.FirstOrDefault(
+                            prp => prp.PropertyTypeAlias == "referenceText").Value
+                        </div>
+                        <div class="col-lg-2 pull-right">
+                            @invoice.Properties.FirstOrDefault(
+                            prp => prp.PropertyTypeAlias == "totalAmount").Value
+                        </div>
+                        <br />
+                    </div>
+                }
+            </div>
+        </div>
+		@*<div style="height:128px">&nbsp<&div>*@	
+	</div>
+</div>
+		

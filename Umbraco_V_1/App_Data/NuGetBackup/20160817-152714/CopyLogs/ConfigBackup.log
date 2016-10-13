@@ -1,0 +1,67 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robustes Dateikopieren fÅr Windows                              
+-------------------------------------------------------------------------------
+
+  Gestartet: Mittwoch, 17. August 2016 15:27:14
+   Quelle : C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\Umbraco_Vol_1\Config\
+     Ziel : C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\Umbraco_Vol_1\App_Data\NuGetBackup\20160817-152714\Config\
+
+    Dateien : *.*
+	    
+  Optionen: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  18	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\Umbraco_Vol_1\Config\
+	    Neue Datei		     305	404handlers.config  0%  100%  
+	    Neue Datei		     681	applications.config  0%  100%  
+	    Neue Datei		     739	BaseRestExtensions.config  0%  100%  
+	    Neue Datei		    3981	ClientDependency.config  0%  100%  
+	    Neue Datei		    2613	Dashboard.config  0%  100%  
+	    Neue Datei		    7088	EmbeddedMedia.config  0%  100%  
+	    Neue Datei		    1302	ExamineIndex.config  0%  100%  
+	    Neue Datei		    1833	ExamineSettings.config  0%  100%  
+	    Neue Datei		     429	feedProxy.config  0%  100%  
+	    Neue Datei		     286	FileSystemProviders.config  0%  100%  
+	    Neue Datei		    1025	grid.editors.config.js  0%  100%  
+	    Neue Datei		    1114	log4net.config  0%  100%  
+	    Neue Datei		      72	metablogConfig.config  0%  100%  
+	    Neue Datei		     837	scripting.config  0%  100%  
+	    Neue Datei		   12446	tinyMceConfig.config  0%  100%  
+	    Neue Datei		    5958	trees.config  0%  100%  
+	    Neue Datei		    8779	umbracoSettings.config  0%  100%  
+	    Neue Datei		    1337	UrlRewriting.config  0%  100%  
+	 Neues Verz.      18	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\Umbraco_Vol_1\Config\Lang\
+	    Neue Datei		      81	cs-CZ.user.xml  0%  100%  
+	    Neue Datei		      79	da-DK.user.xml  0%  100%  
+	    Neue Datei		      79	de-DE.user.xml  0%  100%  
+	    Neue Datei		      79	en-GB.user.xml  0%  100%  
+	    Neue Datei		      79	en-US.user.xml  0%  100%  
+	    Neue Datei		      79	es-ES.user.xml  0%  100%  
+	    Neue Datei		      79	fr-FR.user.xml  0%  100%  
+	    Neue Datei		      82	he-IL.user.xml  0%  100%  
+	    Neue Datei		      82	it-IT.user.xml  0%  100%  
+	    Neue Datei		      79	ja-JP.user.xml  0%  100%  
+	    Neue Datei		      82	ko-KR.user.xml  0%  100%  
+	    Neue Datei		      82	nb-NO.user.xml  0%  100%  
+	    Neue Datei		      79	nl-NL.user.xml  0%  100%  
+	    Neue Datei		      82	pl-PL.user.xml  0%  100%  
+	    Neue Datei		      82	pt-BR.user.xml  0%  100%  
+	    Neue Datei		      79	ru-RU.user.xml  0%  100%  
+	    Neue Datei		      82	sv-SE.user.xml  0%  100%  
+	    Neue Datei		      78	zh-CN.user.xml  0%  100%  
+
+------------------------------------------------------------------------------
+
+           Insgesamt   KopiertöbersprungenKeine öbereinstimmung    FEHLER    Extras
+Verzeich.:         2         1         0         0         0         0
+  Dateien:        36        36         0         0         0         0
+    Bytes:    51.0 k    51.0 k         0         0         0         0
+   Zeiten:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+Geschwindigkeit:             1244500 Bytes/Sek.
+Geschwindigkeit:              71.210 Megabytes/Min.
+   Beendet: Mittwoch, 17. August 2016 15:27:14
+

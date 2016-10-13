@@ -1,0 +1,43 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{ var home = CurrentPage.Site(); }
+
+@if (home.Children.Any())
+{
+	<div class="col-lg-12" style="background-color: rgb(81, 46, 27)">
+		
+		@foreach (var childPage in home.Children().Where("Visible"))
+		{
+			if (childPage.Name != CurrentPage.Name)
+			{
+				<div class="navtext">
+					<a href="@childPage.Url">@childPage.Name</a>
+				</div>
+			}
+			else
+			{
+				<div class="selected">
+					<a href="@childPage.Url">@childPage.Name</a>
+				</div>
+			}
+		}
+	</div>
+		
+	@*<ul>
+
+        @foreach (var childPage in home.Children().Where("Visible"))
+        {
+            if (childPage.Name != CurrentPage.Name)
+            {
+                <li>
+                    <a href="@childPage.Url">@childPage.Name</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="@childPage.Url" class="selected">@childPage.Name</a>
+                </li>
+            }
+        }
+    </ul>*@
+}

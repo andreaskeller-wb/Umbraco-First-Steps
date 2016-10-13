@@ -1,0 +1,18 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@using Umbraco_Vol_1.Constants;
+@{
+	Layout = "Master.cshtml";
+
+    var message = Request.Params.Get(CoCon.Request.Message);
+}
+<div class="container" style="background-color:white;height:600px">
+	<div class="col-lg-12" >
+		<div class="abstract">
+			<h1>@CurrentPage.pageTitle</h1>
+			@CurrentPage.explanations
+            @message
+		</div>
+		<br /><br />
+	</div>
+</div>

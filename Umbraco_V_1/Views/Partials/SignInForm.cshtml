@@ -1,0 +1,33 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco_Vol_1.Models.SignInModel>
+@using (Html.BeginUmbracoForm<Umbraco_Vol_1.Controllers.SignInSurfaceController>("HandleFormPost"))
+{
+    <div class="col-lg-6">
+        <div class="col-lg-4">
+            <label>Mail Address</label>
+        </div>
+        <div class="col-lg-8">
+            @Html.TextBoxFor(sim => sim.MailAddress, new { @class = "formTextBox", placeholder="Mail Address"})
+        </div>
+        <div class="col-lg-4">
+            <label>Password</label>
+        </div>
+        <div class="col-lg-8">
+            @Html.PasswordFor(sim => sim.Password, new { @class = "formTextBox", placeholder="Password"})
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="col-lg-4">
+            <label />
+        </div>
+        <div class="col-lg-4">
+            <input type="submit" value="submit" style="background-color:lightgray" />
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="signInFormError">
+			@Html.DisplayFor(sim => sim.Message)
+        </div>
+    </div>
+}

@@ -291,10 +291,6 @@
       <HintPath>..\packages\UrlRewritingNet.2.0.7\lib\UrlRewritingNet.UrlRewriter.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Workbooster.UmbracoDynamicWebservice.Plugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco-Dynamic-Webservice\src\Workbooster.UmbracoDynamicWebservice.Plugin\bin\Debug\Workbooster.UmbracoDynamicWebservice.Plugin.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -419,6 +415,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Umbraco-Dynamic-Webservice\src\Workbooster.UmbracoDynamicWebservice.Plugin\Workbooster.UmbracoDynamicWebservice.Plugin.csproj">
+      <Project>{9f14f2b5-9f67-417f-9b66-15f6e26ececd}</Project>
+      <Name>Workbooster.UmbracoDynamicWebservice.Plugin</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Umbraco.Helpers_V2\Umbraco.Helpers.csproj">
       <Project>{e83dcb86-b2fb-47af-822c-8c9539082c9f}</Project>
       <Name>Umbraco.Helpers</Name>

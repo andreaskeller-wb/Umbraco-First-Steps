@@ -62,7 +62,7 @@
             <label>Geburtsdatum</label>
         </div>
         <div class="cpfTextBox">
-            @Html.TextBoxFor(cpm => cpm.DateOfBirth, "{0:dd/MM/yyyy}", new { @class = "formTextBox" })
+            @Html.TextBoxFor(cpm => cpm.DateOfBirth, new { @class = "formTextBox" })
         </div>
         <div class="cpfTextMessage">
             @Html.DisplayFor(cpm => cpm.MessageDateOfBirth)

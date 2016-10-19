@@ -1,0 +1,4 @@
+*.log
+task.xml
+/runtime/db/4e8d82df-a6cf-4488-97a2-dfc0f088dc01/tables/*.syd
+*.syd

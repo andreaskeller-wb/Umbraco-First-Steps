@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InterfaceDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="062bd0aa-7a1b-43b5-95b4-6f4d6a3268a7">
+  <Details>
+    <Name>Darkroom</Name>
+    <Description />
+    <Author />
+    <DateOfCreation>2016-09-22T14:36:47.3275982+02:00</DateOfCreation>
+    <DateOfLastChange>2016-09-22T14:37:12.7379204+02:00</DateOfLastChange>
+    <Version>0.0</Version>
+    <RequiredRuntimeVersion>0.0</RequiredRuntimeVersion>
+  </Details>
+  <Jobs>
+    <Job id="26178abc-b93a-4776-b5d6-435d65ec68e4">
+      <Name>Connect mssql</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+  </Jobs>
+  <RequiredPlugins>
+    <ProviderPlugins>
+      <ProviderPluginInstance syneryIdentifier="mssql" idPlugin="ae30a4e1-bcab-48cc-8e64-4155486a1385" pluginName="MSSQL Server" idPluginInstance="84709b2c-e532-4cd8-8e46-b9ff03aca274" pluginInstanceName="MSSQL Server V1.0" />
+    </ProviderPlugins>
+    <LibraryPlugins />
+  </RequiredPlugins>
+</InterfaceDefinition>

@@ -1,0 +1,237 @@
+﻿// Connections
+
+CONNECT "px"
+    AS \\px
+    SET (
+        Local.Database.Server = @"Kaspar",
+        Local.Database.User = "sa",
+        Local.Database.Password = "Kaspar",
+        Local.Proffix.Mandant = @"AKI",
+        Local.Proffix.User = @"WB",
+        Local.Proffix.InstallPath = @"C:\Programme\PROFFIX\Prog",
+        Local.Proffix.ListenPath = @"C:\Programme\PROFFIX\List",
+        Local.Proffix.Accounting.DefaultAccount = "1100")
+END
+
+CONNECT "umbraco" AS \\umbraco
+    SET(
+        Umbraco.Url = "http://localhost:62297/",
+        Umbraco.Username = "ApiUser",
+        Umbraco.Password = "abcd$1234"
+    )
+END
+
+
+// Classes
+
+#UmbracoDocument
+(   INT         _UmbracoParentId,
+    INT         _UmbracoId,
+    STRING  	_UmbracoName);
+
+#ProvidedAddress
+(   INT          customerId);
+
+#PxAddress
+(   INT         AddressNr,
+    STRING      Lastname);
+    
+// Read PROFFIX data
+
+DROP \px\addresses;
+
+READ \\px\Entities\Address\Addresses
+    TO \px\addresses
+    // FILTER(TranferToUmbraco == 1 AND Mail != NULL AND Password != NULL)
+    FILTER(TranferToUmbraco == 1)
+END
+
+// Read Umbraco data
+
+DROP \umbraco\addressCollection;
+
+READ \\umbraco\Content\addressCollection
+    TO \umbraco\addressCollection
+    SET(ParentId = -1)
+END
+
+INT addressesParent = AddressesParent();
+
+READ \\umbraco\Content\address
+    TO \umbraco\adressIndices
+    SET(ParentId = addressesParent)
+END
+
+
+// Update Umbraco data
+
+DROP \umbraco\providedAddresses;
+
+\umbraco\providedAddresses =
+    FROM        \px\addresses           AS  pxadr
+    LEFT JOIN   \umbraco\adressIndices  AS  umadr
+    COMPARE     umadr.customerId        TO  pxadr.AddressNr
+    WHERE
+        umadr._UmbracoId        != NULL
+    SELECT
+        _UmbracoParentId        = addressesParent,
+        _UmbracoId              = umadr._UmbracoId,
+        _UmbracoName            = UmbracoName(pxadr.Lastname, pxadr.Firstname),
+        customerId              = pxadr.AddressNr,
+        companyName             = pxadr.Lastname,
+        firstname               = pxadr.Firstname,
+        dateOfBirth             = pxadr.Geburtstag,
+        mail                    = pxadr.Mail,
+        phone                   = pxadr.Telefon,
+        password                = pxadr.Password,
+        workboosterNewsletter   = pxadr.Workbooster_Newsletter,
+        proffixNewsletter       = pxadr.Proffix_Newsletter,
+        topalNewsletter         = pxadr.Topal_Newsletter;
+
+UPDATE \\umbraco\Content\address
+    FROM \umbraco\providedAddresses
+END
+
+DROP \px\addressesToAdjust;
+
+\px\addressesToAdjust =
+    FROM        \px\addresses           AS  pxadr
+    LEFT JOIN   \umbraco\adressIndices  AS  umadr
+    COMPARE     umadr.customerId        TO  pxadr.AddressNr
+    WHERE
+        umadr._UmbracoId        != pxadr.Umbraco_Id
+    SELECT
+        Umbraco_Id              = umadr._UmbracoId,
+        pxadr.*;
+
+SAVE \\px\Entities\Address\Addresses
+    FROM \px\addressesToAdjust
+END
+
+
+// Create Umbraco data
+
+DROP \umbraco\providedAddresses;
+DROP \umbraco\createdAddresses;
+
+\umbraco\providedAddresses =
+    FROM        \px\addresses           AS  pxadr
+    LEFT JOIN   \umbraco\adressIndices  AS  umadr
+    COMPARE     umadr.customerId        TO  pxadr.AddressNr
+    WHERE
+        umadr._UmbracoId        == NULL
+    SELECT
+        _UmbracoParentId        = addressesParent,
+        _UmbracoId              = 0,
+        _UmbracoName            = UmbracoName(pxadr.Lastname, pxadr.Firstname),
+        customerId              = pxadr.AddressNr,
+        companyName             = pxadr.Lastname,
+        firstname               = pxadr.Firstname,
+        dateOfBirth             = pxadr.Geburtstag,
+        mail                    = pxadr.Mail,
+        phone                   = pxadr.Telefon,
+        password                = pxadr.Password,
+        workboosterNewsletter   = pxadr.Workbooster_Newsletter,
+        proffixNewsletter       = pxadr.Proffix_Newsletter,
+        topalNewsletter         = pxadr.Topal_Newsletter;
+
+CREATE \\umbraco\Content\address
+    FROM \umbraco\providedAddresses
+
+    READ Created 
+        TO \umbraco\createdAddresses
+    END
+END
+
+
+// Returm to PROFFIX
+
+DROP \px\addressesReturned;
+
+\px\addressesReturned =
+    FROM        \px\addresses               AS pxadr
+    LEFT JOIN   \umbraco\createdAddresses   AS umadr
+    COMPARE     umadr.customerId            TO pxadr.AddressNr
+    WHERE
+        umadr._UmbracoId        != NULL
+    SELECT
+        Umbraco_Id              = umadr._UmbracoId,
+        pxadr.*;
+
+SAVE \\px\Entities\Address\Addresses
+    FROM \px\addressesReturned
+END
+
+
+// Mother's little helpers
+
+STRING UmbracoName(STRING companyName, STRING firstName)
+
+    IF IsNotNullOrEmpty(firstName) AND IsNotNullOrEmpty(companyName) 
+        RETURN companyName + firstName;
+    ELSE IF IsNotNullOrEmpty(companyName)
+        RETURN companyName;
+    ELSE IF IsNotNullOrEmpty(firstName)
+        RETURN firstName;
+    END
+    
+    RETURN "";
+
+END
+
+// Addresses provided?
+
+BOOL AddressesProvided()
+
+    EACH #ProvidedAddress provAdr IN \umbraco\providedAddresses
+        RETURN TRUE;
+    END
+
+    RETURN FALSE;
+END
+
+// Get the id of the address's parent
+
+INT AddressesParent()
+
+    EACH #UmbracoDocument umbraDoc IN \umbraco\addressCollection
+        RETURN umbraDoc._UmbracoId;
+    END
+
+    RETURN -1;
+END
+
+// Set substitute for NULL
+
+STRING IsNull(STRING inString, STRING outString)
+
+    IF IsNullOrEmpty(inString)
+        RETURN outString;
+    END
+    
+    RETURN inString;
+
+END
+
+// Check if string is null or empty
+
+BOOL IsNullOrEmpty(STRING string)
+
+   IF string == NULL OR string == ""
+        RETURN TRUE;
+    ELSE
+        RETURN FALSE;
+    END
+END
+
+// Check if string is not null or empty
+
+BOOL IsNotNullOrEmpty(STRING string)
+
+   IF string == NULL OR string == ""
+        RETURN FALSE;
+    ELSE
+        RETURN TRUE;
+    END
+END
+

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InterfaceDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ac0c7405-f0c6-449f-a48a-ffaadc50e68b">
+  <Details>
+    <Name>Umbraco PP - Examples</Name>
+    <Description />
+    <Author>roger.guillet@workbooster.ch</Author>
+    <DateOfCreation>2016-07-04T23:11:40.4445222+02:00</DateOfCreation>
+    <DateOfLastChange>2016-10-14T11:26:42.6891939+02:00</DateOfLastChange>
+    <Version>1.0.0.0</Version>
+    <RequiredRuntimeVersion>1.0.0.0</RequiredRuntimeVersion>
+  </Details>
+  <Jobs>
+    <Job id="7430511c-ad13-498f-8b3a-260f383d7c6e">
+      <Name>00 Playground</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="927dcdff-d197-4299-b332-7542e143f57b">
+      <Name>01 Contents</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="dda1eb7a-2b38-47de-b342-f1d22340b779">
+      <Name>02 Media</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="d9b001f6-f26b-4e2b-bb60-555cc296c57e">
+      <Name>10 Darkroom</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="99cdc99b-f319-4592-a4ad-8c78e32d6880">
+      <Name>11 PX-&gt;Umbraco: Addresses</Name>
+      <Description>Transfer cstomer data from PROFFIX to Umbraco.</Description>
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="2224bda2-3bb8-41b5-b6dd-9d0b44c05845">
+      <Name>12 PX-&gt;Umbraco: Invoices</Name>
+      <Description>Transfer invoice data from PROFFIX to Umbraco.</Description>
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="0e8fc6f7-e90f-4072-b1ac-94a4cfab52d5">
+      <Name>21 Umbraco-&gt;PX: Addresses</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="d77a56c0-be17-412f-810e-3fa710b897e0">
+      <Name>71 Read PX Addresses</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="dd82ccd9-c01b-44b6-b05e-627ded15b68b">
+      <Name>81 Read &amp; Write PX Addresses</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="4160cc49-03db-4a99-9bae-5940391507aa">
+      <Name>91 Read Umbraco Adresses</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+    <Job id="fa056637-122e-4034-a132-f151df68ed87">
+      <Name>92 Read Umbraco Invoices</Name>
+      <Description />
+      <EstimatedDurationRemarks />
+      <IncludeFiles />
+    </Job>
+  </Jobs>
+  <RequiredPlugins>
+    <ProviderPlugins>
+      <ProviderPluginInstance syneryIdentifier="umbraco" idPlugin="2cbce325-ce7a-4800-b955-c801acfd693a" pluginName="Umbraco CMS" idPluginInstance="61593ad1-fd70-4a18-b918-71d8c65436a3" pluginInstanceName="Umbraco v7.x" />
+      <ProviderPluginInstance syneryIdentifier="px" idPlugin="c1eee667-07e5-48d6-9395-99518633e128" pluginName="PROFFIX Client" idPluginInstance="1142aa96-f871-435e-860c-ce5648bde067" pluginInstanceName="PROFFIX 4.0" />
+      <ProviderPluginInstance syneryIdentifier="mssql" idPlugin="ae30a4e1-bcab-48cc-8e64-4155486a1385" pluginName="MSSQL Server" idPluginInstance="84709b2c-e532-4cd8-8e46-b9ff03aca274" pluginInstanceName="MSSQL Server V1.0" />
+    </ProviderPlugins>
+    <LibraryPlugins>
+      <LibraryPlugin syneryIdentifier="ib" idPlugin="ce1ed5a1-7603-4eab-b316-30667f8ff9b6" pluginName="Data Type Helpers" />
+    </LibraryPlugins>
+  </RequiredPlugins>
+</InterfaceDefinition>

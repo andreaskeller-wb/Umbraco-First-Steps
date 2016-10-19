@@ -1,0 +1,92 @@
+﻿
+/***************************************
+ RECORD TYPES
+***************************************/
+
+// Declare a record type that has all fields that are needed to read and write items 
+// of a custom "address" document type in umbraco.
+// The fields preffixed with an underscore "_" are system fields of Umbraco.
+// The other fields are custom fields declared by the "document type" in Umbraco.
+#Address(INT _UmbracoParentId, INT _UmbracoId, STRING _UmbracoName, STRING company, STRING firstname, STRING lastname, STRING mail);
+
+
+/***************************************
+ OPEN CONNECTION
+***************************************/
+
+
+CONNECT "umbraco" AS \\umbraco
+    SET(
+        // The root URL (website frontend) of the Umbraco installation
+        Umbraco.Url = "http://crmfrontend.bitze.li",
+        
+        // A user with user type "API" (user type alias).
+        // If the user type "API" doesn't exists you have to create it.
+        Umbraco.Username = "Webservice",
+        Umbraco.Password = "abcd$1234"
+    )
+END
+
+
+/***************************************
+ READ EXISTING CONTENT
+***************************************/
+
+// loads all children with document type = "address" that are nested below the given node.
+READ \\umbraco\Content\address
+    TO \Umbraco\Adress
+    SET(ParentId = 1089)    // specify the parent node
+END
+
+
+/***************************************
+ CREATE NEW CONTENT
+***************************************/
+
+// Clean up
+DROP \Umbraco\NewAddresses;
+
+// create a record that contains the ID of the parent content node in umbraco
+// add the record to a table containing content items that should be created
+ADD #Address(1089, NULL, "PROFFIX", "PROFFIX Software AG", NULL, NULL, "info@proffix.net") TO \Umbraco\NewAddresses;
+
+// run a command that creates all items from the given table.
+CREATE \\umbraco\Content\address
+    FROM \Umbraco\NewAddresses
+    
+    // Read the created content (including the generated ids).
+    READ Created TO \Umbraco\NewAddresses\Created END
+END
+
+
+/***************************************
+ UPDATE EXISTING CONTENT
+***************************************/
+
+// Clean up
+DROP \Umbraco\UpdatedAddresses;
+
+// create a record that contains the updated information for an existing node with the Id=1095
+ADD #Address(1089, 1095, "PROFFIX", "PROFFIX Software AG", "Peter", "Herger", "info@proffix.net") TO \Umbraco\UpdatedAddresses;
+
+// run a command that updates all existing items from the given table.
+UPDATE \\umbraco\Content\address
+    FROM \Umbraco\UpdatedAddresses
+END
+
+
+/***************************************
+ DELETE CONTENT
+***************************************/
+
+// Clean up
+DROP \Umbraco\AddressToDelete;
+
+// create a record with the ID of an existing content item
+// add the record to a table containing content items that should be deleted
+ADD #Address(_UmbracoId = 1093) TO \Umbraco\AddressToDelete;
+
+// run a command that deletes all items from the given table
+DELETE \\umbraco\Content\address
+    FROM \Umbraco\AddressToDelete
+END

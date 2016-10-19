@@ -1,0 +1,134 @@
+﻿BOOL Initialize = FALSE;
+
+// Connections
+
+CONNECT "px"
+    AS \\px
+    SET (
+        Local.Database.Server = @"Kaspar",
+        Local.Database.User = "sa",
+        Local.Database.Password = "Kaspar",
+        Local.Proffix.Mandant = @"AKI",
+        Local.Proffix.User = @"WB",
+        Local.Proffix.InstallPath = @"C:\Programme\PROFFIX\Prog",
+        Local.Proffix.ListenPath = @"C:\Programme\PROFFIX\List",
+        Local.Proffix.Accounting.DefaultAccount = "1100")
+END
+
+CONNECT "umbraco" AS \\umbraco
+    SET(
+        Umbraco.Url = "http://crmfrontend.bitze.li",
+        Umbraco.Username = "Webservice",
+        Umbraco.Password = "abcd$1234"
+    )
+END
+
+
+// Read PROFFIX data
+
+DROP \px\invoices;
+
+READ \\px\Entities\Order\Documents
+    TO \px\invoices
+    FILTER (DocumentTypeId  =="RG")
+END
+
+
+// Convert Data
+
+DROP \umbraco\providedInvoices;
+
+IF Initialize
+
+    \umbraco\providedInvoices =
+        FROM 
+            \px\invoices                    AS inv
+        SELECT
+            _UmbracoParentId    = 1204,
+            _UmbracoId          = 0,
+            _UmbracoName        = (STRING)inv.DocumentId,
+            customerId          = (STRING)inv.AddressNr,
+            documentId          = (STRING)inv.DocumentId,
+            referenceText       = IsNull(inv.ReferenceText, ""),
+            totalAmount         = "999.99";
+
+ELSE
+
+    \umbraco\providedInvoices =
+        FROM 
+            \px\invoices                    AS pxinv
+        LEFT JOIN
+                \umbraco\createdInvoices    AS uminv
+            COMPARE (INT)uminv.documentId        TO pxinv.DocumentId 
+        SELECT
+            _UmbracoParentId    = 1204,
+            _UmbracoId          = IsIntNull(uminv._UmbracoId, 0),
+            _UmbracoName        = (STRING)pxinv.DocumentId,
+            customerId          = (STRING)pxinv.AddressNr,
+            documentId          = (STRING)pxinv.DocumentId,
+            referenceText       = IsNull(pxinv.ReferenceText, ""),
+            totalAmount         = "999.99",
+            uminv.*;
+END
+
+// Transfer to Umbraco
+/*
+CREATE \\umbraco\Content\invoice
+    FROM \umbraco\providedInvoices
+    
+    READ Created 
+        TO \umbraco\createdInvoices
+    END
+END
+*/
+
+// Return to PROFFIX
+
+
+
+// Mother's little helpers
+
+// Set substitute for NULL
+
+INT IsIntNull(INT inInt, INT outInt)
+
+    IF inInt == NULL
+        RETURN outInt;
+    END
+    
+    RETURN inInt;
+
+END
+
+STRING IsNull(STRING inString, STRING outString)
+
+    IF IsNullOrEmpty(inString)
+        RETURN outString;
+    END
+    
+    RETURN inString;
+
+END
+
+// Check if string is null or empty
+
+BOOL IsNullOrEmpty(STRING string)
+
+   IF string == NULL OR string == ""
+        RETURN TRUE;
+    ELSE
+        RETURN FALSE;
+    END
+END
+
+// Check if string is not null or empty
+
+BOOL IsNotNullOrEmpty(STRING string)
+
+   IF string == NULL OR string == ""
+        RETURN FALSE;
+    ELSE
+        RETURN TRUE;
+    END
+END
+

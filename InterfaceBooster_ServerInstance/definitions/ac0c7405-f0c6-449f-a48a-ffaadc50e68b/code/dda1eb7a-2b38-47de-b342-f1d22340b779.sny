@@ -1,0 +1,43 @@
+﻿
+/***************************************
+ RECORD TYPES
+***************************************/
+
+#MediaWriting(INT _UmbracoParentId, STRING _LocalFilePath);
+#MediaReading(INT _UmbracoParentId, INT _UmbracoId, STRING _UmbracoFileName);
+
+/***************************************
+ OPEN CONNECTION
+***************************************/
+
+CONNECT "umbraco" AS \\umbraco
+    SET(
+        // The root URL (website frontend) of the Umbraco installation
+        Umbraco.Url = "http://crmfrontend.bitze.li",
+        
+        // A user with user type "API" (user type alias).
+        // If the user type "API" doesn't exists you have to create it.
+        Umbraco.Username = "Webservice",
+        Umbraco.Password = "abcd$1234"
+    )
+END
+
+/***************************************
+ CREATE NEW MEDIA
+***************************************/
+
+// Clean up
+DROP \Umbraco\NewMedia;
+
+// Create a record that contains the ID of the parent media node in Umbraco.
+// The field "_LocalFilePath" specifies the absolute file path where the file should be uploaded from.
+// Add the record to a table containing content items that should be created.
+ADD #MediaWriting(_UmbracoParentId = 1097, _LocalFilePath =  @"C:\Users\Taifun5000\Downloads\workbooster-cloud-services.png") TO \Umbraco\NewMedia;
+
+// Run a command that uploads all files and creates the media meta data in Umbraco from the given table.
+CREATE \\umbraco\Media\All
+    FROM \Umbraco\NewMedia
+    
+    // Read the created media (including the generated ids).
+    READ Created TO \Umbraco\NewMedia\Created END
+END

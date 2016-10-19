@@ -1,0 +1,93 @@
+﻿// Connections
+
+CONNECT "px"
+    AS \\px
+    SET (
+        Local.Database.Server = @"Kaspar",
+        Local.Database.User = "sa",
+        Local.Database.Password = "Kaspar",
+        Local.Proffix.Mandant = @"AKI",
+        Local.Proffix.User = @"WB",
+        Local.Proffix.InstallPath = @"C:\Programme\PROFFIX\Prog",
+        Local.Proffix.ListenPath = @"C:\Programme\PROFFIX\List",
+        Local.Proffix.Accounting.DefaultAccount = "1100")
+END
+
+CONNECT "umbraco" AS \\umbraco
+    SET(
+        Umbraco.Url = "http://localhost:62297/",
+        Umbraco.Username = "ApiUser",
+        Umbraco.Password = "abcd$1234"
+    )
+END
+
+
+// Classes
+
+#UmbracoDocument
+(   INT         _UmbracoParentId,
+    INT         _UmbracoId,
+    STRING  	_UmbracoName);
+
+
+// Read Umbraco data
+
+DROP \umbraco\addressCollection;
+
+READ \\umbraco\Content\addressCollection
+    TO \umbraco\addressCollection
+    SET(ParentId = -1)
+END
+
+INT addressesParent = AddressesParent();
+
+READ \\umbraco\Content\address
+    TO \umbraco\adresses
+    SET(ParentId = addressesParent)
+END
+
+
+// Read PROFFIX data
+
+DROP \px\addresses;
+
+READ \\px\Entities\Address\Addresses
+    TO \px\addresses
+    FILTER(TranferToUmbraco == 1)
+END
+
+DROP \px\addressesToSave;
+
+\px\addressesToSave =
+    FROM        \px\addresses       AS pxadr
+    LEFT JOIN   \umbraco\adresses   AS umadr
+    COMPARE     umadr.customerId    TO pxadr.AddressNr
+    WHERE       umadr.customerId    != NULL
+    SELECT
+        Password                    = umadr.password,
+        Geburtstag                  = umadr.dateOfBirth,
+        Mail                        = umadr.mail,
+        Telefon                     = umadr.phone,
+        Workbooster_Newsletter      = umadr.workboosterNewsletter,
+        Proffix_Newsletter          = umadr.proffixNewsletter,
+        Topal_Newsletter            = umadr.topalNewsletter,
+        pxadr.*;
+        
+SAVE \\px\Entities\Address\Addresses
+    FROM \px\addressesToSave
+END
+
+
+// Mother's little helpers
+
+// Get the id of the address's parent
+
+INT AddressesParent()
+
+    EACH #UmbracoDocument umbraDoc IN \umbraco\addressCollection
+        RETURN umbraDoc._UmbracoId;
+    END
+
+    RETURN -1;
+END
+

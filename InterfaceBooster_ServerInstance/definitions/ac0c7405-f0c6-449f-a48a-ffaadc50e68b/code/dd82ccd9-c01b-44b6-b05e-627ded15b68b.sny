@@ -1,0 +1,34 @@
+﻿// Connections
+
+CONNECT "px"
+    AS \\px
+    SET (
+        Local.Database.Server = @"Kaspar",
+        Local.Database.User = "sa",
+        Local.Database.Password = "Kaspar",
+        Local.Proffix.Mandant = @"AKI",
+        Local.Proffix.User = @"WB",
+        Local.Proffix.InstallPath = @"C:\Programme\PROFFIX\Prog",
+        Local.Proffix.ListenPath = @"C:\Programme\PROFFIX\List",
+        Local.Proffix.Accounting.DefaultAccount = "1100")
+END
+
+
+// Read PROFFIX data
+
+DROP \px\addresses;
+
+READ \\px\Entities\Address\Addresses
+    TO \px\addresses
+    FILTER(TranferToUmbraco == 1)
+END
+
+\px\addressesToSave =
+    FROM \px\addresses      AS pxadr
+    SELECT
+        Firstname           = "Billy",
+        pxadr.*;
+        
+SAVE \\px\Entities\Address\Addresses
+    FROM \px\addressesToSave
+END

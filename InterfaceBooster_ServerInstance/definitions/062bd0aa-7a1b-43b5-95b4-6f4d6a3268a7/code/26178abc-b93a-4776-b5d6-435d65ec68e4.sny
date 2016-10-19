@@ -1,0 +1,9 @@
+﻿
+CONNECT "mssql"
+    AS \\mssql
+    SET (
+        Database.Connection.DataSource = @"KASPAR",
+        Database.Connection.Database = @"AKI",
+        Database.Connection.User = "sa",
+        Database.Connection.Password = "Kaspar")
+END

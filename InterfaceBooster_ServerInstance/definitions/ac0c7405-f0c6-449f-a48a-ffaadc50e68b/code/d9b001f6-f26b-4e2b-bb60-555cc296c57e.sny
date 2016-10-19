@@ -1,0 +1,74 @@
+﻿
+/***************************************
+ RECORD TYPES
+***************************************/
+
+// Declare a record type that has all fields that are needed to read and write items 
+// of a custom "address" document type in umbraco.
+// The fields preffixed with an underscore "_" are system fields of Umbraco.
+// The other fields are custom fields declared by the "document type" in Umbraco.
+#Address(INT _UmbracoParentId, INT _UmbracoId, STRING _UmbracoName, STRING company, STRING firstname, STRING lastname, STRING mail);
+
+
+/***************************************
+ OPEN CONNECTION
+***************************************/
+
+
+CONNECT "umbraco" AS \\umbraco
+    SET(
+        // The root URL (website frontend) of the Umbraco installation
+        Umbraco.Url = "http://localhost:62297/",
+        
+        // A user with user type "API" (user type alias).
+        // If the user type "API" doesn't exists you have to create it.
+        Umbraco.Username = "ApiUser",
+        Umbraco.Password = "abcd$1234"
+    )
+END
+
+
+/***************************************
+ READ EXISTING CONTENT
+***************************************/
+
+// Fehler: Datatype missmatch. The field 'umbracoNaviHide' expects a value of type 'Int32'. Type given: 'Int64'.
+
+DROP \Umbraco\LandingPages;
+
+READ \\umbraco\Content\LandingPage
+    TO \Umbraco\LandingPages
+    SET(ParentId = 1063)
+END
+
+DROP \Umbraco\Adresses;
+
+READ \\umbraco\Content\addressCollection
+    TO \Umbraco\Adresses
+    SET(ParentId = -1)
+END
+
+// Fehler: NULL value not allowed. The field 'mail' expects a value of type 'String'.
+/*
+DROP \Umbraco\Adress;
+
+READ \\umbraco\Content\address
+    TO \Umbraco\Adress
+    SET(ParentId = 1201)
+END
+
+
+DROP \Umbraco\Invoices;
+
+READ \\umbraco\Content\invoiceCollection
+    TO \Umbraco\Invoices
+    SET(ParentId = -1)
+END 
+
+DROP \Umbraco\Invoice;
+
+READ \\umbraco\Content\invoice
+    TO \Umbraco\Invoice
+    SET(ParentId = 1204)
+END 
+*/

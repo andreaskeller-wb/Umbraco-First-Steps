@@ -1,0 +1,47 @@
+﻿// Connections
+
+CONNECT "umbraco" AS \\umbraco
+    SET(
+        Umbraco.Url = "http://localhost:62297/",
+        Umbraco.Username = "ApiUser",
+        Umbraco.Password = "abcd$1234"
+    )
+END
+
+
+// Classes
+
+#UmbracoDocument
+(   INT         _UmbracoParentId,
+    INT         _UmbracoId,
+    STRING  	_UmbracoName);
+
+// Read Umbraco data
+
+DROP \umbraco\addressCollection;
+
+READ \\umbraco\Content\addressCollection
+    TO \umbraco\addressCollection
+    SET(ParentId = -1)
+END
+
+INT invoicesParent = InvoicesParent();
+
+READ \\umbraco\Content\invoice
+    TO \umbtaco\invoices
+    SET(ParentId = invoicesParent)
+END
+
+
+// Mother's little helpers
+
+// The id of the invoice's parent
+
+INT InvoicesParent()
+
+    EACH #UmbracoDocument umbraDoc IN \Umbraco\invoiceCollection
+        RETURN umbraDoc._UmbracoId;
+    END
+
+    RETURN -1;
+END

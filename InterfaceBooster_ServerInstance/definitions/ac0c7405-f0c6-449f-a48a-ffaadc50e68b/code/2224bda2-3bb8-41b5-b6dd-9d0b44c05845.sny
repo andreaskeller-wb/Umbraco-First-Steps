@@ -1,0 +1,245 @@
+﻿// Connections
+
+CONNECT "px"
+    AS \\px
+    SET (
+        Local.Database.Server = @"Kaspar",
+        Local.Database.User = "sa",
+        Local.Database.Password = "Kaspar",
+        Local.Proffix.Mandant = @"AKI",
+        Local.Proffix.User = @"WB",
+        Local.Proffix.InstallPath = @"C:\Programme\PROFFIX\Prog",
+        Local.Proffix.ListenPath = @"C:\Programme\PROFFIX\List",
+        Local.Proffix.Accounting.DefaultAccount = "1100")
+END
+
+CONNECT "umbraco" AS \\umbraco
+    SET(
+        Umbraco.Url = "http://localhost:62297/",
+        Umbraco.Username = "ApiUser",
+        Umbraco.Password = "abcd$1234"
+    )
+END
+
+CONNECT "mssql"
+    AS \\mssql
+    SET (
+        Database.Connection.DataSource = @"KASPAR",
+        Database.Connection.Database = @"AKI",
+        Database.Connection.User = "sa",
+        Database.Connection.Password = "Kaspar")
+END
+
+
+// Classes
+
+#UmbracoDocument
+(   INT         _UmbracoParentId,
+    INT         _UmbracoId,
+    STRING  	_UmbracoName);
+
+#ProvidedInvoice
+(   INT         DocumentId);
+
+#CreatedInvoice
+(   INT         _UmbracoId,
+    INT         documentId);
+
+
+// Read PROFFIX data
+
+DROP \px\invoices;
+
+READ \\px\Entities\Order\Documents
+    TO \px\invoices
+    FILTER (DocumentTypeId  == "RG" AND TranferToUmbraco == 1)
+END
+
+
+// Read Umbraco data
+
+DROP \umbraco\Invoices;
+
+READ \\umbraco\Content\invoiceCollection
+    TO \Umbraco\invoiceCollection
+    SET(ParentId = -1)
+END
+
+INT invoicesParent = InvoicesParent();
+
+
+// Create Umbraco data
+
+DROP \umbraco\providedInvoices;
+DROP \umbraco\createdInvoices;
+
+\umbraco\providedInvoices =
+    FROM 
+        \px\invoices        AS pxinv
+    WHERE
+        pxinv.Umbraco_Id    == 0
+    SELECT
+        _UmbracoParentId    = invoicesParent,
+        _UmbracoId          = 0,
+        _UmbracoName        = (STRING)pxinv.DocumentId,
+        customerId          = pxinv.AddressNr,
+        documentId          = pxinv.DocumentId,
+        referenceText       = IsNull(pxinv.ReferenceText, ""),
+        totalAmount         = 999.99m;
+
+CREATE \\umbraco\Content\invoice
+    FROM \umbraco\providedInvoices
+
+    READ Created 
+        TO \umbraco\createdInvoices
+    END
+END
+
+
+// Update Umbraco data
+
+DROP \umbraco\providedInvoices;
+
+\umbraco\providedInvoices =
+    FROM 
+        \px\invoices        AS pxinv
+    WHERE
+        pxinv.Umbraco_Id    != 0
+    SELECT
+        _UmbracoParentId    = invoicesParent,
+        _UmbracoId          = pxinv.Umbraco_Id,
+        _UmbracoName        = (STRING)pxinv.DocumentId,
+        customerId          = pxinv.AddressNr,
+        documentId          = pxinv.DocumentId,
+        referenceText       = IsNull(pxinv.ReferenceText, ""),
+        totalAmount         = 999.99m;
+
+UPDATE \\umbraco\Content\invoice
+    FROM \umbraco\providedInvoices
+END
+
+
+// Create Umbraco data
+
+DROP \umbraco\providedInvoices;
+DROP \umbraco\createdInvoices;
+
+\umbraco\providedInvoices =
+    FROM 
+        \px\invoices        AS pxinv
+    WHERE
+        pxinv.Umbraco_Id    == 0
+    SELECT
+        _UmbracoParentId    = invoicesParent,
+        _UmbracoId          = 0,
+        _UmbracoName        = (STRING)pxinv.DocumentId,
+        customerId          = pxinv.AddressNr,
+        documentId          = pxinv.DocumentId,
+        referenceText       = IsNull(pxinv.ReferenceText, ""),
+        totalAmount         = 999.99m;
+
+CREATE \\umbraco\Content\invoice
+    FROM \umbraco\providedInvoices
+
+    READ Created 
+        TO \umbraco\createdInvoices
+    END
+END
+
+
+// Return to PROFFIX
+
+IF InvoicesCreated()
+
+    DROP \px\invoicesReturned;
+    
+    \px\invoicesReturned =
+        FROM \umbraco\createdInvoices AS uminv
+        SELECT
+            DokumentNrAUF   = uminv.documentId,
+            Z_Umbraco_Id    = uminv._UmbracoId;
+    
+    UPDATE \\mssql\Tables\AUF_Dokumente
+        FROM  \px\invoicesReturned
+        SET (Table.Keys.KeyFields = "DokumentNrAUF")
+    END
+END
+
+
+// Mother's little helpers
+
+// Invoices provided?
+
+BOOL InvoicesProvided()
+
+    EACH #ProvidedInvoice proInv IN \umbraco\providedInvoices
+        RETURN TRUE;
+    END
+
+    RETURN FALSE;
+END
+
+// Invoices created
+
+BOOL InvoicesCreated()
+
+    EACH #ProvidedInvoice proInv IN \umbraco\createdInvoices
+        RETURN TRUE;
+    END
+
+    RETURN FALSE;
+END
+
+// The id of the invoice's parent
+
+INT InvoicesParent()
+
+    EACH #UmbracoDocument umbraDoc IN \Umbraco\invoiceCollection
+        RETURN umbraDoc._UmbracoId;
+    END
+
+    RETURN -1;
+END
+
+// Set substitute for NULL
+
+INT IsIntNull(INT inInt)
+
+    IF inInt == NULL
+        RETURN outInt;
+    END
+    
+    RETURN inInt;
+END
+
+STRING IsNull(STRING inString, STRING outString)
+
+    IF IsNullOrEmpty(inString)
+        RETURN outString;
+    END
+    
+    RETURN inString;
+END
+
+// Check if string is null or empty
+
+BOOL IsNullOrEmpty(STRING string)
+
+   IF string == NULL OR string == ""
+        RETURN TRUE;
+    ELSE
+        RETURN FALSE;
+    END
+END
+
+// Check if string is not null or empty
+
+BOOL IsNotNullOrEmpty(STRING string)
+
+   IF string == NULL OR string == ""
+        RETURN FALSE;
+    ELSE
+        RETURN TRUE;
+    END
+END
+

@@ -1,0 +1,22 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "Master.cshtml";
+}
+<div class="container-fluid">
+    <div class="container">
+        <h2>@CurrentPage.pageTitle</h2>
+
+		<div class="row">
+            <div class="col-lg-8 pull-left">
+                @CurrentPage.bodyText
+            </div>
+            <div class="col-lg-offset-1">
+
+            </div>
+            <div class="col-lg-3 pull-right">
+
+            </div>
+        </div>	
+    </div>
+</div>

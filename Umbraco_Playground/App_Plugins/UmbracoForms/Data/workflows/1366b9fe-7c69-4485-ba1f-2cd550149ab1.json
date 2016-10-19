@@ -1,0 +1,16 @@
+{
+  "id": "1366b9fe-7c69-4485-ba1f-2cd550149ab1",
+  "name": "Send email to andreas.keller@workbooster.ch",
+  "form": "07aef029-6a6f-44f7-85f5-dd0b75ef9a94",
+  "active": true,
+  "workflowTypeId": "e96badd7-05be-4978-b8d9-b3d733de70a5",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "andreas.keller@workbooster.ch",
+    "SenderEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "Message": "The Form '{form_name} was submitted, this is the list of values it contained. You can turn this email off under workflows in Umbraco Forms.",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}

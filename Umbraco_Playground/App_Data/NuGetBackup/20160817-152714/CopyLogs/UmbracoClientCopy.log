@@ -1,0 +1,1233 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robustes Dateikopieren fÅr Windows                              
+-------------------------------------------------------------------------------
+
+  Gestartet: Mittwoch, 17. August 2016 15:27:17
+   Quelle : C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\
+     Ziel : C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\Umbraco_Vol_1\Umbraco_Client\
+
+    Dateien : *.*
+	    
+  Optionen: *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\
+	 Neues Verz.       7	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Application\
+	    Neue Datei		   13503	Extensions.js  0%  100%  
+	    Neue Datei		    2417	HistoryManager.js  0%  100%  
+	    Neue Datei		     839	NamespaceManager.js  0%  100%  
+	    Neue Datei		   21956	UmbracoApplicationActions.js  0%  100%  
+	    Neue Datei		   12833	UmbracoClientManager.js  0%  100%  
+	    Neue Datei		     374	UmbracoUtils.js  0%  100%  
+	    Neue Datei		    2060	UrlEncoder.js  0%  100%  
+	 Neues Verz.      12	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Application\JQuery\
+	    Neue Datei		    2057	jquery-fieldselection.js  0%  100%  
+	    Neue Datei		   30336	jquery.autocomplete.js  0%  100%  
+	    Neue Datei		    5928	jquery.ba-bbq.min.js  0%  100%  
+	    Neue Datei		    4344	jquery.cookie.js  0%  100%  
+	    Neue Datei		    3178	jquery.hotkeys.js  0%  100%  
+	    Neue Datei		    6992	jquery.idle-timer.js  0%  100%  
+	    Neue Datei		    1304	jquery.metadata.min.js  0%  100%  
+	    Neue Datei		     165	jquery.noconflict-invoke.js  0%  100%  
+	    Neue Datei		    2749	jquery.unobtrusive-ajax.min.js  0%  100%  
+	    Neue Datei		   21496	jquery.validate.min.js  0%  100%  
+	    Neue Datei		    3745	jquery.validate.unobtrusive.min.js  0%  100%  
+	    Neue Datei		     255	VerticalAlign.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\CodeArea\
+	    Neue Datei		    6126	javascript.js  0%  100%  
+	    Neue Datei		     305	styles.css  0%  100%  
+	    Neue Datei		    6997	UmbracoEditor.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Colorpicker\
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Colorpicker\Css\
+	    Neue Datei		    3367	colorpicker.css  0%  100%  
+	 Neues Verz.      26	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Colorpicker\Images\
+	    Neue Datei		      49	blank.gif  0%  100%  
+	    Neue Datei		    1897	colorpicker_background.png  0%  100%  
+	    Neue Datei		     532	colorpicker_hex.png  0%  100%  
+	    Neue Datei		     970	colorpicker_hsb_b.png  0%  100%  
+	    Neue Datei		    1012	colorpicker_hsb_h.png  0%  100%  
+	    Neue Datei		    1171	colorpicker_hsb_s.png  0%  100%  
+	    Neue Datei		      86	colorpicker_indic.gif  0%  100%  
+	    Neue Datei		   10355	colorpicker_overlay.png  0%  100%  
+	    Neue Datei		     970	colorpicker_rgb_b.png  0%  100%  
+	    Neue Datei		    1069	colorpicker_rgb_g.png  0%  100%  
+	    Neue Datei		    1066	colorpicker_rgb_r.png  0%  100%  
+	    Neue Datei		      78	colorpicker_select.gif  0%  100%  
+	    Neue Datei		     984	colorpicker_submit.png  0%  100%  
+	    Neue Datei		    1916	custom_background.png  0%  100%  
+	    Neue Datei		     562	custom_hex.png  0%  100%  
+	    Neue Datei		    1097	custom_hsb_b.png  0%  100%  
+	    Neue Datei		     970	custom_hsb_h.png  0%  100%  
+	    Neue Datei		    1168	custom_hsb_s.png  0%  100%  
+	    Neue Datei		      86	custom_indic.gif  0%  100%  
+	    Neue Datei		    1008	custom_rgb_b.png  0%  100%  
+	    Neue Datei		    1069	custom_rgb_g.png  0%  100%  
+	    Neue Datei		    1018	custom_rgb_r.png  0%  100%  
+	    Neue Datei		     997	custom_submit.png  0%  100%  
+	    Neue Datei		     506	select.png  0%  100%  
+	    Neue Datei		     518	select2.png  0%  100%  
+	    Neue Datei		     315	slider.png  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Colorpicker\Js\
+	    Neue Datei		   17175	colorpicker.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\ContextMenu\
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\ContextMenu\Css\
+	    Neue Datei		    4026	jquery.contextMenu.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\ContextMenu\Js\
+	    Neue Datei		   62773	jquery.contextMenu.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Datepicker\
+	 Neues Verz.      10	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Datepicker\Aqua\
+	    Neue Datei		      89	active-bg.gif  0%  100%  
+	    Neue Datei		      85	dark-bg.gif  0%  100%  
+	    Neue Datei		      89	hover-bg.gif  0%  100%  
+	    Neue Datei		      49	menuarrow.gif  0%  100%  
+	    Neue Datei		     110	normal-bg.gif  0%  100%  
+	    Neue Datei		     110	rowhover-bg.gif  0%  100%  
+	    Neue Datei		     116	status-bg.gif  0%  100%  
+	    Neue Datei		    4941	theme.css  0%  100%  
+	    Neue Datei		     116	title-bg.gif  0%  100%  
+	    Neue Datei		    1122	today-bg.gif  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Datepicker\Images\
+	    Neue Datei		     674	calPickerIcon.png  0%  100%  
+	    Neue Datei		     633	calPickerIconHover.png  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\DateTimePicker\
+	    Neue Datei		   20315	datetimepicker.css  0%  100%  
+	    Neue Datei		   13311	timepicker.js  0%  100%  
+	    Neue Datei		    1939	umbDateTimePicker.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\DateTimePicker\Images\
+	    Neue Datei		    1110	calSprite.png  0%  100%  
+	    Neue Datei		    8673	ui-icons_666666_256x240.png  0%  100%  
+	    Neue Datei		    8641	ui-icons_999999_256x240.png  0%  100%  
+	 Neues Verz.      10	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Dialogs\
+	    Neue Datei		     362	AssignDomain2.css  0%  100%  
+	    Neue Datei		    5353	AssignDomain2.js  0%  100%  
+	    Neue Datei		     212	CreateDialog.css  0%  100%  
+	    Neue Datei		     316	EditMacro.css  0%  100%  
+	    Neue Datei		    7379	EditMacro.js  0%  100%  
+	    Neue Datei		     362	PublishDialog.css  0%  100%  
+	    Neue Datei		    3481	PublishDialog.js  0%  100%  
+	    Neue Datei		    1171	SortDialog.css  0%  100%  
+	    Neue Datei		    4674	SortDialog.js  0%  100%  
+	    Neue Datei		    6012	UmbracoField.js  0%  100%  
+	 Neues Verz.       9	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Editors\
+	    Neue Datei		     486	DirectoryBrowser.css  0%  100%  
+	    Neue Datei		     703	EditMacro.css  0%  100%  
+	    Neue Datei		    3039	EditMacroScripts.js  0%  100%  
+	    Neue Datei		    4183	EditScript.js  0%  100%  
+	    Neue Datei		    3796	EditStyleSheet.js  0%  100%  
+	    Neue Datei		    6263	EditTemplate.js  0%  100%  
+	    Neue Datei		   11378	EditView.js  0%  100%  
+	    Neue Datei		     161	EditXslt.css  0%  100%  
+	    Neue Datei		    3008	EditXslt.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\FileUploader\
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\FileUploader\Js\
+	    Neue Datei		   16856	jquery.fileUploader.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\FolderBrowser\
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\FolderBrowser\Css\
+	    Neue Datei		    5366	folderbrowser.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\FolderBrowser\Js\
+	    Neue Datei		   18681	folderbrowser.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\IconPicker\
+	    Neue Datei		      52	iconpicker.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Imagecropper\
+	    Neue Datei		     329	Jcrop.gif  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Images\
+	    Neue Datei		   10819	progressbar.gif  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Installer\
+	 Neues Verz.       5	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Installer\Css\
+	    Neue Datei		   23469	all.css  0%  100%  
+	    Neue Datei		    1314	form.css  0%  100%  
+	    Neue Datei		   20078	jquery-ui-1.8.6.custom.css  0%  100%  
+	    Neue Datei		    7958	lt7.css  0%  100%  
+	    Neue Datei		     967	reset.css  0%  100%  
+	 Neues Verz.      98	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Installer\Images\
+	    Neue Datei		   19424	bg-bhuiness-cl.gif  0%  100%  
+	    Neue Datei		   46684	bg-bhuiness-cr.gif  0%  100%  
+	    Neue Datei		  184850	bg-bhuiness.jpg  0%   70%  100%  
+	    Neue Datei		   18564	bg-blog-cl.gif  0%  100%  
+	    Neue Datei		   50756	bg-blog-cr.gif  0%  100%  
+	    Neue Datei		   11078	bg-blog-repeat.jpg  0%  100%  
+	    Neue Datei		  187609	bg-blog.jpg  0%   69%  100%  
+	    Neue Datei		     387	bg-drop-b.png  0%  100%  
+	    Neue Datei		      84	bg-drop-c.gif  0%  100%  
+	    Neue Datei		     391	bg-drop-t.png  0%  100%  
+	    Neue Datei		     158	bg-header.png  0%  100%  
+	    Neue Datei		    3915	bg-img-ie.png  0%  100%  
+	    Neue Datei		    2452	bg-img.png  0%  100%  
+	    Neue Datei		     866	bg-inp-big.png  0%  100%  
+	    Neue Datei		     616	bg-inp-error.png  0%  100%  
+	    Neue Datei		     621	bg-inp.png  0%  100%  
+	    Neue Datei		     283	bg-lightbox-b.png  0%  100%  
+	    Neue Datei		     296	bg-lightbox-t.png  0%  100%  
+	    Neue Datei		   18097	bg-normal-cl.gif  0%  100%  
+	    Neue Datei		   46703	bg-normal-cr.gif  0%  100%  
+	    Neue Datei		    9811	bg-normal-repeat.jpg  0%  100%  
+	    Neue Datei		  178356	bg-normal.jpg  0%   73%  100%  
+	    Neue Datei		     366	bg-paging-h.png  0%  100%  
+	    Neue Datei		     346	bg-paging.png  0%  100%  
+	    Neue Datei		   18097	bg-personal-cl.gif  0%  100%  
+	    Neue Datei		   46703	bg-personal-cr.gif  0%  100%  
+	    Neue Datei		    9811	bg-personal-repeat.jpg  0%  100%  
+	    Neue Datei		  178356	bg-personal.jpg  0%   73%  100%  
+	    Neue Datei		   17705	bg-simple-cl.gif  0%  100%  
+	    Neue Datei		   42137	bg-simple-cr.gif  0%  100%  
+	    Neue Datei		   12773	bg-simple-repeat.jpg  0%  100%  
+	    Neue Datei		  216794	bg-simple.jpg  0%   60%  100%  
+	    Neue Datei		    6059	btn-accept.png  0%  100%  
+	    Neue Datei		    2708	btn-back.png  0%  100%  
+	    Neue Datei		   22650	btn-blog.png  0%  100%  
+	    Neue Datei		   16942	btn-buisness-repeat.png  0%  100%  
+	    Neue Datei		   26481	btn-buisness.png  0%  100%  
+	    Neue Datei		    1682	btn-close.png  0%  100%  
+	    Neue Datei		    3113	btn-confirm.png  0%  100%  
+	    Neue Datei		    3500	btn-continue.png  0%  100%  
+	    Neue Datei		    2243	btn-create-hover.png  0%  100%  
+	    Neue Datei		    4277	btn-create.png  0%  100%  
+	    Neue Datei		    6109	btn-get.png  0%  100%  
+	    Neue Datei		    6446	btn-install-gal.png  0%  100%  
+	    Neue Datei		    1484	btn-install-hover.png  0%  100%  
+	    Neue Datei		    2789	btn-install.png  0%  100%  
+	    Neue Datei		     952	btn-next.png  0%  100%  
+	    Neue Datei		   25962	btn-no-thanks.png  0%  100%  
+	    Neue Datei		    1898	btn-no.png  0%  100%  
+	    Neue Datei		   30788	btn-personal.png  0%  100%  
+	    Neue Datei		     958	btn-prev.png  0%  100%  
+	    Neue Datei		    7219	btn-preview-web.png  0%  100%  
+	    Neue Datei		    8978	btn-preview.png  0%  100%  
+	    Neue Datei		    6976	btn-set.png  0%  100%  
+	    Neue Datei		   28477	btn-simple.png  0%  100%  
+	    Neue Datei		    2380	btn-yes.png  0%  100%  
+	    Neue Datei		     205	bul1.png  0%  100%  
+	    Neue Datei		      46	bul2.gif  0%  100%  
+	    Neue Datei		     240	bul3.png  0%  100%  
+	    Neue Datei		      74	bul4.gif  0%  100%  
+	    Neue Datei		     467	ico-invalidaing.png  0%  100%  
+	    Neue Datei		     437	ico-validaing.png  0%  100%  
+	    Neue Datei		    3189	img01.jpg  0%  100%  
+	    Neue Datei		    3533	img02.jpg  0%  100%  
+	    Neue Datei		    6205	img03.jpg  0%  100%  
+	    Neue Datei		    5029	img04.jpg  0%  100%  
+	    Neue Datei		    6113	img05.jpg  0%  100%  
+	    Neue Datei		    4408	img06.jpg  0%  100%  
+	    Neue Datei		    5924	img07.jpg  0%  100%  
+	    Neue Datei		    4535	img08.jpg  0%  100%  
+	    Neue Datei		   16018	img09.jpg  0%  100%  
+	    Neue Datei		    4173	img10.jpg  0%  100%  
+	    Neue Datei		    6618	img11.jpg  0%  100%  
+	    Neue Datei		    2113	loader.gif  0%  100%  
+	    Neue Datei		    1445	logo.gif  0%  100%  
+	    Neue Datei		      43	none.gif  0%  100%  
+	    Neue Datei		  304064	pbar-ani.gif  0%   43%   86%  100%  
+	    Neue Datei		    1026	pbar.gif  0%  100%  
+	    Neue Datei		     491	select-button.png  0%  100%  
+	    Neue Datei		     199	select-center.png  0%  100%  
+	    Neue Datei		     816	select-left-2.png  0%  100%  
+	    Neue Datei		     401	select-left.png  0%  100%  
+	    Neue Datei		     110	sep1.png  0%  100%  
+	    Neue Datei		     260	ui-bg_diagonals-thick_18_b81900_40x40.png  0%  100%  
+	    Neue Datei		     251	ui-bg_diagonals-thick_20_666666_40x40.png  0%  100%  
+	    Neue Datei		     178	ui-bg_flat_10_000000_40x100.png  0%  100%  
+	    Neue Datei		     104	ui-bg_glass_100_f6f6f6_1x400.png  0%  100%  
+	    Neue Datei		     125	ui-bg_glass_100_fdf5ce_1x400.png  0%  100%  
+	    Neue Datei		     105	ui-bg_glass_65_ffffff_1x400.png  0%  100%  
+	    Neue Datei		    3762	ui-bg_gloss-wave_35_f6a828_500x100.png  0%  100%  
+	    Neue Datei		      90	ui-bg_highlight-soft_100_eeeeee_1x100.png  0%  100%  
+	    Neue Datei		     129	ui-bg_highlight-soft_75_ffe45c_1x100.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_222222_256x240.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_228ef1_256x240.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_ef8c08_256x240.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_ffd27a_256x240.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_ffffff_256x240.png  0%  100%  
+	    Neue Datei		    1207	zoom-in.png  0%  100%  
+	 Neues Verz.       5	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Installer\Js\
+	    Neue Datei		    7058	ie-png.js  0%  100%  
+	    Neue Datei		   94332	jquery.1.4.4.js  0%  100%  
+	    Neue Datei		   62130	jquery.main.js  0%  100%  
+	    Neue Datei		   19146	jquery.ui.selectmenu.js  0%  100%  
+	    Neue Datei		    9543	PackageInstaller.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Jeditable\
+	    Neue Datei		   24034	jquery.jeditable.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\MacroContainer\
+	    Neue Datei		     666	macroContainer.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\MaskedInput\
+	    Neue Datei		    4028	jquery.maskedinput-1.3.min.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Menuicon\
+	    Neue Datei		     571	style.css  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Menuicon\Images\
+	    Neue Datei		     273	buttonbg.gif  0%  100%  
+	    Neue Datei		     273	buttonbgdown.gif  0%  100%  
+	    Neue Datei		     851	split.gif  0%  100%  
+	 Neues Verz.       5	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Modal\
+	    Neue Datei		   24841	jquery.simplemodal.1.4.1.custom.js  0%  100%  
+	    Neue Datei		   20733	modal.js  0%  100%  
+	    Neue Datei		     475	modalBackground.gif  0%  100%  
+	    Neue Datei		     151	modalGradiant.gif  0%  100%  
+	    Neue Datei		    1417	style.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Mousewheel\
+	    Neue Datei		    1638	jquery.mousewheel.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Panel\
+	    Neue Datei		     240	javascript.js  0%  100%  
+	    Neue Datei		    2608	style.css  0%  100%  
+	 Neues Verz.       6	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Panel\Images\
+	    Neue Datei		      98	panel_bg.gif  0%  100%  
+	    Neue Datei		      43	panel_boxfooter_bg.gif  0%  100%  
+	    Neue Datei		     162	panel_boxfooter_statusBar_bg.gif  0%  100%  
+	    Neue Datei		     164	panel_boxfooter_statusBar_h2_bg.gif  0%  100%  
+	    Neue Datei		     194	panel_boxhead_bg.gif  0%  100%  
+	    Neue Datei		     193	panel_boxhead_h2_bg.gif  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Preview\
+	    Neue Datei		    3508	previewModeBadge.png  0%  100%  
+	    Neue Datei		     169	umbracoPreview.css  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\ProgressBar\
+	    Neue Datei		     795	javascript.js  0%  100%  
+	    Neue Datei		     524	style.css  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\ProgressBar\Images\
+	    Neue Datei		     314	container_left.gif  0%  100%  
+	    Neue Datei		     102	container_right.gif  0%  100%  
+	    Neue Datei		     113	indicator.gif  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Propertypane\
+	    Neue Datei		    2000	style.css  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Propertypane\Images\
+	    Neue Datei		    9038	propertyBackground.gif  0%  100%  
+	    Neue Datei		     554	proppane_bg.png  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\PunyCode\
+	    Neue Datei		    2802	punycode.min.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Scrollingmenu\
+	    Neue Datei		    2851	javascript.js  0%  100%  
+	    Neue Datei		     255	style.css  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Scrollingmenu\Images\
+	    Neue Datei		     834	arrawBack.gif  0%  100%  
+	    Neue Datei		     834	arrowForward.gif  0%  100%  
+	    Neue Datei		     183	background.gif  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Scrollingmenu\Images\Button\
+	    Neue Datei		     273	buttonbg.gif  0%  100%  
+	    Neue Datei		     273	buttonbgdown.gif  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\SimpleEditor\
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\SimpleEditor\Images\
+	    Neue Datei		      78	bold.gif  0%  100%  
+	    Neue Datei		      73	italic.gif  0%  100%  
+	    Neue Datei		     108	link.gif  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Splitbutton\
+	    Neue Datei		    2246	InsertMacroSplitButton.js  0%  100%  
+	    Neue Datei		   18462	jquery.splitbutton.js  0%  100%  
+	    Neue Datei		    2773	splitbutton.css  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Splitbutton\Images\
+	    Neue Datei		     130	splitbutton_downarrow.png  0%  100%  
+	    Neue Datei		     149	splitbutton_hover.png  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tablesorting\
+	    Neue Datei		   16523	jquery.tablesorter.min.js  0%  100%  
+	    Neue Datei		   18249	tableDragAndDrop.js  0%  100%  
+	    Neue Datei		   23499	tableFilter.js  0%  100%  
+	    Neue Datei		   12838	tableFilterUtill.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tablesorting\img\
+	    Neue Datei		     830	asc.gif  0%  100%  
+	    Neue Datei		      73	bg.gif  0%  100%  
+	    Neue Datei		     833	desc.gif  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tabview\
+	    Neue Datei		    3721	javascript.js  0%  100%  
+	    Neue Datei		    1589	oldstyle.css  0%  100%  
+	    Neue Datei		    2633	style.css  0%  100%  
+	 Neues Verz.       7	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tabview\Images\
+	    Neue Datei		     169	background.gif  0%  100%  
+	    Neue Datei		      73	bg.gif  0%  100%  
+	    Neue Datei		      43	footer_bg.gif  0%  100%  
+	    Neue Datei		     162	footer_statusBar_bg.gif  0%  100%  
+	    Neue Datei		     164	footer_statusBar_h2_bg.gif  0%  100%  
+	    Neue Datei		    1343	left_both.gif  0%  100%  
+	    Neue Datei		    3913	right_both.gif  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tags\
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tags\Css\
+	    Neue Datei		    1117	jquery.tagsinput.css  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tags\Js\
+	    Neue Datei		   11891	jquery.tagsinput.js  0%  100%  
+	    Neue Datei		    6400	jquery.tagsinput.min.js  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\
+	    Neue Datei		   26930	license.txt  0%  100%  
+	    Neue Datei		  232483	tiny_mce.js  0%   56%  100%  
+	    Neue Datei		    4912	tiny_mce_popup.js  0%  100%  
+	    Neue Datei		  524361	tiny_mce_src.js  0%   49%   99%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Langs\
+	    Neue Datei		    7049	da.js  0%  100%  
+	    Neue Datei		    7251	de.js  0%  100%  
+	    Neue Datei		    6515	en.js  0%  100%  
+	    Neue Datei		    6518	en_us.js  0%  100%  
+	    Neue Datei		    7711	fi.js  0%  100%  
+	    Neue Datei		    7765	fr.js  0%  100%  
+	    Neue Datei		   15279	he.js  0%  100%  
+	    Neue Datei		    7010	it.js  0%  100%  
+	    Neue Datei		   11301	ja.js  0%  100%  
+	    Neue Datei		    6635	nl.js  0%  100%  
+	    Neue Datei		    6958	no.js  0%  100%  
+	    Neue Datei		    7897	pl.js  0%  100%  
+	    Neue Datei		    7053	pt.js  0%  100%  
+	    Neue Datei		   19794	ru.js  0%  100%  
+	    Neue Datei		    6966	sv.js  0%  100%  
+	    Neue Datei		    8432	zh.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\
+	    Neue Datei		     847	editor_plugin.js  0%  100%  
+	    Neue Datei		    1442	editor_plugin_src.js  0%  100%  
+	    Neue Datei		    2422	rule.htm  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Css\
+	    Neue Datei		     240	advhr.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Js\
+	    Neue Datei		    1322	rule.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Langs\
+	    Neue Datei		     127	da_dlg.js  0%  100%  
+	    Neue Datei		     129	de_dlg.js  0%  100%  
+	    Neue Datei		     117	en_dlg.js  0%  100%  
+	    Neue Datei		     120	en_us_dlg.js  0%  100%  
+	    Neue Datei		     128	fi_dlg.js  0%  100%  
+	    Neue Datei		     129	fr_dlg.js  0%  100%  
+	    Neue Datei		     225	he_dlg.js  0%  100%  
+	    Neue Datei		     138	it_dlg.js  0%  100%  
+	    Neue Datei		     146	ja_dlg.js  0%  100%  
+	    Neue Datei		     126	nl_dlg.js  0%  100%  
+	    Neue Datei		     127	no_dlg.js  0%  100%  
+	    Neue Datei		     150	pl_dlg.js  0%  100%  
+	    Neue Datei		     120	pt_dlg.js  0%  100%  
+	    Neue Datei		     342	ru_dlg.js  0%  100%  
+	    Neue Datei		     125	sv_dlg.js  0%  100%  
+	    Neue Datei		     142	zh_dlg.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\
+	    Neue Datei		     791	editor_plugin.js  0%  100%  
+	    Neue Datei		    1391	editor_plugin_src.js  0%  100%  
+	    Neue Datei		   12086	image.htm  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Css\
+	    Neue Datei		     672	advimage.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Img\
+	    Neue Datei		    1624	sample.gif  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Js\
+	    Neue Datei		   12909	image.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Langs\
+	    Neue Datei		    1352	da_dlg.js  0%  100%  
+	    Neue Datei		    1363	de_dlg.js  0%  100%  
+	    Neue Datei		    1270	en_dlg.js  0%  100%  
+	    Neue Datei		    1273	en_us_dlg.js  0%  100%  
+	    Neue Datei		    1387	fi_dlg.js  0%  100%  
+	    Neue Datei		    1508	fr_dlg.js  0%  100%  
+	    Neue Datei		    2771	he_dlg.js  0%  100%  
+	    Neue Datei		    1467	it_dlg.js  0%  100%  
+	    Neue Datei		    2319	ja_dlg.js  0%  100%  
+	    Neue Datei		    1267	nl_dlg.js  0%  100%  
+	    Neue Datei		    1312	no_dlg.js  0%  100%  
+	    Neue Datei		    1467	pl_dlg.js  0%  100%  
+	    Neue Datei		    1374	pt_dlg.js  0%  100%  
+	    Neue Datei		    4924	ru_dlg.js  0%  100%  
+	    Neue Datei		    1266	sv_dlg.js  0%  100%  
+	    Neue Datei		    1761	zh_dlg.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\
+	    Neue Datei		     973	editor_plugin.js  0%  100%  
+	    Neue Datei		    1633	editor_plugin_src.js  0%  100%  
+	    Neue Datei		   16123	link.htm  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Css\
+	    Neue Datei		     480	advlink.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Js\
+	    Neue Datei		   17341	advlink.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Langs\
+	    Neue Datei		    1944	da_dlg.js  0%  100%  
+	    Neue Datei		    1955	de_dlg.js  0%  100%  
+	    Neue Datei		    1667	en_dlg.js  0%  100%  
+	    Neue Datei		    1670	en_us_dlg.js  0%  100%  
+	    Neue Datei		    1985	fi_dlg.js  0%  100%  
+	    Neue Datei		    2120	fr_dlg.js  0%  100%  
+	    Neue Datei		    4332	he_dlg.js  0%  100%  
+	    Neue Datei		    1864	it_dlg.js  0%  100%  
+	    Neue Datei		    3274	ja_dlg.js  0%  100%  
+	    Neue Datei		    1710	nl_dlg.js  0%  100%  
+	    Neue Datei		    1871	no_dlg.js  0%  100%  
+	    Neue Datei		    2012	pl_dlg.js  0%  100%  
+	    Neue Datei		    1962	pt_dlg.js  0%  100%  
+	    Neue Datei		    5662	ru_dlg.js  0%  100%  
+	    Neue Datei		    1846	sv_dlg.js  0%  100%  
+	    Neue Datei		    2326	zh_dlg.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlist\
+	    Neue Datei		    2324	editor_plugin.js  0%  100%  
+	    Neue Datei		    4726	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autolink\
+	    Neue Datei		    2355	editor_plugin.js  0%  100%  
+	    Neue Datei		    5492	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autoresize\
+	    Neue Datei		    1506	editor_plugin.js  0%  100%  
+	    Neue Datei		    4158	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autosave\
+	    Neue Datei		    3584	editor_plugin.js  0%  100%  
+	    Neue Datei		   13766	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autosave\Langs\
+	    Neue Datei		     256	en.js  0%  100%  
+	    Neue Datei		     259	en_us.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Bbcode\
+	    Neue Datei		    3231	editor_plugin.js  0%  100%  
+	    Neue Datei		    4361	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Contextmenu\
+	    Neue Datei		    2540	editor_plugin.js  0%  100%  
+	    Neue Datei		    5227	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Directionality\
+	    Neue Datei		    1259	editor_plugin.js  0%  100%  
+	    Neue Datei		    2189	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\
+	    Neue Datei		     676	editor_plugin.js  0%  100%  
+	    Neue Datei		    1220	editor_plugin_src.js  0%  100%  
+	    Neue Datei		    5972	emotions.htm  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Img\
+	    Neue Datei		     354	smiley-cool.gif  0%  100%  
+	    Neue Datei		     329	smiley-cry.gif  0%  100%  
+	    Neue Datei		     331	smiley-embarassed.gif  0%  100%  
+	    Neue Datei		     342	smiley-foot-in-mouth.gif  0%  100%  
+	    Neue Datei		     340	smiley-frown.gif  0%  100%  
+	    Neue Datei		     336	smiley-innocent.gif  0%  100%  
+	    Neue Datei		     338	smiley-kiss.gif  0%  100%  
+	    Neue Datei		     343	smiley-laughing.gif  0%  100%  
+	    Neue Datei		     321	smiley-money-mouth.gif  0%  100%  
+	    Neue Datei		     323	smiley-sealed.gif  0%  100%  
+	    Neue Datei		     344	smiley-smile.gif  0%  100%  
+	    Neue Datei		     338	smiley-surprised.gif  0%  100%  
+	    Neue Datei		     328	smiley-tongue-out.gif  0%  100%  
+	    Neue Datei		     337	smiley-undecided.gif  0%  100%  
+	    Neue Datei		     350	smiley-wink.gif  0%  100%  
+	    Neue Datei		     336	smiley-yell.gif  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Js\
+	    Neue Datei		    1120	emotions.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Langs\
+	    Neue Datei		     463	da_dlg.js  0%  100%  
+	    Neue Datei		     478	de_dlg.js  0%  100%  
+	    Neue Datei		     421	en_dlg.js  0%  100%  
+	    Neue Datei		     424	en_us_dlg.js  0%  100%  
+	    Neue Datei		     532	fi_dlg.js  0%  100%  
+	    Neue Datei		     513	fr_dlg.js  0%  100%  
+	    Neue Datei		     999	he_dlg.js  0%  100%  
+	    Neue Datei		     472	it_dlg.js  0%  100%  
+	    Neue Datei		     738	ja_dlg.js  0%  100%  
+	    Neue Datei		     459	nl_dlg.js  0%  100%  
+	    Neue Datei		     446	no_dlg.js  0%  100%  
+	    Neue Datei		     529	pl_dlg.js  0%  100%  
+	    Neue Datei		     468	pt_dlg.js  0%  100%  
+	    Neue Datei		    1380	ru_dlg.js  0%  100%  
+	    Neue Datei		     496	sv_dlg.js  0%  100%  
+	    Neue Datei		     456	zh_dlg.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\
+	    Neue Datei		     908	dialog.htm  0%  100%  
+	    Neue Datei		     860	editor_plugin.js  0%  100%  
+	    Neue Datei		    2988	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Img\
+	    Neue Datei		      87	example.gif  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Js\
+	    Neue Datei		     609	dialog.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Langs\
+	    Neue Datei		      79	en.js  0%  100%  
+	    Neue Datei		      82	en_dlg.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\example_dependency\
+	    Neue Datei		     419	editor_plugin.js  0%  100%  
+	    Neue Datei		    1885	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\
+	    Neue Datei		    6322	editor_plugin.js  0%  100%  
+	    Neue Datei		   11568	editor_plugin_src.js  0%  100%  
+	    Neue Datei		   10754	fullpage.htm  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Css\
+	    Neue Datei		    2188	fullpage.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Js\
+	    Neue Datei		    8164	fullpage.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Langs\
+	    Neue Datei		    2347	da_dlg.js  0%  100%  
+	    Neue Datei		    2469	de_dlg.js  0%  100%  
+	    Neue Datei		    2297	en_dlg.js  0%  100%  
+	    Neue Datei		    2300	en_us_dlg.js  0%  100%  
+	    Neue Datei		    2541	fi_dlg.js  0%  100%  
+	    Neue Datei		    2864	fr_dlg.js  0%  100%  
+	    Neue Datei		    4260	he_dlg.js  0%  100%  
+	    Neue Datei		    2520	it_dlg.js  0%  100%  
+	    Neue Datei		    3802	ja_dlg.js  0%  100%  
+	    Neue Datei		    2365	nl_dlg.js  0%  100%  
+	    Neue Datei		    2359	no_dlg.js  0%  100%  
+	    Neue Datei		    2712	pl_dlg.js  0%  100%  
+	    Neue Datei		    2387	pt_dlg.js  0%  100%  
+	    Neue Datei		    6193	ru_dlg.js  0%  100%  
+	    Neue Datei		    2499	sv_dlg.js  0%  100%  
+	    Neue Datei		    2863	zh_dlg.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullscreen\
+	    Neue Datei		    4422	editor_plugin.js  0%  100%  
+	    Neue Datei		    8222	editor_plugin_src.js  0%  100%  
+	    Neue Datei		    3655	fullscreen.htm  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Iespell\
+	    Neue Datei		     909	editor_plugin.js  0%  100%  
+	    Neue Datei		    1484	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\
+	    Neue Datei		   11928	editor_plugin.js  0%  100%  
+	    Neue Datei		   19657	editor_plugin_src.js  0%  100%  
+	    Neue Datei		   12878	template.htm  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Clearlooks2\
+	    Neue Datei		    6715	window.css  0%  100%  
+	 Neues Verz.       7	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Clearlooks2\Img\
+	    Neue Datei		     810	alert.gif  0%  100%  
+	    Neue Datei		     272	button.gif  0%  100%  
+	    Neue Datei		    1195	buttons.gif  0%  100%  
+	    Neue Datei		     907	confirm.gif  0%  100%  
+	    Neue Datei		     909	corners.gif  0%  100%  
+	    Neue Datei		     769	horizontal.gif  0%  100%  
+	    Neue Datei		      84	vertical.gif  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Umbraco\
+	    Neue Datei		    4816	window.css  0%  100%  
+	 Neues Verz.       8	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Umbraco\Img\
+	    Neue Datei		     818	alert.gif  0%  100%  
+	    Neue Datei		     280	button.gif  0%  100%  
+	    Neue Datei		    1195	buttons.gif  0%  100%  
+	    Neue Datei		    3728	close.png  0%  100%  
+	    Neue Datei		     915	confirm.gif  0%  100%  
+	    Neue Datei		     569	corners.gif  0%  100%  
+	    Neue Datei		     436	horizontal.gif  0%  100%  
+	    Neue Datei		     140	vertical.gif  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Insertdatetime\
+	    Neue Datei		    1931	editor_plugin.js  0%  100%  
+	    Neue Datei		    2860	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Layer\
+	    Neue Datei		    4052	editor_plugin.js  0%  100%  
+	    Neue Datei		    6747	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Legacyoutput\
+	    Neue Datei		    2086	editor_plugin.js  0%  100%  
+	    Neue Datei		    5077	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Lists\
+	    Neue Datei		   14380	editor_plugin.js  0%  100%  
+	    Neue Datei		   32531	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\
+	    Neue Datei		   12655	editor_plugin.js  0%  100%  
+	    Neue Datei		   26419	editor_plugin_src.js  0%  100%  
+	    Neue Datei		   38852	media.htm  0%  100%  
+	    Neue Datei		   19980	moxieplayer.swf  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Css\
+	    Neue Datei		    1357	media.css  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Js\
+	    Neue Datei		    1938	embed.js  0%  100%  
+	    Neue Datei		   16473	media.js  0%  100%  
+	 Neues Verz.      18	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Langs\
+	    Neue Datei		    3077	da_dlg.js  0%  100%  
+	    Neue Datei		    3164	de_dlg.js  0%  100%  
+	    Neue Datei		    2815	en_dlg.js  0%  100%  
+	    Neue Datei		    2818	en_us_dlg.js  0%  100%  
+	    Neue Datei		    3018	es_dlg.js  0%  100%  
+	    Neue Datei		    3314	fi_dlg.js  0%  100%  
+	    Neue Datei		    3302	fr_dlg.js  0%  100%  
+	    Neue Datei		    5399	he_dlg.js  0%  100%  
+	    Neue Datei		    3062	it_dlg.js  0%  100%  
+	    Neue Datei		    5047	ja_dlg.js  0%  100%  
+	    Neue Datei		    2734	ko_dlg.js  0%  100%  
+	    Neue Datei		    2949	nl_dlg.js  0%  100%  
+	    Neue Datei		    3047	no_dlg.js  0%  100%  
+	    Neue Datei		    3259	pl_dlg.js  0%  100%  
+	    Neue Datei		    3259	pt_dlg.js  0%  100%  
+	    Neue Datei		    9433	ru_dlg.js  0%  100%  
+	    Neue Datei		    2962	sv_dlg.js  0%  100%  
+	    Neue Datei		    3445	zh_dlg.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Nonbreaking\
+	    Neue Datei		     944	editor_plugin.js  0%  100%  
+	    Neue Datei		    1521	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Noneditable\
+	    Neue Datei		    5431	editor_plugin.js  0%  100%  
+	    Neue Datei		   17154	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Pagebreak\
+	    Neue Datei		    1402	editor_plugin.js  0%  100%  
+	    Neue Datei		    2161	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\
+	    Neue Datei		   13713	editor_plugin.js  0%  100%  
+	    Neue Datei		   31674	editor_plugin_src.js  0%  100%  
+	    Neue Datei		    1209	pastetext.htm  0%  100%  
+	    Neue Datei		     783	pasteword.htm  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\Js\
+	    Neue Datei		     884	pastetext.js  0%  100%  
+	    Neue Datei		    1647	pasteword.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\Langs\
+	    Neue Datei		     227	da_dlg.js  0%  100%  
+	    Neue Datei		     262	de_dlg.js  0%  100%  
+	    Neue Datei		     226	en_dlg.js  0%  100%  
+	    Neue Datei		     229	en_us_dlg.js  0%  100%  
+	    Neue Datei		     245	fi_dlg.js  0%  100%  
+	    Neue Datei		     276	fr_dlg.js  0%  100%  
+	    Neue Datei		     610	he_dlg.js  0%  100%  
+	    Neue Datei		     252	it_dlg.js  0%  100%  
+	    Neue Datei		     517	ja_dlg.js  0%  100%  
+	    Neue Datei		     209	nl_dlg.js  0%  100%  
+	    Neue Datei		     256	no_dlg.js  0%  100%  
+	    Neue Datei		     263	pl_dlg.js  0%  100%  
+	    Neue Datei		     190	pt_dlg.js  0%  100%  
+	    Neue Datei		     633	ru_dlg.js  0%  100%  
+	    Neue Datei		     284	sv_dlg.js  0%  100%  
+	    Neue Datei		     258	zh_dlg.js  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Preview\
+	    Neue Datei		    1051	editor_plugin.js  0%  100%  
+	    Neue Datei		    1641	editor_plugin_src.js  0%  100%  
+	    Neue Datei		     731	example.html  0%  100%  
+	    Neue Datei		     630	preview.html  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Preview\Jscripts\
+	    Neue Datei		    1938	embed.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Print\
+	    Neue Datei		     492	editor_plugin.js  0%  100%  
+	    Neue Datei		     881	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Save\
+	    Neue Datei		    1569	editor_plugin.js  0%  100%  
+	    Neue Datei		    2529	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\
+	    Neue Datei		    1046	editor_plugin.js  0%  100%  
+	    Neue Datei		    1795	editor_plugin_src.js  0%  100%  
+	    Neue Datei		    5334	searchreplace.htm  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Css\
+	    Neue Datei		     176	searchreplace.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Js\
+	    Neue Datei		    3878	searchreplace.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Langs\
+	    Neue Datei		     461	da_dlg.js  0%  100%  
+	    Neue Datei		     522	de_dlg.js  0%  100%  
+	    Neue Datei		     445	en_dlg.js  0%  100%  
+	    Neue Datei		     448	en_us_dlg.js  0%  100%  
+	    Neue Datei		     468	fi_dlg.js  0%  100%  
+	    Neue Datei		     584	fr_dlg.js  0%  100%  
+	    Neue Datei		    1056	he_dlg.js  0%  100%  
+	    Neue Datei		     473	it_dlg.js  0%  100%  
+	    Neue Datei		     755	ja_dlg.js  0%  100%  
+	    Neue Datei		     488	nl_dlg.js  0%  100%  
+	    Neue Datei		     475	no_dlg.js  0%  100%  
+	    Neue Datei		     602	pl_dlg.js  0%  100%  
+	    Neue Datei		     489	pt_dlg.js  0%  100%  
+	    Neue Datei		    1262	ru_dlg.js  0%  100%  
+	    Neue Datei		     535	sv_dlg.js  0%  100%  
+	    Neue Datei		     633	zh_dlg.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\
+	    Neue Datei		    7217	editor_plugin.js  0%  100%  
+	    Neue Datei		   12791	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\Css\
+	    Neue Datei		      98	content.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\Img\
+	    Neue Datei		      46	wline.gif  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\
+	    Neue Datei		    1117	editor_plugin.js  0%  100%  
+	    Neue Datei		    1927	editor_plugin_src.js  0%  100%  
+	    Neue Datei		   38494	props.htm  0%  100%  
+	    Neue Datei		    1030	readme.txt  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Css\
+	    Neue Datei		     906	props.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Js\
+	    Neue Datei		   32355	props.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Langs\
+	    Neue Datei		    1689	da_dlg.js  0%  100%  
+	    Neue Datei		    1824	de_dlg.js  0%  100%  
+	    Neue Datei		    1627	en_dlg.js  0%  100%  
+	    Neue Datei		    1630	en_us_dlg.js  0%  100%  
+	    Neue Datei		    1762	fi_dlg.js  0%  100%  
+	    Neue Datei		    1723	fr_dlg.js  0%  100%  
+	    Neue Datei		    3246	he_dlg.js  0%  100%  
+	    Neue Datei		    1718	it_dlg.js  0%  100%  
+	    Neue Datei		    2436	ja_dlg.js  0%  100%  
+	    Neue Datei		    1652	nl_dlg.js  0%  100%  
+	    Neue Datei		    1648	no_dlg.js  0%  100%  
+	    Neue Datei		    1916	pl_dlg.js  0%  100%  
+	    Neue Datei		    1684	pt_dlg.js  0%  100%  
+	    Neue Datei		    4509	ru_dlg.js  0%  100%  
+	    Neue Datei		    1700	sv_dlg.js  0%  100%  
+	    Neue Datei		    2005	zh_dlg.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Tabfocus\
+	    Neue Datei		    1666	editor_plugin.js  0%  100%  
+	    Neue Datei		    3057	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       6	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\
+	    Neue Datei		    7292	cell.htm  0%  100%  
+	    Neue Datei		   17667	editor_plugin.js  0%  100%  
+	    Neue Datei		   40915	editor_plugin_src.js  0%  100%  
+	    Neue Datei		    1508	merge_cells.htm  0%  100%  
+	    Neue Datei		    6263	row.htm  0%  100%  
+	    Neue Datei		    9035	table.htm  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Css\
+	    Neue Datei		     205	cell.css  0%  100%  
+	    Neue Datei		     306	row.css  0%  100%  
+	    Neue Datei		     170	table.css  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Js\
+	    Neue Datei		    9458	cell.js  0%  100%  
+	    Neue Datei		     566	merge_cells.js  0%  100%  
+	    Neue Datei		    7775	row.js  0%  100%  
+	    Neue Datei		   15534	table.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Langs\
+	    Neue Datei		    2262	da_dlg.js  0%  100%  
+	    Neue Datei		    2462	de_dlg.js  0%  100%  
+	    Neue Datei		    2092	en_dlg.js  0%  100%  
+	    Neue Datei		    2095	en_us_dlg.js  0%  100%  
+	    Neue Datei		    2516	fi_dlg.js  0%  100%  
+	    Neue Datei		    2694	fr_dlg.js  0%  100%  
+	    Neue Datei		    4748	he_dlg.js  0%  100%  
+	    Neue Datei		    2301	it_dlg.js  0%  100%  
+	    Neue Datei		    3631	ja_dlg.js  0%  100%  
+	    Neue Datei		    2199	nl_dlg.js  0%  100%  
+	    Neue Datei		    2247	no_dlg.js  0%  100%  
+	    Neue Datei		    2653	pl_dlg.js  0%  100%  
+	    Neue Datei		    2285	pt_dlg.js  0%  100%  
+	    Neue Datei		    6724	ru_dlg.js  0%  100%  
+	    Neue Datei		    2189	sv_dlg.js  0%  100%  
+	    Neue Datei		    2859	zh_dlg.js  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\
+	    Neue Datei		     332	blank.htm  0%  100%  
+	    Neue Datei		    3302	editor_plugin.js  0%  100%  
+	    Neue Datei		    4986	editor_plugin_src.js  0%  100%  
+	    Neue Datei		    1441	template.htm  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Css\
+	    Neue Datei		     275	template.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Js\
+	    Neue Datei		    2777	template.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Langs\
+	    Neue Datei		     670	da_dlg.js  0%  100%  
+	    Neue Datei		     662	de_dlg.js  0%  100%  
+	    Neue Datei		     627	en_dlg.js  0%  100%  
+	    Neue Datei		     630	en_us_dlg.js  0%  100%  
+	    Neue Datei		     756	fi_dlg.js  0%  100%  
+	    Neue Datei		     731	fr_dlg.js  0%  100%  
+	    Neue Datei		    1065	he_dlg.js  0%  100%  
+	    Neue Datei		     693	it_dlg.js  0%  100%  
+	    Neue Datei		    1041	ja_dlg.js  0%  100%  
+	    Neue Datei		     670	nl_dlg.js  0%  100%  
+	    Neue Datei		     651	no_dlg.js  0%  100%  
+	    Neue Datei		     688	pl_dlg.js  0%  100%  
+	    Neue Datei		     694	pt_dlg.js  0%  100%  
+	    Neue Datei		    2076	ru_dlg.js  0%  100%  
+	    Neue Datei		     670	sv_dlg.js  0%  100%  
+	    Neue Datei		     989	zh_dlg.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocontextmenu\
+	    Neue Datei		    2561	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\
+	    Neue Datei		     991	dialog.htm  0%  100%  
+	    Neue Datei		    8362	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Img\
+	    Neue Datei		      87	example.gif  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Js\
+	    Neue Datei		     609	dialog.js  0%  100%  
+	 Neues Verz.      14	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Langs\
+	    Neue Datei		      79	en.js  0%  100%  
+	    Neue Datei		      82	en_dlg.js  0%  100%  
+	    Neue Datei		      82	en_us.js  0%  100%  
+	    Neue Datei		      85	en_us_dlg.js  0%  100%  
+	    Neue Datei		      67	it.js  0%  100%  
+	    Neue Datei		      71	it_dlg.js  0%  100%  
+	    Neue Datei		      92	ja.js  0%  100%  
+	    Neue Datei		      84	ja_dlg.js  0%  100%  
+	    Neue Datei		      96	ru.js  0%  100%  
+	    Neue Datei		     105	ru_dlg.js  0%  100%  
+	    Neue Datei		      76	sv.js  0%  100%  
+	    Neue Datei		      93	sv_dlg.js  0%  100%  
+	    Neue Datei		      67	zh.js  0%  100%  
+	    Neue Datei		      72	zh_dlg.js  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\
+	    Neue Datei		    3816	dialog.htm  0%  100%  
+	    Neue Datei		     860	editor_plugin.js  0%  100%  
+	    Neue Datei		    2984	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Img\
+	    Neue Datei		    1928	ajax-loader.gif  0%  100%  
+	    Neue Datei		     260	embed.gif  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Js\
+	    Neue Datei		    3260	dialog.js  0%  100%  
+	 Neues Verz.      18	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Langs\
+	    Neue Datei		      85	da.js  0%  100%  
+	    Neue Datei		     251	da_dlg.js  0%  100%  
+	    Neue Datei		     272	de.js  0%  100%  
+	    Neue Datei		     272	de_dlg.js  0%  100%  
+	    Neue Datei		      78	en.js  0%  100%  
+	    Neue Datei		     232	en_dlg.js  0%  100%  
+	    Neue Datei		      81	en_us.js  0%  100%  
+	    Neue Datei		     235	en_us_dlg.js  0%  100%  
+	    Neue Datei		     236	it.js  0%  100%  
+	    Neue Datei		     244	it_dlg.js  0%  100%  
+	    Neue Datei		     267	ja.js  0%  100%  
+	    Neue Datei		     268	ja_dlg.js  0%  100%  
+	    Neue Datei		     329	ru.js  0%  100%  
+	    Neue Datei		     329	ru_dlg.js  0%  100%  
+	    Neue Datei		     260	sv.js  0%  100%  
+	    Neue Datei		     260	sv_dlg.js  0%  100%  
+	    Neue Datei		     235	zh.js  0%  100%  
+	    Neue Datei		     235	zh_dlg.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\
+	    Neue Datei		    1739	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\Js\
+	    Neue Datei		   10412	image.js  0%  100%  
+	 Neues Verz.       8	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\Langs\
+	    Neue Datei		    1495	en_dlg.js  0%  100%  
+	    Neue Datei		    1498	en_us_dlg.js  0%  100%  
+	    Neue Datei		    1495	he_dlg.js  0%  100%  
+	    Neue Datei		    1583	it_dlg.js  0%  100%  
+	    Neue Datei		    1694	ja_dlg.js  0%  100%  
+	    Neue Datei		    2314	ru_dlg.js  0%  100%  
+	    Neue Datei		    1536	sv_dlg.js  0%  100%  
+	    Neue Datei		    1346	zh_dlg.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\
+	    Neue Datei		    1860	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\Js\
+	    Neue Datei		   17755	umbracolink.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\Langs\
+	    Neue Datei		    1944	da_dlg.js  0%  100%  
+	    Neue Datei		    1955	de_dlg.js  0%  100%  
+	    Neue Datei		    1667	en_dlg.js  0%  100%  
+	    Neue Datei		    1670	en_us_dlg.js  0%  100%  
+	    Neue Datei		    1985	fi_dlg.js  0%  100%  
+	    Neue Datei		    2120	fr_dlg.js  0%  100%  
+	    Neue Datei		    4332	he_dlg.js  0%  100%  
+	    Neue Datei		    1864	it_dlg.js  0%  100%  
+	    Neue Datei		    3274	ja_dlg.js  0%  100%  
+	    Neue Datei		    1710	nl_dlg.js  0%  100%  
+	    Neue Datei		    1871	no_dlg.js  0%  100%  
+	    Neue Datei		    2012	pl_dlg.js  0%  100%  
+	    Neue Datei		    1962	pt_dlg.js  0%  100%  
+	    Neue Datei		    2727	ru_dlg.js  0%  100%  
+	    Neue Datei		    1846	sv_dlg.js  0%  100%  
+	    Neue Datei		    2326	zh_dlg.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\
+	    Neue Datei		     991	dialog.htm  0%  100%  
+	    Neue Datei		    6151	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Img\
+	    Neue Datei		     603	insMacro.gif  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Js\
+	    Neue Datei		     609	dialog.js  0%  100%  
+	 Neues Verz.      14	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Langs\
+	    Neue Datei		      69	en.js  0%  100%  
+	    Neue Datei		      82	en_dlg.js  0%  100%  
+	    Neue Datei		      72	en_us.js  0%  100%  
+	    Neue Datei		      85	en_us_dlg.js  0%  100%  
+	    Neue Datei		      79	he.js  0%  100%  
+	    Neue Datei		      82	he_dlg.js  0%  100%  
+	    Neue Datei		      75	ja.js  0%  100%  
+	    Neue Datei		      90	ja_dlg.js  0%  100%  
+	    Neue Datei		      86	ru.js  0%  100%  
+	    Neue Datei		      81	ru_dlg.js  0%  100%  
+	    Neue Datei		      69	sv.js  0%  100%  
+	    Neue Datei		      92	sv_dlg.js  0%  100%  
+	    Neue Datei		      66	zh.js  0%  100%  
+	    Neue Datei		      72	zh_dlg.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracopaste\
+	    Neue Datei		    1753	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoshortcut\
+	    Neue Datei		    1255	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualblocks\
+	    Neue Datei		     958	editor_plugin.js  0%  100%  
+	    Neue Datei		    1712	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualblocks\Css\
+	    Neue Datei		    3040	visualblocks.css  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualchars\
+	    Neue Datei		    1368	editor_plugin.js  0%  100%  
+	    Neue Datei		    2195	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Wordcount\
+	    Neue Datei		    1960	editor_plugin.js  0%  100%  
+	    Neue Datei		    3331	editor_plugin_src.js  0%  100%  
+	 Neues Verz.       8	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\
+	    Neue Datei		    6243	abbr.htm  0%  100%  
+	    Neue Datei		    6258	acronym.htm  0%  100%  
+	    Neue Datei		    6232	attributes.htm  0%  100%  
+	    Neue Datei		    6243	cite.htm  0%  100%  
+	    Neue Datei		    7294	del.htm  0%  100%  
+	    Neue Datei		    2756	editor_plugin.js  0%  100%  
+	    Neue Datei		    4098	editor_plugin_src.js  0%  100%  
+	    Neue Datei		    7299	ins.htm  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Css\
+	    Neue Datei		     197	attributes.css  0%  100%  
+	    Neue Datei		     514	popup.css  0%  100%  
+	 Neues Verz.       7	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Js\
+	    Neue Datei		     541	abbr.js  0%  100%  
+	    Neue Datei		     559	acronym.js  0%  100%  
+	    Neue Datei		    3471	attributes.js  0%  100%  
+	    Neue Datei		     541	cite.js  0%  100%  
+	    Neue Datei		    1356	del.js  0%  100%  
+	    Neue Datei		    7159	element_common.js  0%  100%  
+	    Neue Datei		    1356	ins.js  0%  100%  
+	 Neues Verz.      16	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Langs\
+	    Neue Datei		    1194	da_dlg.js  0%  100%  
+	    Neue Datei		    1141	de_dlg.js  0%  100%  
+	    Neue Datei		    1092	en_dlg.js  0%  100%  
+	    Neue Datei		    1095	en_us_dlg.js  0%  100%  
+	    Neue Datei		    1214	fi_dlg.js  0%  100%  
+	    Neue Datei		    1195	fr_dlg.js  0%  100%  
+	    Neue Datei		    2222	he_dlg.js  0%  100%  
+	    Neue Datei		    1181	it_dlg.js  0%  100%  
+	    Neue Datei		    1531	ja_dlg.js  0%  100%  
+	    Neue Datei		    1149	nl_dlg.js  0%  100%  
+	    Neue Datei		    1147	no_dlg.js  0%  100%  
+	    Neue Datei		    1159	pl_dlg.js  0%  100%  
+	    Neue Datei		    1140	pt_dlg.js  0%  100%  
+	    Neue Datei		    2564	ru_dlg.js  0%  100%  
+	    Neue Datei		    1157	sv_dlg.js  0%  100%  
+	    Neue Datei		    1372	zh_dlg.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\
+	 Neues Verz.      10	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\
+	    Neue Datei		    2701	about.htm  0%  100%  
+	    Neue Datei		    1167	anchor.htm  0%  100%  
+	    Neue Datei		    2251	charmap.htm  0%  100%  
+	    Neue Datei		    3317	color_picker.htm  0%  100%  
+	    Neue Datei		   26734	editor_template.js  0%  100%  
+	    Neue Datei		   43419	editor_template_src.js  0%  100%  
+	    Neue Datei		    4038	image.htm  0%  100%  
+	    Neue Datei		    2527	link.htm  0%  100%  
+	    Neue Datei		    1732	shortcuts.htm  0%  100%  
+	    Neue Datei		    1269	source_editor.htm  0%  100%  
+	 Neues Verz.      11	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Img\
+	    Neue Datei		    2584	colorpicker.jpg  0%  100%  
+	    Neue Datei		     239	flash.gif  0%  100%  
+	    Neue Datei		   11982	icons.gif  0%  100%  
+	    Neue Datei		     600	iframe.gif  0%  100%  
+	    Neue Datei		     325	pagebreak.gif  0%  100%  
+	    Neue Datei		     301	quicktime.gif  0%  100%  
+	    Neue Datei		     439	realmedia.gif  0%  100%  
+	    Neue Datei		     384	shockwave.gif  0%  100%  
+	    Neue Datei		      43	trans.gif  0%  100%  
+	    Neue Datei		     597	video.gif  0%  100%  
+	    Neue Datei		     415	windowsmedia.gif  0%  100%  
+	 Neues Verz.       7	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Js\
+	    Neue Datei		    2203	about.js  0%  100%  
+	    Neue Datei		    1498	anchor.js  0%  100%  
+	    Neue Datei		   15793	charmap.js  0%  100%  
+	    Neue Datei		   14559	color_picker.js  0%  100%  
+	    Neue Datei		    6391	image.js  0%  100%  
+	    Neue Datei		    4947	link.js  0%  100%  
+	    Neue Datei		    1694	source_editor.js  0%  100%  
+	 Neues Verz.      28	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Langs\
+	    Neue Datei		    2547	da.js  0%  100%  
+	    Neue Datei		    2201	da_dlg.js  0%  100%  
+	    Neue Datei		    2623	de.js  0%  100%  
+	    Neue Datei		    2152	de_dlg.js  0%  100%  
+	    Neue Datei		    2341	en.js  0%  100%  
+	    Neue Datei		    1981	en_dlg.js  0%  100%  
+	    Neue Datei		    2767	fi.js  0%  100%  
+	    Neue Datei		    2287	fi_dlg.js  0%  100%  
+	    Neue Datei		    2782	fr.js  0%  100%  
+	    Neue Datei		    2341	fr_dlg.js  0%  100%  
+	    Neue Datei		    5268	he.js  0%  100%  
+	    Neue Datei		    4766	he_dlg.js  0%  100%  
+	    Neue Datei		    2771	it.js  0%  100%  
+	    Neue Datei		    2120	it_dlg.js  0%  100%  
+	    Neue Datei		    3775	ja.js  0%  100%  
+	    Neue Datei		    3416	ja_dlg.js  0%  100%  
+	    Neue Datei		    2329	nl.js  0%  100%  
+	    Neue Datei		    2040	nl_dlg.js  0%  100%  
+	    Neue Datei		    2400	no.js  0%  100%  
+	    Neue Datei		    2124	no_dlg.js  0%  100%  
+	    Neue Datei		    2869	pl.js  0%  100%  
+	    Neue Datei		    2298	pl_dlg.js  0%  100%  
+	    Neue Datei		    2714	pt.js  0%  100%  
+	    Neue Datei		    2217	pt_dlg.js  0%  100%  
+	    Neue Datei		    2502	sv.js  0%  100%  
+	    Neue Datei		    2205	sv_dlg.js  0%  100%  
+	    Neue Datei		    3059	zh.js  0%  100%  
+	    Neue Datei		    2544	zh_dlg.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Default\
+	    Neue Datei		    2607	content.css  0%  100%  
+	    Neue Datei		    5761	dialog.css  0%  100%  
+	    Neue Datei		   15959	ui.css  0%  100%  
+	 Neues Verz.       6	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Default\Img\
+	    Neue Datei		    3133	buttons.png  0%  100%  
+	    Neue Datei		      64	items.gif  0%  100%  
+	    Neue Datei		      68	menu_arrow.gif  0%  100%  
+	    Neue Datei		      70	menu_check.gif  0%  100%  
+	    Neue Datei		    1787	progress.gif  0%  100%  
+	    Neue Datei		    1322	tabs.gif  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Highcontrast\
+	    Neue Datei		    1122	content.css  0%  100%  
+	    Neue Datei		    5219	dialog.css  0%  100%  
+	    Neue Datei		    8886	ui.css  0%  100%  
+	 Neues Verz.       5	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\O2k7\
+	    Neue Datei		    2331	content.css  0%  100%  
+	    Neue Datei		    5849	dialog.css  0%  100%  
+	    Neue Datei		   15405	ui.css  0%  100%  
+	    Neue Datei		    1695	ui_black.css  0%  100%  
+	    Neue Datei		     860	ui_silver.css  0%  100%  
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\O2k7\Img\
+	    Neue Datei		    2766	button_bg.png  0%  100%  
+	    Neue Datei		     651	button_bg_black.png  0%  100%  
+	    Neue Datei		    2084	button_bg_silver.png  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\
+	    Neue Datei		    2226	editor_template.js  0%  100%  
+	    Neue Datei		    3205	editor_template_src.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Img\
+	    Neue Datei		     806	icons.gif  0%  100%  
+	 Neues Verz.      14	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Langs\
+	    Neue Datei		     359	da.js  0%  100%  
+	    Neue Datei		     355	de.js  0%  100%  
+	    Neue Datei		     347	en.js  0%  100%  
+	    Neue Datei		     376	fi.js  0%  100%  
+	    Neue Datei		     349	fr.js  0%  100%  
+	    Neue Datei		     539	he.js  0%  100%  
+	    Neue Datei		     345	it.js  0%  100%  
+	    Neue Datei		     487	ja.js  0%  100%  
+	    Neue Datei		     326	nl.js  0%  100%  
+	    Neue Datei		     309	no.js  0%  100%  
+	    Neue Datei		     382	pl.js  0%  100%  
+	    Neue Datei		     351	pt.js  0%  100%  
+	    Neue Datei		     347	sv.js  0%  100%  
+	    Neue Datei		     401	zh.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\Default\
+	    Neue Datei		     513	content.css  0%  100%  
+	    Neue Datei		    2105	ui.css  0%  100%  
+	 Neues Verz.       2	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\O2k7\
+	    Neue Datei		     461	content.css  0%  100%  
+	    Neue Datei		    2340	ui.css  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\O2k7\Img\
+	    Neue Datei		    5102	button_bg.png  0%  100%  
+	 Neues Verz.       9	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\
+	    Neue Datei		    2682	about.htm  0%  100%  
+	    Neue Datei		    1091	anchor.htm  0%  100%  
+	    Neue Datei		    2339	charmap.htm  0%  100%  
+	    Neue Datei		    3333	color_picker.htm  0%  100%  
+	    Neue Datei		   43516	editor_template_src.js  0%  100%  
+	    Neue Datei		    4046	image.htm  0%  100%  
+	    Neue Datei		    2547	link.htm  0%  100%  
+	    Neue Datei		    1730	shortcuts.htm  0%  100%  
+	    Neue Datei		    1382	source_editor.htm  0%  100%  
+	 Neues Verz.      11	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Img\
+	    Neue Datei		    2584	colorpicker.jpg  0%  100%  
+	    Neue Datei		     239	flash.gif  0%  100%  
+	    Neue Datei		   11982	icons.gif  0%  100%  
+	    Neue Datei		     600	iframe.gif  0%  100%  
+	    Neue Datei		     325	pagebreak.gif  0%  100%  
+	    Neue Datei		     301	quicktime.gif  0%  100%  
+	    Neue Datei		     439	realmedia.gif  0%  100%  
+	    Neue Datei		     384	shockwave.gif  0%  100%  
+	    Neue Datei		      43	trans.gif  0%  100%  
+	    Neue Datei		     597	video.gif  0%  100%  
+	    Neue Datei		     415	windowsmedia.gif  0%  100%  
+	 Neues Verz.       7	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Js\
+	    Neue Datei		    2203	about.js  0%  100%  
+	    Neue Datei		    1193	anchor.js  0%  100%  
+	    Neue Datei		   15793	charmap.js  0%  100%  
+	    Neue Datei		   14559	color_picker.js  0%  100%  
+	    Neue Datei		    6391	image.js  0%  100%  
+	    Neue Datei		    4884	link.js  0%  100%  
+	    Neue Datei		    1694	source_editor.js  0%  100%  
+	 Neues Verz.      30	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Langs\
+	    Neue Datei		    2109	da.js  0%  100%  
+	    Neue Datei		    1926	da_dlg.js  0%  100%  
+	    Neue Datei		    2265	de.js  0%  100%  
+	    Neue Datei		    1860	de_dlg.js  0%  100%  
+	    Neue Datei		    2488	en.js  0%  100%  
+	    Neue Datei		    2066	en_dlg.js  0%  100%  
+	    Neue Datei		    2491	en_us.js  0%  100%  
+	    Neue Datei		    2069	en_us_dlg.js  0%  100%  
+	    Neue Datei		    2232	es.js  0%  100%  
+	    Neue Datei		    1998	es_dlg.js  0%  100%  
+	    Neue Datei		    2294	fr.js  0%  100%  
+	    Neue Datei		    1964	fr_dlg.js  0%  100%  
+	    Neue Datei		    2209	he.js  0%  100%  
+	    Neue Datei		    1987	he_dlg.js  0%  100%  
+	    Neue Datei		    2669	it.js  0%  100%  
+	    Neue Datei		    2058	it_dlg.js  0%  100%  
+	    Neue Datei		    2727	ja.js  0%  100%  
+	    Neue Datei		    2429	ja_dlg.js  0%  100%  
+	    Neue Datei		    2823	ko.js  0%  100%  
+	    Neue Datei		    2147	ko_dlg.js  0%  100%  
+	    Neue Datei		    1946	nl.js  0%  100%  
+	    Neue Datei		    1768	nl_dlg.js  0%  100%  
+	    Neue Datei		    1948	no.js  0%  100%  
+	    Neue Datei		    1846	no_dlg.js  0%  100%  
+	    Neue Datei		    3405	ru.js  0%  100%  
+	    Neue Datei		    2725	ru_dlg.js  0%  100%  
+	    Neue Datei		    2012	sv.js  0%  100%  
+	    Neue Datei		    1912	sv_dlg.js  0%  100%  
+	    Neue Datei		    2409	zh.js  0%  100%  
+	    Neue Datei		    2070	zh_dlg.js  0%  100%  
+	 Neues Verz.       0	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\
+	 Neues Verz.       3	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\Umbraco\
+	    Neue Datei		    1367	content.css  0%  100%  
+	    Neue Datei		    5364	dialog.css  0%  100%  
+	    Neue Datei		   16035	ui.css  0%  100%  
+	 Neues Verz.       6	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\Umbraco\Img\
+	    Neue Datei		    4579	buttons.png  0%  100%  
+	    Neue Datei		      70	items.gif  0%  100%  
+	    Neue Datei		      68	menu_arrow.gif  0%  100%  
+	    Neue Datei		      70	menu_check.gif  0%  100%  
+	    Neue Datei		    1787	progress.gif  0%  100%  
+	    Neue Datei		    1326	tabs.gif  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tinymce3\Utils\
+	    Neue Datei		    2046	editable_selects.js  0%  100%  
+	    Neue Datei		    5991	form_utils.js  0%  100%  
+	    Neue Datei		    4055	mctabs.js  0%  100%  
+	    Neue Datei		    6100	validate.js  0%  100%  
+	 Neues Verz.      11	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tree\
+	    Neue Datei		    2638	jquery.tree.checkbox.js  0%  100%  
+	    Neue Datei		    9567	jquery.tree.contextmenu.js  0%  100%  
+	    Neue Datei		  114237	jquery.tree.js  0%  100%  
+	    Neue Datei		     548	jquery.tree.metadata.js  0%  100%  
+	    Neue Datei		    1642	menuIcons.css  0%  100%  
+	    Neue Datei		    1866	NodeDefinition.js  0%  100%  
+	    Neue Datei		   12897	sprites.png  0%  100%  
+	    Neue Datei		    7307	sprites_ie6.gif  0%  100%  
+	    Neue Datei		    2597	treeIcons.css  0%  100%  
+	    Neue Datei		    3662	UmbracoContext.js  0%  100%  
+	    Neue Datei		   55287	UmbracoTree.js  0%  100%  
+	 Neues Verz.       5	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tree\Themes\
+	    Neue Datei		      61	marker.gif  0%  100%  
+	    Neue Datei		      62	marker_rtl.gif  0%  100%  
+	    Neue Datei		      52	plus.gif  0%  100%  
+	    Neue Datei		     720	remove.png  0%  100%  
+	    Neue Datei		    3867	rename.png  0%  100%  
+	 Neues Verz.       4	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tree\Themes\Default\
+	    Neue Datei		      43	dot_for_ie.gif  0%  100%  
+	    Neue Datei		    6680	icons.png  0%  100%  
+	    Neue Datei		    2435	style.css  0%  100%  
+	    Neue Datei		    1844	throbber.gif  0%  100%  
+	 Neues Verz.      21	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Tree\Themes\Umbraco\
+	    Neue Datei		    1600	arrows.png  0%  100%  
+	    Neue Datei		    2910	check_0.png  0%  100%  
+	    Neue Datei		    3197	check_1.png  0%  100%  
+	    Neue Datei		    3283	check_2.png  0%  100%  
+	    Neue Datei		      35	context.gif  0%  100%  
+	    Neue Datei		      54	contextMenuBg.gif  0%  100%  
+	    Neue Datei		    3329	create.png  0%  100%  
+	    Neue Datei		      43	dot.gif  0%  100%  
+	    Neue Datei		    3237	f.png  0%  100%  
+	    Neue Datei		      60	fminus.gif  0%  100%  
+	    Neue Datei		      59	fminus_rtl.gif  0%  100%  
+	    Neue Datei		     108	fplus.gif  0%  100%  
+	    Neue Datei		     108	fplus_rtl.gif  0%  100%  
+	    Neue Datei		    6680	icons.png  0%  100%  
+	    Neue Datei		      55	lastli.gif  0%  100%  
+	    Neue Datei		      54	lastli_rtl.gif  0%  100%  
+	    Neue Datei		      47	li.gif  0%  100%  
+	    Neue Datei		     381	newVersion_overlay.png  0%  100%  
+	    Neue Datei		     282	protect_overlay.gif  0%  100%  
+	    Neue Datei		    5258	style.css  0%  100%  
+	    Neue Datei		    1844	throbber.gif  0%  100%  
+	 Neues Verz.      14	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Ui\
+	    Neue Datei		   52012	base2.js  0%  100%  
+	    Neue Datei		    4482	dd.css  0%  100%  
+	    Neue Datei		     138	dd_arrow.gif  0%  100%  
+	    Neue Datei		   13659	default.css  0%  100%  
+	    Neue Datei		    2324	default.js  0%  100%  
+	    Neue Datei		    1423	jquery.alphanumeric.js  0%  100%  
+	    Neue Datei		   51648	jquery.dd.js  0%  100%  
+	    Neue Datei		   94843	jquery.js  0%  100%  
+	    Neue Datei		    3581	jquery.tooltip.min.js  0%  100%  
+	    Neue Datei		  235652	jqueryui.js  0%   55%  100%  
+	    Neue Datei		    1943	jQueryWresize.js  0%  100%  
+	    Neue Datei		    3954	json2.js  0%  100%  
+	    Neue Datei		   41412	knockout.js  0%  100%  
+	    Neue Datei		    8687	knockout.mapping.js  0%  100%  
+	 Neues Verz.       1	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Ui\ui-lightness\
+	    Neue Datei		   33967	jquery-ui.custom.css  0%  100%  
+	 Neues Verz.      14	C:\Users\Andreas\Documents\Visual Studio 2013\Projects\Web\Tests\C#\Umbraco_Vol_1\packages\UmbracoCms.7.4.3\UmbracoFiles\Umbraco_Client\Ui\ui-lightness\images\
+	    Neue Datei		     260	ui-bg_diagonals-thick_18_b81900_40x40.png  0%  100%  
+	    Neue Datei		     251	ui-bg_diagonals-thick_20_666666_40x40.png  0%  100%  
+	    Neue Datei		     178	ui-bg_flat_10_000000_40x100.png  0%  100%  
+	    Neue Datei		     104	ui-bg_glass_100_f6f6f6_1x400.png  0%  100%  
+	    Neue Datei		     125	ui-bg_glass_100_fdf5ce_1x400.png  0%  100%  
+	    Neue Datei		     105	ui-bg_glass_65_ffffff_1x400.png  0%  100%  
+	    Neue Datei		    3762	ui-bg_gloss-wave_35_f6a828_500x100.png  0%  100%  
+	    Neue Datei		      90	ui-bg_highlight-soft_100_eeeeee_1x100.png  0%  100%  
+	    Neue Datei		     129	ui-bg_highlight-soft_75_ffe45c_1x100.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_222222_256x240.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_228ef1_256x240.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_ef8c08_256x240.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_ffd27a_256x240.png  0%  100%  
+	    Neue Datei		    4369	ui-icons_ffffff_256x240.png  0%  100%  
+
+------------------------------------------------------------------------------
+
+           Insgesamt   KopiertöbersprungenKeine öbereinstimmung    FEHLER    Extras
+Verzeich.:       204       203         0         0         0         0
+  Dateien:      1000      1000         0         0         0         0
+    Bytes:    6.23 m    6.23 m         0         0         0         0
+   Zeiten:   0:00:01   0:00:01                       0:00:00   0:00:00
+
+
+Geschwindigkeit:             4814974 Bytes/Sek.
+Geschwindigkeit:             275.515 Megabytes/Min.
+   Beendet: Mittwoch, 17. August 2016 15:27:19
+

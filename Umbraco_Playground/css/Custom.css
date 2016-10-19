@@ -1,0 +1,50 @@
+body
+
+h1
+{
+	font-size: xx-large;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: x-large;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-weight: bold;
+}
+
+/* Page Backgrounds */
+
+.container-fluid
+{
+	background-color: lightgray;
+}
+.container
+{
+    background-color: darkgray;
+}
+
+/* Menu */
+
+.menuItem
+{
+    color: black;
+}
+
+li.current
+{
+    /*font-size: medium;*/
+	font-weight: bold;
+}
+
+/* Contact Form */
+
+.contactFormTextBox
+{
+    width: 100%;
+}
+.pussy
+{
+    color: darkred
+}

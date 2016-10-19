@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Master.cshtml";
+}
+<div class="container-fluid">
+    <div class="container">
+        <h2>@CurrentPage.pageTitle</h2>
+        @CurrentPage.newsAbstract
+        <br />
+        <br />
+        @CurrentPage.newsText
+        <br />
+        <br />
+        Last Updated at: @Model.Content.UpdateDate.ToString("D") / Created at: @Model.Content.CreateDate.ToString("D")
+    </div>
+</div>

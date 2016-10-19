@@ -1,0 +1,78 @@
+﻿@using Umbraco.Web.Models
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@* Menu *@
+
+@{
+    var selection = CurrentPage.Site().Children.Where("Visible");
+    var subSelection = CurrentPage.Children().Where("Visible");
+
+    if (CurrentPage.DocumentTypeAlias == "contactFormula")
+    {
+        subSelection = CurrentPage.Parent.Children().Where("Visible");
+    }
+}
+
+<ul>
+    @{
+        var HomePage = Model.Content.AncestorOrSelf(1);
+
+        DynamicPublishedContent addressCollection = null;
+        DynamicPublishedContentList addressCollectionList = null;
+        
+        foreach (DynamicPublishedContent item in CurrentPage.Site().ContentSet)
+        {
+            if (item.Name == "Addresses")
+            {
+                addressCollection = item;
+                addressCollectionList = item.Children;
+                        
+                foreach (var address in addressCollection.Children)
+                {
+                    string haba = (string)address.Properties.FirstOrDefault(prp => prp.PropertyTypeAlias == "customerId").Value;
+                }
+                break;
+            }
+        }
+    }
+    <li class="@(CurrentPage.Name == "Home Page" ? "current" : null)">
+        <a href="@HomePage.Url" class="menuItem">@HomePage.Name</a>
+    </li>
+    @foreach (var item in selection)
+    {
+        <li class="@(item.IsAncestorOrSelf(CurrentPage) ? "current" : null)">
+            <a href="@item.Url" class="menuItem">@item.Name</a>
+        </li>
+    }
+    @if (CurrentPage.DocumentTypeAlias == "contactPage" | CurrentPage.DocumentTypeAlias == "contactFormula")
+    {
+        foreach (var subItem in subSelection)
+        {
+            <li class="@(subItem.IsAncestorOrSelf(CurrentPage) ? "current" : null)">
+                <a href="@subItem.Url" class="menuItem">- @subItem.Name</a>
+            </li>
+        }
+    }
+</ul>
+
+@* Search *@
+
+@{
+    var a1 = Model.Content.AncestorOrSelf(1).Children();
+    var a2 = Model.Content.AncestorOrSelf(2).Children();
+
+    var SearchResultsPage = Model.Content.AncestorOrSelf(1).Children().Where(x => x.DocumentTypeAlias == "searchResults").FirstOrDefault();
+
+}
+<div class="col-lg-5">
+    <form action="@SearchResultsPage.UrlAbsolute()" method="post" target="_self">
+        <div class="col-lg-10">
+            <input type="text" class="form-control" placeholder="Search" name="query" />
+        </div>
+        <div>
+            <button class="btn btn-default" type="submit" style="background-color:lightgray">
+                <span class="glyphicon glyphicon-search" />
+            </button>
+        </div>
+    </form>
+</div>

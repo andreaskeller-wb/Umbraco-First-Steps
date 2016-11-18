@@ -1,0 +1,70 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robustes Dateikopieren fÅr Windows                              
+-------------------------------------------------------------------------------
+
+  Gestartet: Freitag, 18. November 2016 16:28:31
+   Quelle : C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\Config\
+     Ziel : C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\App_Data\NuGetBackup\20161118-162831\Config\
+
+    Dateien : *.*
+	    
+  Optionen: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  18	C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\Config\
+	    Neue Datei		     305	404handlers.config  0%  100%  
+	    Neue Datei		     765	applications.config  0%  100%  
+	    Neue Datei		     739	BaseRestExtensions.config  0%  100%  
+	    Neue Datei		    3899	ClientDependency.config  0%  100%  
+	    Neue Datei		    3204	Dashboard.config  0%  100%  
+	    Neue Datei		    7088	EmbeddedMedia.config  0%  100%  
+	    Neue Datei		    1303	ExamineIndex.config  0%  100%  
+	    Neue Datei		    1834	ExamineSettings.config  0%  100%  
+	    Neue Datei		     429	feedProxy.config  0%  100%  
+	    Neue Datei		     286	FileSystemProviders.config  0%  100%  
+	    Neue Datei		    4379	grid.editors.config.js  0%  100%  
+	    Neue Datei		    1114	log4net.config  0%  100%  
+	    Neue Datei		      72	metablogConfig.config  0%  100%  
+	    Neue Datei		     837	scripting.config  0%  100%  
+	    Neue Datei		   12446	tinyMceConfig.config  0%  100%  
+	    Neue Datei		    6018	trees.config  0%  100%  
+	    Neue Datei		    8778	umbracoSettings.config  0%  100%  
+	    Neue Datei		     502	UrlRewriting.config  0%  100%  
+	 Neues Verz.      18	C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\Config\Lang\
+	    Neue Datei		      81	cs-CZ.user.xml  0%  100%  
+	    Neue Datei		      79	da-DK.user.xml  0%  100%  
+	    Neue Datei		      79	de-DE.user.xml  0%  100%  
+	    Neue Datei		      79	en-GB.user.xml  0%  100%  
+	    Neue Datei		      79	en-US.user.xml  0%  100%  
+	    Neue Datei		      79	es-ES.user.xml  0%  100%  
+	    Neue Datei		      79	fr-FR.user.xml  0%  100%  
+	    Neue Datei		      82	he-IL.user.xml  0%  100%  
+	    Neue Datei		      82	it-IT.user.xml  0%  100%  
+	    Neue Datei		      79	ja-JP.user.xml  0%  100%  
+	    Neue Datei		      82	ko-KR.user.xml  0%  100%  
+	    Neue Datei		      82	nb-NO.user.xml  0%  100%  
+	    Neue Datei		      79	nl-NL.user.xml  0%  100%  
+	    Neue Datei		      82	pl-PL.user.xml  0%  100%  
+	    Neue Datei		      82	pt-BR.user.xml  0%  100%  
+	    Neue Datei		      79	ru-RU.user.xml  0%  100%  
+	    Neue Datei		      82	sv-SE.user.xml  0%  100%  
+	    Neue Datei		      78	zh-CN.user.xml  0%  100%  
+	 Neues Verz.       2	C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\Config\splashes\
+	    Neue Datei		    1145	booting.aspx  0%  100%  
+	    Neue Datei		    2180	noNodes.aspx  0%  100%  
+
+------------------------------------------------------------------------------
+
+           Insgesamt   KopiertöbersprungenKeine öbereinstimmung    FEHLER    Extras
+Verzeich.:         3         2         0         0         0         0
+  Dateien:        38        38         0         0         0         0
+    Bytes:    57.3 k    57.3 k         0         0         0         0
+   Zeiten:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+Geschwindigkeit:              232280 Bytes/Sek.
+Geschwindigkeit:              13.291 Megabytes/Min.
+   Beendet: Freitag, 18. November 2016 16:28:32
+

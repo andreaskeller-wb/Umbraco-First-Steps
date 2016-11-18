@@ -106,3 +106,5 @@ C:\.NET Projects\Umbraco-First-Steps\Umbraco_Playground\bin\UmbracoExamine.xml
 C:\.NET Projects\Umbraco-First-Steps\Umbraco_Playground\obj\Debug\Umbraco_Playground.csprojResolveAssemblyReference.cache
 C:\.NET Projects\Umbraco-First-Steps\Umbraco_Playground\obj\Debug\Umbraco_Vol_1.dll
 C:\.NET Projects\Umbraco-First-Steps\Umbraco_Playground\obj\Debug\Umbraco_Vol_1.pdb
+C:\.NET Projects\Umbraco-First-Steps\Umbraco_Playground\bin\AutoMapper.pdb
+C:\.NET Projects\Umbraco-First-Steps\Umbraco_Playground\bin\AutoMapper.Net4.pdb

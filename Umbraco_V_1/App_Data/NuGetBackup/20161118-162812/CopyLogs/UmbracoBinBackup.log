@@ -1,0 +1,178 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robustes Dateikopieren fÅr Windows                              
+-------------------------------------------------------------------------------
+
+  Gestartet: Freitag, 18. November 2016 16:28:13
+   Quelle : C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\bin\
+     Ziel : C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\App_Data\NuGetBackup\20161118-162812\bin\
+
+    Dateien : *.*
+	    
+  Optionen: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                 126	C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\bin\
+	    Neue Datei		  144384	AutoMapper.dll  0%   90%  100%  
+	    Neue Datei		   28160	AutoMapper.Net4.dll  0%  100%  
+	    Neue Datei		   78138	AutoMapper.xml  0%  100%  
+	    Neue Datei		  118784	businesslogic.dll  0%  100%  
+	    Neue Datei		  122301	businesslogic.xml  0%  100%  
+	    Neue Datei		  146432	ClientDependency.Core.dll  0%   89%  100%  
+	    Neue Datei		   23552	ClientDependency.Core.Mvc.dll  0%  100%  
+	    Neue Datei		   75264	ClientDependency.Core.Mvc.pdb  0%  100%  
+	    Neue Datei		  378368	ClientDependency.Core.pdb  0%   34%   69%  100%  
+	    Neue Datei		  507904	cms.dll  0%   25%   51%   77%  100%  
+	    Neue Datei		  326903	cms.xml  0%   40%   80%  100%  
+	    Neue Datei		   51712	controls.dll  0%  100%  
+	    Neue Datei		    9068	controls.xml  0%  100%  
+	    Neue Datei		  122880	CookComputing.XmlRpcV2.dll  0%  100%  
+	    Neue Datei		   1.0 m	EPPlus.dll  0%   24%   49%   73%   98%  100%  
+	    Neue Datei		   99840	Examine.dll  0%  100%  
+	    Neue Datei		  265728	Examine.pdb  0%   49%   98%  100%  
+	    Neue Datei		    6144	Fanoe.dll  0%  100%  
+	    Neue Datei		   13312	formulate.api.dll  0%  100%  
+	    Neue Datei		   24064	formulate.api.pdb  0%  100%  
+	    Neue Datei		  197120	formulate.app.dll  0%   66%  100%  
+	    Neue Datei		  501248	formulate.app.pdb  0%   26%   52%   78%  100%  
+	    Neue Datei		   12800	formulate.core.dll  0%  100%  
+	    Neue Datei		   50688	formulate.core.pdb  0%  100%  
+	    Neue Datei		    4096	formulate.meta.dll  0%  100%  
+	    Neue Datei		    7680	formulate.meta.pdb  0%  100%  
+	    Neue Datei		  134656	HtmlAgilityPack.dll  0%   97%  100%  
+	    Neue Datei		  298496	HtmlAgilityPack.pdb  0%   43%   87%  100%  
+	    Neue Datei		  122991	HtmlAgilityPack.xml  0%  100%  
+	    Neue Datei		  200704	ICSharpCode.SharpZipLib.dll  0%   65%  100%  
+	    Neue Datei		  179200	ImageProcessor.dll  0%   73%  100%  
+	    Neue Datei		  114176	ImageProcessor.Web.dll  0%  100%  
+	    Neue Datei		   24576	interfaces.dll  0%  100%  
+	    Neue Datei		   11197	interfaces.xml  0%  100%  
+	    Neue Datei		  258048	log4net.dll  0%   50%  100%  
+	    Neue Datei		  786432	Lucene.Net.dll  0%   33%   66%  100%  
+	    Neue Datei		   1.5 m	Lucene.Net.xml  0%   16%   33%   49%   66%   82%   99%  100%  
+	    Neue Datei		   54784	MarkdownSharp.dll  0%  100%  
+	    Neue Datei		   11264	Microsoft.ApplicationBlocks.Data.dll  0%  100%  
+	    Neue Datei		  171672	Microsoft.AspNet.Identity.Core.dll  0%   76%  100%  
+	    Neue Datei		  124939	Microsoft.AspNet.Identity.Core.xml  0%  100%  
+	    Neue Datei		   54944	Microsoft.AspNet.Identity.Owin.dll  0%  100%  
+	    Neue Datei		   32939	Microsoft.AspNet.Identity.Owin.xml  0%  100%  
+	    Neue Datei		   3.8 m	Microsoft.CodeAnalysis.CSharp.dll  0%   13%   26%   39%   52%   65%   78%   91%  100%  
+	    Neue Datei		   2.0 m	Microsoft.CodeAnalysis.CSharp.xml  0%   24%   48%   72%   96%  100%  
+	    Neue Datei		   1.6 m	Microsoft.CodeAnalysis.dll  0%   15%   30%   45%   60%   76%   91%  100%  
+	    Neue Datei		   1.2 m	Microsoft.CodeAnalysis.xml  0%   19%   38%   58%   77%   97%  100%  
+	    Neue Datei		  101032	Microsoft.Owin.dll  0%  100%  
+	    Neue Datei		  133288	Microsoft.Owin.Host.SystemWeb.dll  0%   98%  100%  
+	    Neue Datei		   31372	Microsoft.Owin.Host.SystemWeb.xml  0%  100%  
+	    Neue Datei		   36520	Microsoft.Owin.Security.Cookies.dll  0%  100%  
+	    Neue Datei		   33265	Microsoft.Owin.Security.Cookies.xml  0%  100%  
+	    Neue Datei		   53416	Microsoft.Owin.Security.dll  0%  100%  
+	    Neue Datei		   77488	Microsoft.Owin.Security.OAuth.dll  0%  100%  
+	    Neue Datei		  111514	Microsoft.Owin.Security.OAuth.xml  0%  100%  
+	    Neue Datei		   30791	Microsoft.Owin.Security.xml  0%  100%  
+	    Neue Datei		  166973	Microsoft.Owin.xml  0%   78%  100%  
+	    Neue Datei		   45416	Microsoft.Web.Infrastructure.dll  0%  100%  
+	    Neue Datei		   81600	Microsoft.Web.XmlTransform.dll  0%  100%  
+	    Neue Datei		  396288	MiniProfiler.dll  0%   33%   66%   99%  100%  
+	    Neue Datei		  341504	MiniProfiler.pdb  0%   38%   76%  100%  
+	    Neue Datei		  230981	MiniProfiler.xml  0%   56%  100%  
+	    Neue Datei		  424448	MySql.Data.dll  0%   30%   61%   92%  100%  
+	    Neue Datei		  513536	Newtonsoft.Json.dll  0%   25%   51%   76%  100%  
+	    Neue Datei		  494336	Newtonsoft.Json.xml  0%   26%   53%   79%  100%  
+	    Neue Datei		    4608	Owin.dll  0%  100%  
+	    Neue Datei		    5632	ReferencedUserControl.dll  0%  100%  
+	    Neue Datei		   10240	Semver.dll  0%  100%  
+	    Neue Datei		   19968	SQLCE4Umbraco.dll  0%  100%  
+	    Neue Datei		   12991	SQLCE4Umbraco.xml  0%  100%  
+	    Neue Datei		  204544	System.Collections.Immutable.dll  0%   64%  100%  
+	    Neue Datei		  423820	System.Collections.Immutable.xml  0%   30%   61%   92%  100%  
+	    Neue Datei		  470696	System.Data.SqlServerCe.dll  0%   27%   55%   83%  100%  
+	    Neue Datei		  240808	System.Data.SqlServerCe.Entity.dll  0%   54%  100%  
+	    Neue Datei		  185544	System.Net.Http.Formatting.dll  0%   70%  100%  
+	    Neue Datei		  192626	System.Net.Http.Formatting.xml  0%   68%  100%  
+	    Neue Datei		  262896	System.Reflection.Metadata.dll  0%   49%   99%  100%  
+	    Neue Datei		  174072	System.Reflection.Metadata.xml  0%   75%  100%  
+	    Neue Datei		  139976	System.Web.Helpers.dll  0%   93%  100%  
+	    Neue Datei		   74850	System.Web.Helpers.xml  0%  100%  
+	    Neue Datei		  471240	System.Web.Http.dll  0%   27%   55%   83%  100%  
+	    Neue Datei		   82120	System.Web.Http.WebHost.dll  0%  100%  
+	    Neue Datei		   10367	System.Web.Http.WebHost.xml  0%  100%  
+	    Neue Datei		  539657	System.Web.Http.xml  0%   48%   97%  100%  
+	    Neue Datei		  566472	System.Web.Mvc.dll  0%   46%   92%  100%  
+	    Neue Datei		  952428	System.Web.Mvc.xml  0%   27%   55%   82%  100%  
+	    Neue Datei		  272072	System.Web.Razor.dll  0%   48%   96%  100%  
+	    Neue Datei		  522146	System.Web.Razor.xml  0%   25%   50%   75%  100%  
+	    Neue Datei		   41672	System.Web.WebPages.Deployment.dll  0%  100%  
+	    Neue Datei		    4867	System.Web.WebPages.Deployment.xml  0%  100%  
+	    Neue Datei		  211656	System.Web.WebPages.dll  0%   61%  100%  
+	    Neue Datei		   39624	System.Web.WebPages.Razor.dll  0%  100%  
+	    Neue Datei		   25222	System.Web.WebPages.Razor.xml  0%  100%  
+	    Neue Datei		  234716	System.Web.WebPages.xml  0%   55%  100%  
+	    Neue Datei		  192512	TidyNet.dll  0%   68%  100%  
+	    Neue Datei		   2.3 m	Umbraco.Core.dll  0%   20%   41%   62%   83%  100%  
+	    Neue Datei		   1.7 m	Umbraco.Core.xml  0%   14%   28%   43%   57%   71%   86%  100%  
+	    Neue Datei		   38400	umbraco.DataLayer.dll  0%  100%  
+	    Neue Datei		  115002	umbraco.DataLayer.xml  0%  100%  
+	    Neue Datei		   2.0 m	umbraco.dll  0%   24%   48%   73%   97%  100%  
+	    Neue Datei		  372736	umbraco.editorControls.dll  0%   35%   70%  100%  
+	    Neue Datei		  170154	umbraco.editorControls.xml  0%   77%  100%  
+	    Neue Datei		    5632	Umbraco.Helpers_V2.dll  0%  100%  
+	    Neue Datei		   13824	Umbraco.Helpers_V2.pdb  0%  100%  
+	    Neue Datei		   98304	Umbraco.Licensing.dll  0%  100%  
+	    Neue Datei		  131584	umbraco.MacroEngines.dll  0%   99%  100%  
+	    Neue Datei		    5678	umbraco.MacroEngines.xml  0%  100%  
+	    Neue Datei		   95744	Umbraco.ModelsBuilder.dll  0%  100%  
+	    Neue Datei		  214528	Umbraco.ModelsBuilder.pdb  0%   61%  100%  
+	    Neue Datei		   38400	umbraco.providers.dll  0%  100%  
+	    Neue Datei		   51453	umbraco.providers.xml  0%  100%  
+	    Neue Datei		   57344	Umbraco.Web.UI.dll  0%  100%  
+	    Neue Datei		   47433	Umbraco.Web.UI.xml  0%  100%  
+	    Neue Datei		   1.4 m	umbraco.xml  0%   17%   35%   53%   71%   89%  100%  
+	    Neue Datei		   58880	UmbracoExamine.dll  0%  100%  
+	    Neue Datei		   39684	UmbracoExamine.xml  0%  100%  
+	    Neue Datei		   17408	Umbraco_Vol_1.dll  0%  100%  
+	    Neue Datei		   29861	Umbraco_Vol_1.dll.config  0%  100%  
+	    Neue Datei		   28160	Umbraco_Vol_1.pdb  0%  100%  
+	    Neue Datei		   22528	UrlRewritingNet.UrlRewriter.dll  0%  100%  
+	    Neue Datei		    5632	Workbooster.Common.Umbraco.Helpers.dll  0%  100%  
+	    Neue Datei		   13824	Workbooster.Common.Umbraco.Helpers.pdb  0%  100%  
+	    Neue Datei		    5632	Workbooster.Umbraco.Helpers.dll  0%  100%  
+	    Neue Datei		   15872	Workbooster.Umbraco.Helpers.pdb  0%  100%  
+	    Neue Datei		   13312	Workbooster.UmbracoDynamicWebservice.Interfaces.dll  0%  100%  
+	    Neue Datei		   22016	Workbooster.UmbracoDynamicWebservice.Plugin.dll  0%  100%  
+	 Neues Verz.       6	C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\bin\amd64\
+	    Neue Datei		  464040	sqlceca40.dll  0%   28%   56%   84%  100%  
+	    Neue Datei		  107176	sqlcecompact40.dll  0%  100%  
+	    Neue Datei		  155304	sqlceer40EN.dll  0%   84%  100%  
+	    Neue Datei		   81576	sqlceme40.dll  0%  100%  
+	    Neue Datei		  909992	sqlceqp40.dll  0%   28%   57%   86%  100%  
+	    Neue Datei		  562344	sqlcese40.dll  0%   46%   93%  100%  
+	 Neues Verz.       3	C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\bin\amd64\Microsoft.VC90.CRT\
+	    Neue Datei		    1862	Microsoft.VC90.CRT.manifest  0%  100%  
+	    Neue Datei		  624448	msvcr90.dll  0%   41%   83%  100%  
+	    Neue Datei		     406	README_ENU.txt  0%  100%  
+	 Neues Verz.       6	C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\bin\x86\
+	    Neue Datei		  350376	sqlceca40.dll  0%   37%   74%  100%  
+	    Neue Datei		   91304	sqlcecompact40.dll  0%  100%  
+	    Neue Datei		  154792	sqlceer40EN.dll  0%   84%  100%  
+	    Neue Datei		   67752	sqlceme40.dll  0%  100%  
+	    Neue Datei		  643240	sqlceqp40.dll  0%   40%   81%  100%  
+	    Neue Datei		  406696	sqlcese40.dll  0%   32%   64%   96%  100%  
+	 Neues Verz.       3	C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\bin\x86\Microsoft.VC90.CRT\
+	    Neue Datei		    1860	Microsoft.VC90.CRT.manifest  0%  100%  
+	    Neue Datei		  653120	msvcr90.dll  0%   40%   80%  100%  
+	    Neue Datei		     406	README_ENU.txt  0%  100%  
+
+------------------------------------------------------------------------------
+
+           Insgesamt   KopiertöbersprungenKeine öbereinstimmung    FEHLER    Extras
+Verzeich.:         5         4         0         0         0         0
+  Dateien:       144       144         0         0         0         0
+    Bytes:   40.65 m   40.65 m         0         0         0         0
+   Zeiten:   0:00:03   0:00:03                       0:00:00   0:00:00
+
+
+Geschwindigkeit:            13632386 Bytes/Sek.
+Geschwindigkeit:             780.051 Megabytes/Min.
+   Beendet: Freitag, 18. November 2016 16:28:16
+

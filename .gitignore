@@ -6,3 +6,7 @@
 /Umbraco_V_1/App_Data/TEMP
 /InterfaceBooster_ServerInstance/environment
 /InterfaceBooster_ServerInstance/runtime
+/Umbraco_Playground/App_Data/Logs
+/Umbraco_Playground/App_Data/NuGetBackup
+/Umbraco_Playground/bin/*.pdb
+/Umbraco_Playground/App_Data/cache

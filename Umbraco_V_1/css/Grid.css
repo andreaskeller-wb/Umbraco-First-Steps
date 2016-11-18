@@ -1,0 +1,33 @@
+.Grid-table {
+    background-color: white;
+    display: table;
+    border: solid 1px #98BF21;
+}
+
+.Grid-table-table td, th {
+    border: 1px solid #98BF21;
+    padding: 3px 7px 2px;
+}
+
+.Grid-Header td th {
+    background-color: #A7C942;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.Grid-alt {
+    background-color: #EAF2D3;
+    padding: 3px 7px 2px;
+}
+
+.Grid-selected {
+    background-color: blue;
+}
+
+.Grid-rowstyle {
+    padding: 3px 7px 2px;
+}
+
+.Grid-Footer {
+    background-color: aqua;
+}

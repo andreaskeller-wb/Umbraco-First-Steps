@@ -1,0 +1,1234 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robustes Dateikopieren fÅr Windows                              
+-------------------------------------------------------------------------------
+
+  Gestartet: Freitag, 18. November 2016 16:29:19
+   Quelle : C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\
+     Ziel : C:\.NET Projects\Umbraco-First-Steps\Umbraco_V_1\Umbraco_Client\
+
+    Dateien : *.*
+	    
+  Optionen: *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\
+	                   7	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Application\
+	         Neuer		   13503	Extensions.js  0%  100%  
+	         Neuer		    2417	HistoryManager.js  0%  100%  
+	         Neuer		     839	NamespaceManager.js  0%  100%  
+	         Neuer		   21956	UmbracoApplicationActions.js  0%  100%  
+	         Neuer		   12833	UmbracoClientManager.js  0%  100%  
+	         Neuer		     374	UmbracoUtils.js  0%  100%  
+	         Neuer		    2060	UrlEncoder.js  0%  100%  
+	                  12	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Application\JQuery\
+	         Neuer		    2057	jquery-fieldselection.js  0%  100%  
+	         Neuer		   30336	jquery.autocomplete.js  0%  100%  
+	         Neuer		    5941	jquery.ba-bbq.min.js  0%  100%  
+	         Neuer		    4344	jquery.cookie.js  0%  100%  
+	         Neuer		    3178	jquery.hotkeys.js  0%  100%  
+	         Neuer		    6992	jquery.idle-timer.js  0%  100%  
+	         Neuer		    1304	jquery.metadata.min.js  0%  100%  
+	         Neuer		     165	jquery.noconflict-invoke.js  0%  100%  
+	         Neuer		    2749	jquery.unobtrusive-ajax.min.js  0%  100%  
+	         Neuer		   21496	jquery.validate.min.js  0%  100%  
+	         Neuer		    3745	jquery.validate.unobtrusive.min.js  0%  100%  
+	         Neuer		     255	VerticalAlign.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\CodeArea\
+	         Neuer		    6126	javascript.js  0%  100%  
+	         Neuer		     305	styles.css  0%  100%  
+	         Neuer		    6997	UmbracoEditor.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Colorpicker\
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Colorpicker\Css\
+	         Neuer		    3367	colorpicker.css  0%  100%  
+	                  26	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Colorpicker\Images\
+	         Neuer		      49	blank.gif  0%  100%  
+	         Neuer		    1897	colorpicker_background.png  0%  100%  
+	         Neuer		     532	colorpicker_hex.png  0%  100%  
+	         Neuer		     970	colorpicker_hsb_b.png  0%  100%  
+	         Neuer		    1012	colorpicker_hsb_h.png  0%  100%  
+	         Neuer		    1171	colorpicker_hsb_s.png  0%  100%  
+	         Neuer		      86	colorpicker_indic.gif  0%  100%  
+	         Neuer		   10355	colorpicker_overlay.png  0%  100%  
+	         Neuer		     970	colorpicker_rgb_b.png  0%  100%  
+	         Neuer		    1069	colorpicker_rgb_g.png  0%  100%  
+	         Neuer		    1066	colorpicker_rgb_r.png  0%  100%  
+	         Neuer		      78	colorpicker_select.gif  0%  100%  
+	         Neuer		     984	colorpicker_submit.png  0%  100%  
+	         Neuer		    1916	custom_background.png  0%  100%  
+	         Neuer		     562	custom_hex.png  0%  100%  
+	         Neuer		    1097	custom_hsb_b.png  0%  100%  
+	         Neuer		     970	custom_hsb_h.png  0%  100%  
+	         Neuer		    1168	custom_hsb_s.png  0%  100%  
+	         Neuer		      86	custom_indic.gif  0%  100%  
+	         Neuer		    1008	custom_rgb_b.png  0%  100%  
+	         Neuer		    1069	custom_rgb_g.png  0%  100%  
+	         Neuer		    1018	custom_rgb_r.png  0%  100%  
+	         Neuer		     997	custom_submit.png  0%  100%  
+	         Neuer		     506	select.png  0%  100%  
+	         Neuer		     518	select2.png  0%  100%  
+	         Neuer		     315	slider.png  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Colorpicker\Js\
+	         Neuer		   17175	colorpicker.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\ContextMenu\
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\ContextMenu\Css\
+	         Neuer		    4026	jquery.contextMenu.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\ContextMenu\Js\
+	         Neuer		   62773	jquery.contextMenu.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Datepicker\
+	                  10	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Datepicker\Aqua\
+	         Neuer		      89	active-bg.gif  0%  100%  
+	         Neuer		      85	dark-bg.gif  0%  100%  
+	         Neuer		      89	hover-bg.gif  0%  100%  
+	         Neuer		      49	menuarrow.gif  0%  100%  
+	         Neuer		     110	normal-bg.gif  0%  100%  
+	         Neuer		     110	rowhover-bg.gif  0%  100%  
+	         Neuer		     116	status-bg.gif  0%  100%  
+	         Neuer		    4941	theme.css  0%  100%  
+	         Neuer		     116	title-bg.gif  0%  100%  
+	         Neuer		    1122	today-bg.gif  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Datepicker\Images\
+	         Neuer		     674	calPickerIcon.png  0%  100%  
+	         Neuer		     633	calPickerIconHover.png  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\DateTimePicker\
+	         Neuer		   20315	datetimepicker.css  0%  100%  
+	         Neuer		   13311	timepicker.js  0%  100%  
+	         Neuer		    1939	umbDateTimePicker.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\DateTimePicker\Images\
+	         Neuer		    1110	calSprite.png  0%  100%  
+	         Neuer		    8673	ui-icons_666666_256x240.png  0%  100%  
+	         Neuer		    8641	ui-icons_999999_256x240.png  0%  100%  
+	                  10	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Dialogs\
+	         Neuer		     362	AssignDomain2.css  0%  100%  
+	         Neuer		    5351	AssignDomain2.js  0%  100%  
+	         Neuer		     212	CreateDialog.css  0%  100%  
+	         Neuer		     316	EditMacro.css  0%  100%  
+	         Neuer		    7379	EditMacro.js  0%  100%  
+	         Neuer		     362	PublishDialog.css  0%  100%  
+	         Neuer		    3481	PublishDialog.js  0%  100%  
+	         Neuer		    1171	SortDialog.css  0%  100%  
+	         Neuer		    4674	SortDialog.js  0%  100%  
+	         Neuer		    6012	UmbracoField.js  0%  100%  
+	                   9	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Editors\
+	         Neuer		     486	DirectoryBrowser.css  0%  100%  
+	         Neuer		     703	EditMacro.css  0%  100%  
+	         Neuer		    3039	EditMacroScripts.js  0%  100%  
+	         Neuer		    4183	EditScript.js  0%  100%  
+	         Neuer		    3796	EditStyleSheet.js  0%  100%  
+	         Neuer		    6259	EditTemplate.js  0%  100%  
+	         Neuer		   11260	EditView.js  0%  100%  
+	         Neuer		     161	EditXslt.css  0%  100%  
+	         Neuer		    3008	EditXslt.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\FileUploader\
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\FileUploader\Js\
+	         Neuer		   16856	jquery.fileUploader.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\FolderBrowser\
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\FolderBrowser\Css\
+	         Neuer		    5366	folderbrowser.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\FolderBrowser\Js\
+	         Neuer		   18665	folderbrowser.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\IconPicker\
+	         Neuer		      52	iconpicker.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Imagecropper\
+	         Neuer		     329	Jcrop.gif  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Images\
+	         Neuer		   10819	progressbar.gif  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Installer\
+	                   5	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Installer\Css\
+	         Neuer		   23469	all.css  0%  100%  
+	         Neuer		    1314	form.css  0%  100%  
+	         Neuer		   20078	jquery-ui-1.8.6.custom.css  0%  100%  
+	         Neuer		    7958	lt7.css  0%  100%  
+	         Neuer		     967	reset.css  0%  100%  
+	                  98	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Installer\Images\
+	  *EXTRA Datei		    6144	Thumbs.db
+	         Neuer		   19424	bg-bhuiness-cl.gif  0%  100%  
+	         Neuer		   46684	bg-bhuiness-cr.gif  0%  100%  
+	         Neuer		  184850	bg-bhuiness.jpg  0%   70%  100%  
+	         Neuer		   18564	bg-blog-cl.gif  0%  100%  
+	         Neuer		   50756	bg-blog-cr.gif  0%  100%  
+	         Neuer		   11078	bg-blog-repeat.jpg  0%  100%  
+	         Neuer		  187609	bg-blog.jpg  0%   69%  100%  
+	         Neuer		     387	bg-drop-b.png  0%  100%  
+	         Neuer		      84	bg-drop-c.gif  0%  100%  
+	         Neuer		     391	bg-drop-t.png  0%  100%  
+	         Neuer		     158	bg-header.png  0%  100%  
+	         Neuer		    3915	bg-img-ie.png  0%  100%  
+	         Neuer		    2452	bg-img.png  0%  100%  
+	         Neuer		     866	bg-inp-big.png  0%  100%  
+	         Neuer		     616	bg-inp-error.png  0%  100%  
+	         Neuer		     621	bg-inp.png  0%  100%  
+	         Neuer		     283	bg-lightbox-b.png  0%  100%  
+	         Neuer		     296	bg-lightbox-t.png  0%  100%  
+	         Neuer		   18097	bg-normal-cl.gif  0%  100%  
+	         Neuer		   46703	bg-normal-cr.gif  0%  100%  
+	         Neuer		    9811	bg-normal-repeat.jpg  0%  100%  
+	         Neuer		  178356	bg-normal.jpg  0%   73%  100%  
+	         Neuer		     366	bg-paging-h.png  0%  100%  
+	         Neuer		     346	bg-paging.png  0%  100%  
+	         Neuer		   18097	bg-personal-cl.gif  0%  100%  
+	         Neuer		   46703	bg-personal-cr.gif  0%  100%  
+	         Neuer		    9811	bg-personal-repeat.jpg  0%  100%  
+	         Neuer		  178356	bg-personal.jpg  0%   73%  100%  
+	         Neuer		   17705	bg-simple-cl.gif  0%  100%  
+	         Neuer		   42137	bg-simple-cr.gif  0%  100%  
+	         Neuer		   12773	bg-simple-repeat.jpg  0%  100%  
+	         Neuer		  216794	bg-simple.jpg  0%   60%  100%  
+	         Neuer		    6059	btn-accept.png  0%  100%  
+	         Neuer		    2708	btn-back.png  0%  100%  
+	         Neuer		   22650	btn-blog.png  0%  100%  
+	         Neuer		   16942	btn-buisness-repeat.png  0%  100%  
+	         Neuer		   26481	btn-buisness.png  0%  100%  
+	         Neuer		    1682	btn-close.png  0%  100%  
+	         Neuer		    3113	btn-confirm.png  0%  100%  
+	         Neuer		    3500	btn-continue.png  0%  100%  
+	         Neuer		    2243	btn-create-hover.png  0%  100%  
+	         Neuer		    4277	btn-create.png  0%  100%  
+	         Neuer		    6109	btn-get.png  0%  100%  
+	         Neuer		    6446	btn-install-gal.png  0%  100%  
+	         Neuer		    1484	btn-install-hover.png  0%  100%  
+	         Neuer		    2789	btn-install.png  0%  100%  
+	         Neuer		     952	btn-next.png  0%  100%  
+	         Neuer		   25962	btn-no-thanks.png  0%  100%  
+	         Neuer		    1898	btn-no.png  0%  100%  
+	         Neuer		   30788	btn-personal.png  0%  100%  
+	         Neuer		     958	btn-prev.png  0%  100%  
+	         Neuer		    7219	btn-preview-web.png  0%  100%  
+	         Neuer		    8978	btn-preview.png  0%  100%  
+	         Neuer		    6976	btn-set.png  0%  100%  
+	         Neuer		   28477	btn-simple.png  0%  100%  
+	         Neuer		    2380	btn-yes.png  0%  100%  
+	         Neuer		     205	bul1.png  0%  100%  
+	         Neuer		      46	bul2.gif  0%  100%  
+	         Neuer		     240	bul3.png  0%  100%  
+	         Neuer		      74	bul4.gif  0%  100%  
+	         Neuer		     467	ico-invalidaing.png  0%  100%  
+	         Neuer		     437	ico-validaing.png  0%  100%  
+	         Neuer		    3189	img01.jpg  0%  100%  
+	         Neuer		    3533	img02.jpg  0%  100%  
+	         Neuer		    6205	img03.jpg  0%  100%  
+	         Neuer		    5029	img04.jpg  0%  100%  
+	         Neuer		    6113	img05.jpg  0%  100%  
+	         Neuer		    4408	img06.jpg  0%  100%  
+	         Neuer		    5924	img07.jpg  0%  100%  
+	         Neuer		    4535	img08.jpg  0%  100%  
+	         Neuer		   16018	img09.jpg  0%  100%  
+	         Neuer		    4173	img10.jpg  0%  100%  
+	         Neuer		    6618	img11.jpg  0%  100%  
+	         Neuer		    2113	loader.gif  0%  100%  
+	         Neuer		    1445	logo.gif  0%  100%  
+	         Neuer		      43	none.gif  0%  100%  
+	         Neuer		  304064	pbar-ani.gif  0%   43%   86%  100%  
+	         Neuer		    1026	pbar.gif  0%  100%  
+	         Neuer		     491	select-button.png  0%  100%  
+	         Neuer		     199	select-center.png  0%  100%  
+	         Neuer		     816	select-left-2.png  0%  100%  
+	         Neuer		     401	select-left.png  0%  100%  
+	         Neuer		     110	sep1.png  0%  100%  
+	         Neuer		     260	ui-bg_diagonals-thick_18_b81900_40x40.png  0%  100%  
+	         Neuer		     251	ui-bg_diagonals-thick_20_666666_40x40.png  0%  100%  
+	         Neuer		     178	ui-bg_flat_10_000000_40x100.png  0%  100%  
+	         Neuer		     104	ui-bg_glass_100_f6f6f6_1x400.png  0%  100%  
+	         Neuer		     125	ui-bg_glass_100_fdf5ce_1x400.png  0%  100%  
+	         Neuer		     105	ui-bg_glass_65_ffffff_1x400.png  0%  100%  
+	         Neuer		    3762	ui-bg_gloss-wave_35_f6a828_500x100.png  0%  100%  
+	         Neuer		      90	ui-bg_highlight-soft_100_eeeeee_1x100.png  0%  100%  
+	         Neuer		     129	ui-bg_highlight-soft_75_ffe45c_1x100.png  0%  100%  
+	         Neuer		    4369	ui-icons_222222_256x240.png  0%  100%  
+	         Neuer		    4369	ui-icons_228ef1_256x240.png  0%  100%  
+	         Neuer		    4369	ui-icons_ef8c08_256x240.png  0%  100%  
+	         Neuer		    4369	ui-icons_ffd27a_256x240.png  0%  100%  
+	         Neuer		    4369	ui-icons_ffffff_256x240.png  0%  100%  
+	         Neuer		    1207	zoom-in.png  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Installer\Js\
+	  *EXTRA Datei		   94332	jquery.1.4.4.js
+	         Neuer		    7058	ie-png.js  0%  100%  
+	         Neuer		   62130	jquery.main.js  0%  100%  
+	         Neuer		   19146	jquery.ui.selectmenu.js  0%  100%  
+	         Neuer		    9543	PackageInstaller.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Jeditable\
+	         Neuer		   24034	jquery.jeditable.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\MacroContainer\
+	         Neuer		     666	macroContainer.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\MaskedInput\
+	         Neuer		    4028	jquery.maskedinput-1.3.min.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Menuicon\
+	         Neuer		     571	style.css  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Menuicon\Images\
+	         Neuer		     273	buttonbg.gif  0%  100%  
+	         Neuer		     273	buttonbgdown.gif  0%  100%  
+	         Neuer		     851	split.gif  0%  100%  
+	                   5	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Modal\
+	         Neuer		   24893	jquery.simplemodal.1.4.1.custom.js  0%  100%  
+	         Neuer		   20746	modal.js  0%  100%  
+	         Neuer		     475	modalBackground.gif  0%  100%  
+	         Neuer		     151	modalGradiant.gif  0%  100%  
+	         Neuer		    1417	style.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Mousewheel\
+	         Neuer		    1638	jquery.mousewheel.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Panel\
+	         Neuer		     240	javascript.js  0%  100%  
+	         Neuer		    2608	style.css  0%  100%  
+	                   6	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Panel\Images\
+	         Neuer		      98	panel_bg.gif  0%  100%  
+	         Neuer		      43	panel_boxfooter_bg.gif  0%  100%  
+	         Neuer		     162	panel_boxfooter_statusBar_bg.gif  0%  100%  
+	         Neuer		     164	panel_boxfooter_statusBar_h2_bg.gif  0%  100%  
+	         Neuer		     194	panel_boxhead_bg.gif  0%  100%  
+	         Neuer		     193	panel_boxhead_h2_bg.gif  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Preview\
+	         Neuer		    3508	previewModeBadge.png  0%  100%  
+	         Neuer		     169	umbracoPreview.css  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\ProgressBar\
+	         Neuer		     795	javascript.js  0%  100%  
+	         Neuer		     524	style.css  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\ProgressBar\Images\
+	         Neuer		     314	container_left.gif  0%  100%  
+	         Neuer		     102	container_right.gif  0%  100%  
+	         Neuer		     113	indicator.gif  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Propertypane\
+	         Neuer		    2000	style.css  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Propertypane\Images\
+	         Neuer		    9038	propertyBackground.gif  0%  100%  
+	         Neuer		     554	proppane_bg.png  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\PunyCode\
+	         Neuer		    2802	punycode.min.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Scrollingmenu\
+	         Neuer		    2851	javascript.js  0%  100%  
+	         Neuer		     255	style.css  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Scrollingmenu\Images\
+	         Neuer		     834	arrawBack.gif  0%  100%  
+	         Neuer		     834	arrowForward.gif  0%  100%  
+	         Neuer		     183	background.gif  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Scrollingmenu\Images\Button\
+	         Neuer		     273	buttonbg.gif  0%  100%  
+	         Neuer		     273	buttonbgdown.gif  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\SimpleEditor\
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\SimpleEditor\Images\
+	         Neuer		      78	bold.gif  0%  100%  
+	         Neuer		      73	italic.gif  0%  100%  
+	         Neuer		     108	link.gif  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Splitbutton\
+	         Neuer		    2245	InsertMacroSplitButton.js  0%  100%  
+	         Neuer		   18462	jquery.splitbutton.js  0%  100%  
+	         Neuer		    2773	splitbutton.css  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Splitbutton\Images\
+	         Neuer		     130	splitbutton_downarrow.png  0%  100%  
+	         Neuer		     149	splitbutton_hover.png  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tablesorting\
+	         Neuer		   16523	jquery.tablesorter.min.js  0%  100%  
+	         Neuer		   18249	tableDragAndDrop.js  0%  100%  
+	         Neuer		   23499	tableFilter.js  0%  100%  
+	         Neuer		   12838	tableFilterUtill.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tablesorting\img\
+	         Neuer		     830	asc.gif  0%  100%  
+	         Neuer		      73	bg.gif  0%  100%  
+	         Neuer		     833	desc.gif  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tabview\
+	         Neuer		    3721	javascript.js  0%  100%  
+	         Neuer		    1589	oldstyle.css  0%  100%  
+	         Neuer		    2633	style.css  0%  100%  
+	                   7	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tabview\Images\
+	         Neuer		     169	background.gif  0%  100%  
+	         Neuer		      73	bg.gif  0%  100%  
+	         Neuer		      43	footer_bg.gif  0%  100%  
+	         Neuer		     162	footer_statusBar_bg.gif  0%  100%  
+	         Neuer		     164	footer_statusBar_h2_bg.gif  0%  100%  
+	         Neuer		    1343	left_both.gif  0%  100%  
+	         Neuer		    3913	right_both.gif  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tags\
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tags\Css\
+	         Neuer		    1117	jquery.tagsinput.css  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tags\Js\
+	         Neuer		   11891	jquery.tagsinput.js  0%  100%  
+	         Neuer		    6400	jquery.tagsinput.min.js  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\
+	         Neuer		   26930	license.txt  0%  100%  
+	         Neuer		  232483	tiny_mce.js  0%   56%  100%  
+	         Neuer		    4912	tiny_mce_popup.js  0%  100%  
+	         Neuer		  524361	tiny_mce_src.js  0%   49%   99%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Langs\
+	         Neuer		    7049	da.js  0%  100%  
+	         Neuer		    7251	de.js  0%  100%  
+	         Neuer		    6515	en.js  0%  100%  
+	         Neuer		    6518	en_us.js  0%  100%  
+	         Neuer		    7711	fi.js  0%  100%  
+	         Neuer		    7765	fr.js  0%  100%  
+	         Neuer		   15279	he.js  0%  100%  
+	         Neuer		    7010	it.js  0%  100%  
+	         Neuer		   11301	ja.js  0%  100%  
+	         Neuer		    6635	nl.js  0%  100%  
+	         Neuer		    6958	no.js  0%  100%  
+	         Neuer		    7897	pl.js  0%  100%  
+	         Neuer		    7053	pt.js  0%  100%  
+	         Neuer		   19794	ru.js  0%  100%  
+	         Neuer		    6966	sv.js  0%  100%  
+	         Neuer		    8432	zh.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\
+	         Neuer		     847	editor_plugin.js  0%  100%  
+	         Neuer		    1442	editor_plugin_src.js  0%  100%  
+	         Neuer		    2422	rule.htm  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Css\
+	         Neuer		     240	advhr.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Js\
+	         Neuer		    1322	rule.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Langs\
+	         Neuer		     127	da_dlg.js  0%  100%  
+	         Neuer		     129	de_dlg.js  0%  100%  
+	         Neuer		     117	en_dlg.js  0%  100%  
+	         Neuer		     120	en_us_dlg.js  0%  100%  
+	         Neuer		     128	fi_dlg.js  0%  100%  
+	         Neuer		     129	fr_dlg.js  0%  100%  
+	         Neuer		     225	he_dlg.js  0%  100%  
+	         Neuer		     138	it_dlg.js  0%  100%  
+	         Neuer		     146	ja_dlg.js  0%  100%  
+	         Neuer		     126	nl_dlg.js  0%  100%  
+	         Neuer		     127	no_dlg.js  0%  100%  
+	         Neuer		     150	pl_dlg.js  0%  100%  
+	         Neuer		     120	pt_dlg.js  0%  100%  
+	         Neuer		     342	ru_dlg.js  0%  100%  
+	         Neuer		     125	sv_dlg.js  0%  100%  
+	         Neuer		     142	zh_dlg.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\
+	         Neuer		     791	editor_plugin.js  0%  100%  
+	         Neuer		    1391	editor_plugin_src.js  0%  100%  
+	         Neuer		   12086	image.htm  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Css\
+	         Neuer		     672	advimage.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Img\
+	         Neuer		    1624	sample.gif  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Js\
+	         Neuer		   12909	image.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Langs\
+	         Neuer		    1352	da_dlg.js  0%  100%  
+	         Neuer		    1363	de_dlg.js  0%  100%  
+	         Neuer		    1270	en_dlg.js  0%  100%  
+	         Neuer		    1273	en_us_dlg.js  0%  100%  
+	         Neuer		    1387	fi_dlg.js  0%  100%  
+	         Neuer		    1508	fr_dlg.js  0%  100%  
+	         Neuer		    2771	he_dlg.js  0%  100%  
+	         Neuer		    1467	it_dlg.js  0%  100%  
+	         Neuer		    2319	ja_dlg.js  0%  100%  
+	         Neuer		    1267	nl_dlg.js  0%  100%  
+	         Neuer		    1312	no_dlg.js  0%  100%  
+	         Neuer		    1467	pl_dlg.js  0%  100%  
+	         Neuer		    1374	pt_dlg.js  0%  100%  
+	         Neuer		    4924	ru_dlg.js  0%  100%  
+	         Neuer		    1266	sv_dlg.js  0%  100%  
+	         Neuer		    1761	zh_dlg.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\
+	         Neuer		     973	editor_plugin.js  0%  100%  
+	         Neuer		    1633	editor_plugin_src.js  0%  100%  
+	         Neuer		   16123	link.htm  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Css\
+	         Neuer		     480	advlink.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Js\
+	         Neuer		   17341	advlink.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Langs\
+	         Neuer		    1944	da_dlg.js  0%  100%  
+	         Neuer		    1955	de_dlg.js  0%  100%  
+	         Neuer		    1667	en_dlg.js  0%  100%  
+	         Neuer		    1670	en_us_dlg.js  0%  100%  
+	         Neuer		    1985	fi_dlg.js  0%  100%  
+	         Neuer		    2120	fr_dlg.js  0%  100%  
+	         Neuer		    4332	he_dlg.js  0%  100%  
+	         Neuer		    1864	it_dlg.js  0%  100%  
+	         Neuer		    3274	ja_dlg.js  0%  100%  
+	         Neuer		    1710	nl_dlg.js  0%  100%  
+	         Neuer		    1871	no_dlg.js  0%  100%  
+	         Neuer		    2012	pl_dlg.js  0%  100%  
+	         Neuer		    1962	pt_dlg.js  0%  100%  
+	         Neuer		    5662	ru_dlg.js  0%  100%  
+	         Neuer		    1846	sv_dlg.js  0%  100%  
+	         Neuer		    2326	zh_dlg.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlist\
+	         Neuer		    2324	editor_plugin.js  0%  100%  
+	         Neuer		    4726	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autolink\
+	         Neuer		    2355	editor_plugin.js  0%  100%  
+	         Neuer		    5492	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autoresize\
+	         Neuer		    1506	editor_plugin.js  0%  100%  
+	         Neuer		    4158	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autosave\
+	         Neuer		    3584	editor_plugin.js  0%  100%  
+	         Neuer		   13766	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autosave\Langs\
+	         Neuer		     256	en.js  0%  100%  
+	         Neuer		     259	en_us.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Bbcode\
+	         Neuer		    3231	editor_plugin.js  0%  100%  
+	         Neuer		    4361	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Contextmenu\
+	         Neuer		    2540	editor_plugin.js  0%  100%  
+	         Neuer		    5227	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Directionality\
+	         Neuer		    1259	editor_plugin.js  0%  100%  
+	         Neuer		    2189	editor_plugin_src.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\
+	         Neuer		     676	editor_plugin.js  0%  100%  
+	         Neuer		    1220	editor_plugin_src.js  0%  100%  
+	         Neuer		    5972	emotions.htm  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Img\
+	         Neuer		     354	smiley-cool.gif  0%  100%  
+	         Neuer		     329	smiley-cry.gif  0%  100%  
+	         Neuer		     331	smiley-embarassed.gif  0%  100%  
+	         Neuer		     342	smiley-foot-in-mouth.gif  0%  100%  
+	         Neuer		     340	smiley-frown.gif  0%  100%  
+	         Neuer		     336	smiley-innocent.gif  0%  100%  
+	         Neuer		     338	smiley-kiss.gif  0%  100%  
+	         Neuer		     343	smiley-laughing.gif  0%  100%  
+	         Neuer		     321	smiley-money-mouth.gif  0%  100%  
+	         Neuer		     323	smiley-sealed.gif  0%  100%  
+	         Neuer		     344	smiley-smile.gif  0%  100%  
+	         Neuer		     338	smiley-surprised.gif  0%  100%  
+	         Neuer		     328	smiley-tongue-out.gif  0%  100%  
+	         Neuer		     337	smiley-undecided.gif  0%  100%  
+	         Neuer		     350	smiley-wink.gif  0%  100%  
+	         Neuer		     336	smiley-yell.gif  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Js\
+	         Neuer		    1120	emotions.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Langs\
+	         Neuer		     463	da_dlg.js  0%  100%  
+	         Neuer		     478	de_dlg.js  0%  100%  
+	         Neuer		     421	en_dlg.js  0%  100%  
+	         Neuer		     424	en_us_dlg.js  0%  100%  
+	         Neuer		     532	fi_dlg.js  0%  100%  
+	         Neuer		     513	fr_dlg.js  0%  100%  
+	         Neuer		     999	he_dlg.js  0%  100%  
+	         Neuer		     472	it_dlg.js  0%  100%  
+	         Neuer		     738	ja_dlg.js  0%  100%  
+	         Neuer		     459	nl_dlg.js  0%  100%  
+	         Neuer		     446	no_dlg.js  0%  100%  
+	         Neuer		     529	pl_dlg.js  0%  100%  
+	         Neuer		     468	pt_dlg.js  0%  100%  
+	         Neuer		    1380	ru_dlg.js  0%  100%  
+	         Neuer		     496	sv_dlg.js  0%  100%  
+	         Neuer		     456	zh_dlg.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\
+	         Neuer		     908	dialog.htm  0%  100%  
+	         Neuer		     860	editor_plugin.js  0%  100%  
+	         Neuer		    2988	editor_plugin_src.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Img\
+	         Neuer		      87	example.gif  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Js\
+	         Neuer		     609	dialog.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Langs\
+	         Neuer		      79	en.js  0%  100%  
+	         Neuer		      82	en_dlg.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\example_dependency\
+	         Neuer		     419	editor_plugin.js  0%  100%  
+	         Neuer		    1885	editor_plugin_src.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\
+	         Neuer		    6322	editor_plugin.js  0%  100%  
+	         Neuer		   11568	editor_plugin_src.js  0%  100%  
+	         Neuer		   10754	fullpage.htm  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Css\
+	         Neuer		    2188	fullpage.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Js\
+	         Neuer		    8164	fullpage.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Langs\
+	         Neuer		    2347	da_dlg.js  0%  100%  
+	         Neuer		    2469	de_dlg.js  0%  100%  
+	         Neuer		    2297	en_dlg.js  0%  100%  
+	         Neuer		    2300	en_us_dlg.js  0%  100%  
+	         Neuer		    2541	fi_dlg.js  0%  100%  
+	         Neuer		    2864	fr_dlg.js  0%  100%  
+	         Neuer		    4260	he_dlg.js  0%  100%  
+	         Neuer		    2520	it_dlg.js  0%  100%  
+	         Neuer		    3802	ja_dlg.js  0%  100%  
+	         Neuer		    2365	nl_dlg.js  0%  100%  
+	         Neuer		    2359	no_dlg.js  0%  100%  
+	         Neuer		    2712	pl_dlg.js  0%  100%  
+	         Neuer		    2387	pt_dlg.js  0%  100%  
+	         Neuer		    6193	ru_dlg.js  0%  100%  
+	         Neuer		    2499	sv_dlg.js  0%  100%  
+	         Neuer		    2863	zh_dlg.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullscreen\
+	         Neuer		    4422	editor_plugin.js  0%  100%  
+	         Neuer		    8222	editor_plugin_src.js  0%  100%  
+	         Neuer		    3655	fullscreen.htm  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Iespell\
+	         Neuer		     909	editor_plugin.js  0%  100%  
+	         Neuer		    1484	editor_plugin_src.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\
+	         Neuer		   11928	editor_plugin.js  0%  100%  
+	         Neuer		   19657	editor_plugin_src.js  0%  100%  
+	         Neuer		   12878	template.htm  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Clearlooks2\
+	         Neuer		    6715	window.css  0%  100%  
+	                   7	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Clearlooks2\Img\
+	         Neuer		     810	alert.gif  0%  100%  
+	         Neuer		     272	button.gif  0%  100%  
+	         Neuer		    1195	buttons.gif  0%  100%  
+	         Neuer		     907	confirm.gif  0%  100%  
+	         Neuer		     909	corners.gif  0%  100%  
+	         Neuer		     769	horizontal.gif  0%  100%  
+	         Neuer		      84	vertical.gif  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Umbraco\
+	         Neuer		    4816	window.css  0%  100%  
+	                   8	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Umbraco\Img\
+	         Neuer		     818	alert.gif  0%  100%  
+	         Neuer		     280	button.gif  0%  100%  
+	         Neuer		    1195	buttons.gif  0%  100%  
+	         Neuer		    3728	close.png  0%  100%  
+	         Neuer		     915	confirm.gif  0%  100%  
+	         Neuer		     569	corners.gif  0%  100%  
+	         Neuer		     436	horizontal.gif  0%  100%  
+	         Neuer		     140	vertical.gif  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Insertdatetime\
+	         Neuer		    1931	editor_plugin.js  0%  100%  
+	         Neuer		    2860	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Layer\
+	         Neuer		    4052	editor_plugin.js  0%  100%  
+	         Neuer		    6747	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Legacyoutput\
+	         Neuer		    2086	editor_plugin.js  0%  100%  
+	         Neuer		    5077	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Lists\
+	         Neuer		   14380	editor_plugin.js  0%  100%  
+	         Neuer		   32531	editor_plugin_src.js  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\
+	         Neuer		   12655	editor_plugin.js  0%  100%  
+	         Neuer		   26419	editor_plugin_src.js  0%  100%  
+	         Neuer		   38852	media.htm  0%  100%  
+	         Neuer		   19980	moxieplayer.swf  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Css\
+	         Neuer		    1357	media.css  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Js\
+	         Neuer		    1938	embed.js  0%  100%  
+	         Neuer		   16473	media.js  0%  100%  
+	                  18	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Langs\
+	         Neuer		    3077	da_dlg.js  0%  100%  
+	         Neuer		    3164	de_dlg.js  0%  100%  
+	         Neuer		    2815	en_dlg.js  0%  100%  
+	         Neuer		    2818	en_us_dlg.js  0%  100%  
+	         Neuer		    3018	es_dlg.js  0%  100%  
+	         Neuer		    3314	fi_dlg.js  0%  100%  
+	         Neuer		    3302	fr_dlg.js  0%  100%  
+	         Neuer		    5399	he_dlg.js  0%  100%  
+	         Neuer		    3062	it_dlg.js  0%  100%  
+	         Neuer		    5047	ja_dlg.js  0%  100%  
+	         Neuer		    2734	ko_dlg.js  0%  100%  
+	         Neuer		    2949	nl_dlg.js  0%  100%  
+	         Neuer		    3047	no_dlg.js  0%  100%  
+	         Neuer		    3259	pl_dlg.js  0%  100%  
+	         Neuer		    3259	pt_dlg.js  0%  100%  
+	         Neuer		    9433	ru_dlg.js  0%  100%  
+	         Neuer		    2962	sv_dlg.js  0%  100%  
+	         Neuer		    3445	zh_dlg.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Nonbreaking\
+	         Neuer		     944	editor_plugin.js  0%  100%  
+	         Neuer		    1521	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Noneditable\
+	         Neuer		    5431	editor_plugin.js  0%  100%  
+	         Neuer		   17154	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Pagebreak\
+	         Neuer		    1402	editor_plugin.js  0%  100%  
+	         Neuer		    2161	editor_plugin_src.js  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\
+	         Neuer		   13713	editor_plugin.js  0%  100%  
+	         Neuer		   31674	editor_plugin_src.js  0%  100%  
+	         Neuer		    1209	pastetext.htm  0%  100%  
+	         Neuer		     783	pasteword.htm  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\Js\
+	         Neuer		     884	pastetext.js  0%  100%  
+	         Neuer		    1647	pasteword.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\Langs\
+	         Neuer		     227	da_dlg.js  0%  100%  
+	         Neuer		     262	de_dlg.js  0%  100%  
+	         Neuer		     226	en_dlg.js  0%  100%  
+	         Neuer		     229	en_us_dlg.js  0%  100%  
+	         Neuer		     245	fi_dlg.js  0%  100%  
+	         Neuer		     276	fr_dlg.js  0%  100%  
+	         Neuer		     610	he_dlg.js  0%  100%  
+	         Neuer		     252	it_dlg.js  0%  100%  
+	         Neuer		     517	ja_dlg.js  0%  100%  
+	         Neuer		     209	nl_dlg.js  0%  100%  
+	         Neuer		     256	no_dlg.js  0%  100%  
+	         Neuer		     263	pl_dlg.js  0%  100%  
+	         Neuer		     190	pt_dlg.js  0%  100%  
+	         Neuer		     633	ru_dlg.js  0%  100%  
+	         Neuer		     284	sv_dlg.js  0%  100%  
+	         Neuer		     258	zh_dlg.js  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Preview\
+	         Neuer		    1051	editor_plugin.js  0%  100%  
+	         Neuer		    1641	editor_plugin_src.js  0%  100%  
+	         Neuer		     731	example.html  0%  100%  
+	         Neuer		     630	preview.html  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Preview\Jscripts\
+	         Neuer		    1938	embed.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Print\
+	         Neuer		     492	editor_plugin.js  0%  100%  
+	         Neuer		     881	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Save\
+	         Neuer		    1569	editor_plugin.js  0%  100%  
+	         Neuer		    2529	editor_plugin_src.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\
+	         Neuer		    1046	editor_plugin.js  0%  100%  
+	         Neuer		    1795	editor_plugin_src.js  0%  100%  
+	         Neuer		    5334	searchreplace.htm  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Css\
+	         Neuer		     176	searchreplace.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Js\
+	         Neuer		    3878	searchreplace.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Langs\
+	         Neuer		     461	da_dlg.js  0%  100%  
+	         Neuer		     522	de_dlg.js  0%  100%  
+	         Neuer		     445	en_dlg.js  0%  100%  
+	         Neuer		     448	en_us_dlg.js  0%  100%  
+	         Neuer		     468	fi_dlg.js  0%  100%  
+	         Neuer		     584	fr_dlg.js  0%  100%  
+	         Neuer		    1056	he_dlg.js  0%  100%  
+	         Neuer		     473	it_dlg.js  0%  100%  
+	         Neuer		     755	ja_dlg.js  0%  100%  
+	         Neuer		     488	nl_dlg.js  0%  100%  
+	         Neuer		     475	no_dlg.js  0%  100%  
+	         Neuer		     602	pl_dlg.js  0%  100%  
+	         Neuer		     489	pt_dlg.js  0%  100%  
+	         Neuer		    1262	ru_dlg.js  0%  100%  
+	         Neuer		     535	sv_dlg.js  0%  100%  
+	         Neuer		     633	zh_dlg.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\
+	         Neuer		    7217	editor_plugin.js  0%  100%  
+	         Neuer		   12791	editor_plugin_src.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\Css\
+	         Neuer		      98	content.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\Img\
+	         Neuer		      46	wline.gif  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\
+	         Neuer		    1117	editor_plugin.js  0%  100%  
+	         Neuer		    1927	editor_plugin_src.js  0%  100%  
+	         Neuer		   38494	props.htm  0%  100%  
+	         Neuer		    1030	readme.txt  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Css\
+	         Neuer		     906	props.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Js\
+	         Neuer		   32355	props.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Langs\
+	         Neuer		    1689	da_dlg.js  0%  100%  
+	         Neuer		    1824	de_dlg.js  0%  100%  
+	         Neuer		    1627	en_dlg.js  0%  100%  
+	         Neuer		    1630	en_us_dlg.js  0%  100%  
+	         Neuer		    1762	fi_dlg.js  0%  100%  
+	         Neuer		    1723	fr_dlg.js  0%  100%  
+	         Neuer		    3246	he_dlg.js  0%  100%  
+	         Neuer		    1718	it_dlg.js  0%  100%  
+	         Neuer		    2436	ja_dlg.js  0%  100%  
+	         Neuer		    1652	nl_dlg.js  0%  100%  
+	         Neuer		    1648	no_dlg.js  0%  100%  
+	         Neuer		    1916	pl_dlg.js  0%  100%  
+	         Neuer		    1684	pt_dlg.js  0%  100%  
+	         Neuer		    4509	ru_dlg.js  0%  100%  
+	         Neuer		    1700	sv_dlg.js  0%  100%  
+	         Neuer		    2005	zh_dlg.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Tabfocus\
+	         Neuer		    1666	editor_plugin.js  0%  100%  
+	         Neuer		    3057	editor_plugin_src.js  0%  100%  
+	                   6	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\
+	         Neuer		    7292	cell.htm  0%  100%  
+	         Neuer		   17667	editor_plugin.js  0%  100%  
+	         Neuer		   40915	editor_plugin_src.js  0%  100%  
+	         Neuer		    1508	merge_cells.htm  0%  100%  
+	         Neuer		    6263	row.htm  0%  100%  
+	         Neuer		    9035	table.htm  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Css\
+	         Neuer		     205	cell.css  0%  100%  
+	         Neuer		     306	row.css  0%  100%  
+	         Neuer		     170	table.css  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Js\
+	         Neuer		    9458	cell.js  0%  100%  
+	         Neuer		     566	merge_cells.js  0%  100%  
+	         Neuer		    7775	row.js  0%  100%  
+	         Neuer		   15534	table.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Langs\
+	         Neuer		    2262	da_dlg.js  0%  100%  
+	         Neuer		    2462	de_dlg.js  0%  100%  
+	         Neuer		    2092	en_dlg.js  0%  100%  
+	         Neuer		    2095	en_us_dlg.js  0%  100%  
+	         Neuer		    2516	fi_dlg.js  0%  100%  
+	         Neuer		    2694	fr_dlg.js  0%  100%  
+	         Neuer		    4748	he_dlg.js  0%  100%  
+	         Neuer		    2301	it_dlg.js  0%  100%  
+	         Neuer		    3631	ja_dlg.js  0%  100%  
+	         Neuer		    2199	nl_dlg.js  0%  100%  
+	         Neuer		    2247	no_dlg.js  0%  100%  
+	         Neuer		    2653	pl_dlg.js  0%  100%  
+	         Neuer		    2285	pt_dlg.js  0%  100%  
+	         Neuer		    6724	ru_dlg.js  0%  100%  
+	         Neuer		    2189	sv_dlg.js  0%  100%  
+	         Neuer		    2859	zh_dlg.js  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\
+	         Neuer		     332	blank.htm  0%  100%  
+	         Neuer		    3302	editor_plugin.js  0%  100%  
+	         Neuer		    4986	editor_plugin_src.js  0%  100%  
+	         Neuer		    1441	template.htm  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Css\
+	         Neuer		     275	template.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Js\
+	         Neuer		    2777	template.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Langs\
+	         Neuer		     670	da_dlg.js  0%  100%  
+	         Neuer		     662	de_dlg.js  0%  100%  
+	         Neuer		     627	en_dlg.js  0%  100%  
+	         Neuer		     630	en_us_dlg.js  0%  100%  
+	         Neuer		     756	fi_dlg.js  0%  100%  
+	         Neuer		     731	fr_dlg.js  0%  100%  
+	         Neuer		    1065	he_dlg.js  0%  100%  
+	         Neuer		     693	it_dlg.js  0%  100%  
+	         Neuer		    1041	ja_dlg.js  0%  100%  
+	         Neuer		     670	nl_dlg.js  0%  100%  
+	         Neuer		     651	no_dlg.js  0%  100%  
+	         Neuer		     688	pl_dlg.js  0%  100%  
+	         Neuer		     694	pt_dlg.js  0%  100%  
+	         Neuer		    2076	ru_dlg.js  0%  100%  
+	         Neuer		     670	sv_dlg.js  0%  100%  
+	         Neuer		     989	zh_dlg.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocontextmenu\
+	         Neuer		    2561	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\
+	         Neuer		     991	dialog.htm  0%  100%  
+	         Neuer		    8362	editor_plugin_src.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Img\
+	         Neuer		      87	example.gif  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Js\
+	         Neuer		     609	dialog.js  0%  100%  
+	                  14	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Langs\
+	         Neuer		      79	en.js  0%  100%  
+	         Neuer		      82	en_dlg.js  0%  100%  
+	         Neuer		      82	en_us.js  0%  100%  
+	         Neuer		      85	en_us_dlg.js  0%  100%  
+	         Neuer		      67	it.js  0%  100%  
+	         Neuer		      71	it_dlg.js  0%  100%  
+	         Neuer		      92	ja.js  0%  100%  
+	         Neuer		      84	ja_dlg.js  0%  100%  
+	         Neuer		      96	ru.js  0%  100%  
+	         Neuer		     105	ru_dlg.js  0%  100%  
+	         Neuer		      76	sv.js  0%  100%  
+	         Neuer		      93	sv_dlg.js  0%  100%  
+	         Neuer		      67	zh.js  0%  100%  
+	         Neuer		      72	zh_dlg.js  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\
+	         Neuer		    3816	dialog.htm  0%  100%  
+	         Neuer		     860	editor_plugin.js  0%  100%  
+	         Neuer		    2984	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Img\
+	         Neuer		    1928	ajax-loader.gif  0%  100%  
+	         Neuer		     260	embed.gif  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Js\
+	         Neuer		    3260	dialog.js  0%  100%  
+	                  18	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Langs\
+	         Neuer		      85	da.js  0%  100%  
+	         Neuer		     251	da_dlg.js  0%  100%  
+	         Neuer		     272	de.js  0%  100%  
+	         Neuer		     272	de_dlg.js  0%  100%  
+	         Neuer		      78	en.js  0%  100%  
+	         Neuer		     232	en_dlg.js  0%  100%  
+	         Neuer		      81	en_us.js  0%  100%  
+	         Neuer		     235	en_us_dlg.js  0%  100%  
+	         Neuer		     236	it.js  0%  100%  
+	         Neuer		     244	it_dlg.js  0%  100%  
+	         Neuer		     267	ja.js  0%  100%  
+	         Neuer		     268	ja_dlg.js  0%  100%  
+	         Neuer		     329	ru.js  0%  100%  
+	         Neuer		     329	ru_dlg.js  0%  100%  
+	         Neuer		     260	sv.js  0%  100%  
+	         Neuer		     260	sv_dlg.js  0%  100%  
+	         Neuer		     235	zh.js  0%  100%  
+	         Neuer		     235	zh_dlg.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\
+	         Neuer		    1739	editor_plugin_src.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\Js\
+	         Neuer		   10412	image.js  0%  100%  
+	                   8	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\Langs\
+	         Neuer		    1495	en_dlg.js  0%  100%  
+	         Neuer		    1498	en_us_dlg.js  0%  100%  
+	         Neuer		    1495	he_dlg.js  0%  100%  
+	         Neuer		    1583	it_dlg.js  0%  100%  
+	         Neuer		    1694	ja_dlg.js  0%  100%  
+	         Neuer		    2314	ru_dlg.js  0%  100%  
+	         Neuer		    1536	sv_dlg.js  0%  100%  
+	         Neuer		    1346	zh_dlg.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\
+	         Neuer		    1860	editor_plugin_src.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\Js\
+	         Neuer		   17755	umbracolink.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\Langs\
+	         Neuer		    1944	da_dlg.js  0%  100%  
+	         Neuer		    1955	de_dlg.js  0%  100%  
+	         Neuer		    1667	en_dlg.js  0%  100%  
+	         Neuer		    1670	en_us_dlg.js  0%  100%  
+	         Neuer		    1985	fi_dlg.js  0%  100%  
+	         Neuer		    2120	fr_dlg.js  0%  100%  
+	         Neuer		    4332	he_dlg.js  0%  100%  
+	         Neuer		    1864	it_dlg.js  0%  100%  
+	         Neuer		    3274	ja_dlg.js  0%  100%  
+	         Neuer		    1710	nl_dlg.js  0%  100%  
+	         Neuer		    1871	no_dlg.js  0%  100%  
+	         Neuer		    2012	pl_dlg.js  0%  100%  
+	         Neuer		    1962	pt_dlg.js  0%  100%  
+	         Neuer		    2727	ru_dlg.js  0%  100%  
+	         Neuer		    1846	sv_dlg.js  0%  100%  
+	         Neuer		    2326	zh_dlg.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\
+	         Neuer		     991	dialog.htm  0%  100%  
+	         Neuer		    6151	editor_plugin_src.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Img\
+	         Neuer		     603	insMacro.gif  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Js\
+	         Neuer		     609	dialog.js  0%  100%  
+	                  14	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Langs\
+	         Neuer		      69	en.js  0%  100%  
+	         Neuer		      82	en_dlg.js  0%  100%  
+	         Neuer		      72	en_us.js  0%  100%  
+	         Neuer		      85	en_us_dlg.js  0%  100%  
+	         Neuer		      79	he.js  0%  100%  
+	         Neuer		      82	he_dlg.js  0%  100%  
+	         Neuer		      75	ja.js  0%  100%  
+	         Neuer		      90	ja_dlg.js  0%  100%  
+	         Neuer		      86	ru.js  0%  100%  
+	         Neuer		      81	ru_dlg.js  0%  100%  
+	         Neuer		      69	sv.js  0%  100%  
+	         Neuer		      92	sv_dlg.js  0%  100%  
+	         Neuer		      66	zh.js  0%  100%  
+	         Neuer		      72	zh_dlg.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracopaste\
+	         Neuer		    1753	editor_plugin_src.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoshortcut\
+	         Neuer		    1255	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualblocks\
+	         Neuer		     958	editor_plugin.js  0%  100%  
+	         Neuer		    1712	editor_plugin_src.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualblocks\Css\
+	         Neuer		    3040	visualblocks.css  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualchars\
+	         Neuer		    1368	editor_plugin.js  0%  100%  
+	         Neuer		    2195	editor_plugin_src.js  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Wordcount\
+	         Neuer		    1960	editor_plugin.js  0%  100%  
+	         Neuer		    3331	editor_plugin_src.js  0%  100%  
+	                   8	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\
+	         Neuer		    6243	abbr.htm  0%  100%  
+	         Neuer		    6258	acronym.htm  0%  100%  
+	         Neuer		    6232	attributes.htm  0%  100%  
+	         Neuer		    6243	cite.htm  0%  100%  
+	         Neuer		    7294	del.htm  0%  100%  
+	         Neuer		    2756	editor_plugin.js  0%  100%  
+	         Neuer		    4098	editor_plugin_src.js  0%  100%  
+	         Neuer		    7299	ins.htm  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Css\
+	         Neuer		     197	attributes.css  0%  100%  
+	         Neuer		     514	popup.css  0%  100%  
+	                   7	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Js\
+	         Neuer		     541	abbr.js  0%  100%  
+	         Neuer		     559	acronym.js  0%  100%  
+	         Neuer		    3471	attributes.js  0%  100%  
+	         Neuer		     541	cite.js  0%  100%  
+	         Neuer		    1356	del.js  0%  100%  
+	         Neuer		    7159	element_common.js  0%  100%  
+	         Neuer		    1356	ins.js  0%  100%  
+	                  16	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Langs\
+	         Neuer		    1194	da_dlg.js  0%  100%  
+	         Neuer		    1141	de_dlg.js  0%  100%  
+	         Neuer		    1092	en_dlg.js  0%  100%  
+	         Neuer		    1095	en_us_dlg.js  0%  100%  
+	         Neuer		    1214	fi_dlg.js  0%  100%  
+	         Neuer		    1195	fr_dlg.js  0%  100%  
+	         Neuer		    2222	he_dlg.js  0%  100%  
+	         Neuer		    1181	it_dlg.js  0%  100%  
+	         Neuer		    1531	ja_dlg.js  0%  100%  
+	         Neuer		    1149	nl_dlg.js  0%  100%  
+	         Neuer		    1147	no_dlg.js  0%  100%  
+	         Neuer		    1159	pl_dlg.js  0%  100%  
+	         Neuer		    1140	pt_dlg.js  0%  100%  
+	         Neuer		    2564	ru_dlg.js  0%  100%  
+	         Neuer		    1157	sv_dlg.js  0%  100%  
+	         Neuer		    1372	zh_dlg.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\
+	                  10	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\
+	         Neuer		    2701	about.htm  0%  100%  
+	         Neuer		    1167	anchor.htm  0%  100%  
+	         Neuer		    2251	charmap.htm  0%  100%  
+	         Neuer		    3317	color_picker.htm  0%  100%  
+	         Neuer		   26734	editor_template.js  0%  100%  
+	         Neuer		   43419	editor_template_src.js  0%  100%  
+	         Neuer		    4038	image.htm  0%  100%  
+	         Neuer		    2527	link.htm  0%  100%  
+	         Neuer		    1732	shortcuts.htm  0%  100%  
+	         Neuer		    1269	source_editor.htm  0%  100%  
+	                  11	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Img\
+	         Neuer		    2584	colorpicker.jpg  0%  100%  
+	         Neuer		     239	flash.gif  0%  100%  
+	         Neuer		   11982	icons.gif  0%  100%  
+	         Neuer		     600	iframe.gif  0%  100%  
+	         Neuer		     325	pagebreak.gif  0%  100%  
+	         Neuer		     301	quicktime.gif  0%  100%  
+	         Neuer		     439	realmedia.gif  0%  100%  
+	         Neuer		     384	shockwave.gif  0%  100%  
+	         Neuer		      43	trans.gif  0%  100%  
+	         Neuer		     597	video.gif  0%  100%  
+	         Neuer		     415	windowsmedia.gif  0%  100%  
+	                   7	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Js\
+	         Neuer		    2203	about.js  0%  100%  
+	         Neuer		    1498	anchor.js  0%  100%  
+	         Neuer		   15793	charmap.js  0%  100%  
+	         Neuer		   14559	color_picker.js  0%  100%  
+	         Neuer		    6391	image.js  0%  100%  
+	         Neuer		    4947	link.js  0%  100%  
+	         Neuer		    1694	source_editor.js  0%  100%  
+	                  28	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Langs\
+	         Neuer		    2547	da.js  0%  100%  
+	         Neuer		    2201	da_dlg.js  0%  100%  
+	         Neuer		    2623	de.js  0%  100%  
+	         Neuer		    2152	de_dlg.js  0%  100%  
+	         Neuer		    2341	en.js  0%  100%  
+	         Neuer		    1981	en_dlg.js  0%  100%  
+	         Neuer		    2767	fi.js  0%  100%  
+	         Neuer		    2287	fi_dlg.js  0%  100%  
+	         Neuer		    2782	fr.js  0%  100%  
+	         Neuer		    2341	fr_dlg.js  0%  100%  
+	         Neuer		    5268	he.js  0%  100%  
+	         Neuer		    4766	he_dlg.js  0%  100%  
+	         Neuer		    2771	it.js  0%  100%  
+	         Neuer		    2120	it_dlg.js  0%  100%  
+	         Neuer		    3775	ja.js  0%  100%  
+	         Neuer		    3416	ja_dlg.js  0%  100%  
+	         Neuer		    2329	nl.js  0%  100%  
+	         Neuer		    2040	nl_dlg.js  0%  100%  
+	         Neuer		    2400	no.js  0%  100%  
+	         Neuer		    2124	no_dlg.js  0%  100%  
+	         Neuer		    2869	pl.js  0%  100%  
+	         Neuer		    2298	pl_dlg.js  0%  100%  
+	         Neuer		    2714	pt.js  0%  100%  
+	         Neuer		    2217	pt_dlg.js  0%  100%  
+	         Neuer		    2502	sv.js  0%  100%  
+	         Neuer		    2205	sv_dlg.js  0%  100%  
+	         Neuer		    3059	zh.js  0%  100%  
+	         Neuer		    2544	zh_dlg.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Default\
+	         Neuer		    2607	content.css  0%  100%  
+	         Neuer		    5761	dialog.css  0%  100%  
+	         Neuer		   15959	ui.css  0%  100%  
+	                   6	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Default\Img\
+	         Neuer		    3133	buttons.png  0%  100%  
+	         Neuer		      64	items.gif  0%  100%  
+	         Neuer		      68	menu_arrow.gif  0%  100%  
+	         Neuer		      70	menu_check.gif  0%  100%  
+	         Neuer		    1787	progress.gif  0%  100%  
+	         Neuer		    1322	tabs.gif  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Highcontrast\
+	         Neuer		    1122	content.css  0%  100%  
+	         Neuer		    5219	dialog.css  0%  100%  
+	         Neuer		    8886	ui.css  0%  100%  
+	                   5	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\O2k7\
+	         Neuer		    2331	content.css  0%  100%  
+	         Neuer		    5849	dialog.css  0%  100%  
+	         Neuer		   15405	ui.css  0%  100%  
+	         Neuer		    1695	ui_black.css  0%  100%  
+	         Neuer		     860	ui_silver.css  0%  100%  
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\O2k7\Img\
+	         Neuer		    2766	button_bg.png  0%  100%  
+	         Neuer		     651	button_bg_black.png  0%  100%  
+	         Neuer		    2084	button_bg_silver.png  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\
+	         Neuer		    2226	editor_template.js  0%  100%  
+	         Neuer		    3205	editor_template_src.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Img\
+	         Neuer		     806	icons.gif  0%  100%  
+	                  14	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Langs\
+	         Neuer		     359	da.js  0%  100%  
+	         Neuer		     355	de.js  0%  100%  
+	         Neuer		     347	en.js  0%  100%  
+	         Neuer		     376	fi.js  0%  100%  
+	         Neuer		     349	fr.js  0%  100%  
+	         Neuer		     539	he.js  0%  100%  
+	         Neuer		     345	it.js  0%  100%  
+	         Neuer		     487	ja.js  0%  100%  
+	         Neuer		     326	nl.js  0%  100%  
+	         Neuer		     309	no.js  0%  100%  
+	         Neuer		     382	pl.js  0%  100%  
+	         Neuer		     351	pt.js  0%  100%  
+	         Neuer		     347	sv.js  0%  100%  
+	         Neuer		     401	zh.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\Default\
+	         Neuer		     513	content.css  0%  100%  
+	         Neuer		    2105	ui.css  0%  100%  
+	                   2	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\O2k7\
+	         Neuer		     461	content.css  0%  100%  
+	         Neuer		    2340	ui.css  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\O2k7\Img\
+	         Neuer		    5102	button_bg.png  0%  100%  
+	                   9	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\
+	         Neuer		    2682	about.htm  0%  100%  
+	         Neuer		    1091	anchor.htm  0%  100%  
+	         Neuer		    2339	charmap.htm  0%  100%  
+	         Neuer		    3333	color_picker.htm  0%  100%  
+	         Neuer		   43516	editor_template_src.js  0%  100%  
+	         Neuer		    4046	image.htm  0%  100%  
+	         Neuer		    2547	link.htm  0%  100%  
+	         Neuer		    1730	shortcuts.htm  0%  100%  
+	         Neuer		    1382	source_editor.htm  0%  100%  
+	                  11	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Img\
+	         Neuer		    2584	colorpicker.jpg  0%  100%  
+	         Neuer		     239	flash.gif  0%  100%  
+	         Neuer		   11982	icons.gif  0%  100%  
+	         Neuer		     600	iframe.gif  0%  100%  
+	         Neuer		     325	pagebreak.gif  0%  100%  
+	         Neuer		     301	quicktime.gif  0%  100%  
+	         Neuer		     439	realmedia.gif  0%  100%  
+	         Neuer		     384	shockwave.gif  0%  100%  
+	         Neuer		      43	trans.gif  0%  100%  
+	         Neuer		     597	video.gif  0%  100%  
+	         Neuer		     415	windowsmedia.gif  0%  100%  
+	                   7	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Js\
+	         Neuer		    2203	about.js  0%  100%  
+	         Neuer		    1193	anchor.js  0%  100%  
+	         Neuer		   15793	charmap.js  0%  100%  
+	         Neuer		   14559	color_picker.js  0%  100%  
+	         Neuer		    6391	image.js  0%  100%  
+	         Neuer		    4884	link.js  0%  100%  
+	         Neuer		    1694	source_editor.js  0%  100%  
+	                  30	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Langs\
+	         Neuer		    2109	da.js  0%  100%  
+	         Neuer		    1926	da_dlg.js  0%  100%  
+	         Neuer		    2265	de.js  0%  100%  
+	         Neuer		    1860	de_dlg.js  0%  100%  
+	         Neuer		    2488	en.js  0%  100%  
+	         Neuer		    2066	en_dlg.js  0%  100%  
+	         Neuer		    2491	en_us.js  0%  100%  
+	         Neuer		    2069	en_us_dlg.js  0%  100%  
+	         Neuer		    2232	es.js  0%  100%  
+	         Neuer		    1998	es_dlg.js  0%  100%  
+	         Neuer		    2294	fr.js  0%  100%  
+	         Neuer		    1964	fr_dlg.js  0%  100%  
+	         Neuer		    2209	he.js  0%  100%  
+	         Neuer		    1987	he_dlg.js  0%  100%  
+	         Neuer		    2669	it.js  0%  100%  
+	         Neuer		    2058	it_dlg.js  0%  100%  
+	         Neuer		    2727	ja.js  0%  100%  
+	         Neuer		    2429	ja_dlg.js  0%  100%  
+	         Neuer		    2823	ko.js  0%  100%  
+	         Neuer		    2147	ko_dlg.js  0%  100%  
+	         Neuer		    1946	nl.js  0%  100%  
+	         Neuer		    1768	nl_dlg.js  0%  100%  
+	         Neuer		    1948	no.js  0%  100%  
+	         Neuer		    1846	no_dlg.js  0%  100%  
+	         Neuer		    3405	ru.js  0%  100%  
+	         Neuer		    2725	ru_dlg.js  0%  100%  
+	         Neuer		    2012	sv.js  0%  100%  
+	         Neuer		    1912	sv_dlg.js  0%  100%  
+	         Neuer		    2409	zh.js  0%  100%  
+	         Neuer		    2070	zh_dlg.js  0%  100%  
+	                   0	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\
+	                   3	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\Umbraco\
+	         Neuer		    1367	content.css  0%  100%  
+	         Neuer		    5364	dialog.css  0%  100%  
+	         Neuer		   16035	ui.css  0%  100%  
+	                   6	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\Umbraco\Img\
+	         Neuer		    4579	buttons.png  0%  100%  
+	         Neuer		      70	items.gif  0%  100%  
+	         Neuer		      68	menu_arrow.gif  0%  100%  
+	         Neuer		      70	menu_check.gif  0%  100%  
+	         Neuer		    1787	progress.gif  0%  100%  
+	         Neuer		    1326	tabs.gif  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tinymce3\Utils\
+	         Neuer		    2046	editable_selects.js  0%  100%  
+	         Neuer		    5991	form_utils.js  0%  100%  
+	         Neuer		    4055	mctabs.js  0%  100%  
+	         Neuer		    6100	validate.js  0%  100%  
+	                  11	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tree\
+	         Neuer		    2638	jquery.tree.checkbox.js  0%  100%  
+	         Neuer		    9637	jquery.tree.contextmenu.js  0%  100%  
+	         Neuer		  114705	jquery.tree.js  0%  100%  
+	         Neuer		     548	jquery.tree.metadata.js  0%  100%  
+	         Neuer		    1642	menuIcons.css  0%  100%  
+	         Neuer		    1866	NodeDefinition.js  0%  100%  
+	         Neuer		   12897	sprites.png  0%  100%  
+	         Neuer		    7307	sprites_ie6.gif  0%  100%  
+	         Neuer		    2597	treeIcons.css  0%  100%  
+	         Neuer		    3662	UmbracoContext.js  0%  100%  
+	         Neuer		   55287	UmbracoTree.js  0%  100%  
+	                   5	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tree\Themes\
+	         Neuer		      61	marker.gif  0%  100%  
+	         Neuer		      62	marker_rtl.gif  0%  100%  
+	         Neuer		      52	plus.gif  0%  100%  
+	         Neuer		     720	remove.png  0%  100%  
+	         Neuer		    3867	rename.png  0%  100%  
+	                   4	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tree\Themes\Default\
+	         Neuer		      43	dot_for_ie.gif  0%  100%  
+	         Neuer		    6680	icons.png  0%  100%  
+	         Neuer		    2435	style.css  0%  100%  
+	         Neuer		    1844	throbber.gif  0%  100%  
+	                  21	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Tree\Themes\Umbraco\
+	         Neuer		    1600	arrows.png  0%  100%  
+	         Neuer		    2910	check_0.png  0%  100%  
+	         Neuer		    3197	check_1.png  0%  100%  
+	         Neuer		    3283	check_2.png  0%  100%  
+	         Neuer		      35	context.gif  0%  100%  
+	         Neuer		      54	contextMenuBg.gif  0%  100%  
+	         Neuer		    3329	create.png  0%  100%  
+	         Neuer		      43	dot.gif  0%  100%  
+	         Neuer		    3237	f.png  0%  100%  
+	         Neuer		      60	fminus.gif  0%  100%  
+	         Neuer		      59	fminus_rtl.gif  0%  100%  
+	         Neuer		     108	fplus.gif  0%  100%  
+	         Neuer		     108	fplus_rtl.gif  0%  100%  
+	         Neuer		    6680	icons.png  0%  100%  
+	         Neuer		      55	lastli.gif  0%  100%  
+	         Neuer		      54	lastli_rtl.gif  0%  100%  
+	         Neuer		      47	li.gif  0%  100%  
+	         Neuer		     381	newVersion_overlay.png  0%  100%  
+	         Neuer		     282	protect_overlay.gif  0%  100%  
+	         Neuer		    5258	style.css  0%  100%  
+	         Neuer		    1844	throbber.gif  0%  100%  
+	                  14	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Ui\
+	         Neuer		   52012	base2.js  0%  100%  
+	         Neuer		    4482	dd.css  0%  100%  
+	         Neuer		     138	dd_arrow.gif  0%  100%  
+	         Neuer		   13659	default.css  0%  100%  
+	         Neuer		    2324	default.js  0%  100%  
+	         Neuer		    1423	jquery.alphanumeric.js  0%  100%  
+	         Neuer		   51648	jquery.dd.js  0%  100%  
+	         Neuer		   85582	jquery.js  0%  100%  
+	         Neuer		    3581	jquery.tooltip.min.js  0%  100%  
+	         Neuer		  240439	jqueryui.js  0%   54%  100%  
+	         Neuer		    1943	jQueryWresize.js  0%  100%  
+	         Neuer		    3954	json2.js  0%  100%  
+	         Neuer		   41412	knockout.js  0%  100%  
+	         Neuer		    8687	knockout.mapping.js  0%  100%  
+	                   1	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Ui\ui-lightness\
+	         Neuer		   33967	jquery-ui.custom.css  0%  100%  
+	                  14	C:\.NET Projects\Umbraco-First-Steps\packages\UmbracoCms.7.5.4\UmbracoFiles\Umbraco_Client\Ui\ui-lightness\images\
+	         Neuer		     260	ui-bg_diagonals-thick_18_b81900_40x40.png  0%  100%  
+	         Neuer		     251	ui-bg_diagonals-thick_20_666666_40x40.png  0%  100%  
+	         Neuer		     178	ui-bg_flat_10_000000_40x100.png  0%  100%  
+	         Neuer		     104	ui-bg_glass_100_f6f6f6_1x400.png  0%  100%  
+	         Neuer		     125	ui-bg_glass_100_fdf5ce_1x400.png  0%  100%  
+	         Neuer		     105	ui-bg_glass_65_ffffff_1x400.png  0%  100%  
+	         Neuer		    3762	ui-bg_gloss-wave_35_f6a828_500x100.png  0%  100%  
+	         Neuer		      90	ui-bg_highlight-soft_100_eeeeee_1x100.png  0%  100%  
+	         Neuer		     129	ui-bg_highlight-soft_75_ffe45c_1x100.png  0%  100%  
+	         Neuer		    4369	ui-icons_222222_256x240.png  0%  100%  
+	         Neuer		    4369	ui-icons_228ef1_256x240.png  0%  100%  
+	         Neuer		    4369	ui-icons_ef8c08_256x240.png  0%  100%  
+	         Neuer		    4369	ui-icons_ffd27a_256x240.png  0%  100%  
+	         Neuer		    4369	ui-icons_ffffff_256x240.png  0%  100%  
+
+------------------------------------------------------------------------------
+
+           Insgesamt   KopiertöbersprungenKeine öbereinstimmung    FEHLER    Extras
+Verzeich.:       204         0         0         0         0         0
+  Dateien:       999       999         0         0         0         2
+    Bytes:    6.14 m    6.14 m         0         0         0    98.1 k
+   Zeiten:   0:00:10   0:00:09                       0:00:00   0:00:00
+
+
+Geschwindigkeit:              652589 Bytes/Sek.
+Geschwindigkeit:              37.341 Megabytes/Min.
+   Beendet: Freitag, 18. November 2016 16:29:30
+

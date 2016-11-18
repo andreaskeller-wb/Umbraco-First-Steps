@@ -1,1 +1,49 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco_Vol_1.Models.MeetingViewModel>
+@using (Html.BeginUmbracoForm<Umbraco_Vol_1.Controllers.MeetingSurfaceController>("HandleFormPost"))
+{
+    <link rel="stylesheet" type="text/css" href="/css/Grid.css">
+
+    <script src="/scripts/jquery-2.1.4 (1).js"></script>
+
+    <script>
+        function DeleteME(id) {
+            debugger;
+            $.ajax({
+                type: 'POST',
+                url: 'http://localhost:18175/meeting/DeleteMeeting',
+                data: {
+                    MeetingId: id
+                },
+                success: function (data) {
+                    alert('Deleted Successfully');
+                }
+            });
+        }
+    </script>
+
+    <div>
+        @{
+            WebGrid MeetingsGrid = new WebGrid(Model.Meetings, rowsPerPage: 5, canPage: true);
+        }
+        @MeetingsGrid.GetHtml(
+
+            tableStyle: "Grid-table",
+            headerStyle: "Grid-Header",
+            alternatingRowStyle: "Grid-alt",
+            selectedRowStyle: "Grid-selected",
+            rowStyle: "Grid-rowstyle",
+            footerStyle: "Grid-Footer",
+            mode: WebGridPagerModes.All,
+            columns:
+                MeetingsGrid.Columns
+                (
+                   MeetingsGrid.Column(columnName: "MeetingID", header: "Meeting ID"),
+                   MeetingsGrid.Column(columnName: "MeetingName", header: "Name of Meeting"),
+                   MeetingsGrid.Column(columnName: "Format", header: "Name of Fomat"),
+                   MeetingsGrid.Column(columnName: "Location", header: "Location at"),
+                   MeetingsGrid.Column(format: @<text><a href="" onclick="DeleteME('@item.MeetingID')">Delete</a></text>)
+                 )
+        )
+    </div>
+}
+

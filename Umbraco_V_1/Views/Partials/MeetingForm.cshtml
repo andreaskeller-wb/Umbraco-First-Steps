@@ -23,7 +23,7 @@
 
     <div>
         @{
-            WebGrid MeetingsGrid = new WebGrid(Model.Meetings, rowsPerPage: 5, canPage: true);
+            WebGrid MeetingsGrid = new WebGrid(Model.Meetings, rowsPerPage: 3, canPage: true);
         }
         @MeetingsGrid.GetHtml(
 
@@ -41,9 +41,16 @@
                    MeetingsGrid.Column(columnName: "MeetingName", header: "Name of Meeting"),
                    MeetingsGrid.Column(columnName: "Format", header: "Name of Fomat"),
                    MeetingsGrid.Column(columnName: "Location", header: "Location at"),
-                   MeetingsGrid.Column(format: @<text><a href="" onclick="DeleteME('@item.MeetingID')">Delete</a></text>)
-                 )
-        )
+//                   MeetingsGrid.Column(format: @<text><a href="" onclick="DeleteME('@item.MeetingID')">Delete</a></text>)
+                   MeetingsGrid.Column(format: @<button type="submit" name="idToEdit" value=@item.MeetingID>Edit</button>),
+                   MeetingsGrid.Column(format: @<button type="submit" name="IdToDelete" value=@item.MeetingID>Delete</button>)
+                   )
+          )
+        <br />
+        <div class="col-lg-4">
+            <button type="submit" name="Previous" value="true">New</button>
+        </div>
+
     </div>
 }
 

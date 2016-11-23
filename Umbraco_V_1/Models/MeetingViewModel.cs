@@ -11,6 +11,10 @@ namespace Umbraco_Vol_1.Models
 
         public List<Meeting> Meetings { get; set; }
 
+        public int IdToEdit { get; set; }
+
+        public int IdToDelete { get; set; }
+
         public MeetingViewModel()
         {
             Meetings = new List<Meeting>();

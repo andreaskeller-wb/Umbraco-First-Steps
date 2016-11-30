@@ -8,5 +8,8 @@
 /InterfaceBooster_ServerInstance/runtime
 /Umbraco_Playground/App_Data/Logs
 /Umbraco_Playground/App_Data/NuGetBackup
-/Umbraco_Playground/bin/*.pdb
+/Umbraco_Playground/bin/
+/Umbraco_Playground/obj/
 /Umbraco_Playground/App_Data/cache
+
+f
